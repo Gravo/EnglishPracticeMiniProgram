@@ -1,0 +1,57 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <!-- 欢迎区域 -->
+  <view class="welcome-section">
+    <text class="welcome-text">欢迎来到英语学习</text>
+    <text class="subtitle">每天进步一点点</text>
+  </view>
+
+  <!-- 学习统计 -->
+  <view class="stats-section card">
+    <view class="title">今日学习</view>
+    <view class="stats-grid">
+      <view class="stat-item">
+        <text class="stat-value">{{todayStats.words || 0}}</text>
+        <text class="stat-label">单词</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{todayStats.listening || 0}}</text>
+        <text class="stat-label">听力(分钟)</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{todayStats.reading || 0}}</text>
+        <text class="stat-label">阅读(篇)</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{todayStats.streak || 0}}</text>
+        <text class="stat-label">连续天数</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 学习功能入口 -->
+  <view class="feature-section">
+    <view class="title">开始学习</view>
+    <view class="feature-grid">
+      <view class="feature-card" bindtap="goToVocabulary">
+        <image class="feature-icon" src="/assets/icons/vocabulary.png" mode="aspectFit"></image>
+        <text class="feature-name">背单词</text>
+      </view>
+      <view class="feature-card" bindtap="goToListening">
+        <image class="feature-icon" src="/assets/icons/listening.png" mode="aspectFit"></image>
+        <text class="feature-name">练听力</text>
+      </view>
+      <view class="feature-card" bindtap="goToReading">
+        <image class="feature-icon" src="/assets/icons/reading.png" mode="aspectFit"></image>
+        <text class="feature-name">读文章</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 每日一句 -->
+  <view class="daily-sentence card">
+    <view class="title">每日一句</view>
+    <text class="sentence-en">{{dailySentence.en}}</text>
+    <text class="sentence-cn">{{dailySentence.cn}}</text>
+  </view>
+</view>

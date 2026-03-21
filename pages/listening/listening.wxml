@@ -1,0 +1,49 @@
+<!--pages/listening/listening.wxml-->
+<view class="container">
+  <!-- 听力材料列表 -->
+  <view class="material-list">
+    <view 
+      class="material-item card" 
+      wx:for="{{materials}}" 
+      wx:key="id"
+      bindtap="playAudio"
+      data-id="{{item.id}}">
+      <view class="material-info">
+        <text class="material-title">{{item.title}}</text>
+        <text class="material-level">{{item.level}}</text>
+      </view>
+      <view class="material-meta">
+        <text class="duration">{{item.duration}}</text>
+        <text class="plays">{{item.plays}}次播放</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 当前播放 -->
+  <view class="player-section card" wx:if="{{currentAudio}}">
+    <view class="player-header">
+      <text class="player-title">{{currentAudio.title}}</text>
+      <text class="player-close" bindtap="closePlayer">×</text>
+    </view>
+    <view class="player-controls">
+      <slider 
+        value="{{currentTime}}" 
+        max="{{duration}}" 
+        bindchange="seekAudio"
+        activeColor="#4A90E2"
+        block-size="12"/>
+      <view class="time-display">
+        <text>{{formatTime(currentTime)}}</text>
+        <text>{{formatTime(duration)}}</text>
+      </view>
+    </view>
+    <view class="play-buttons">
+      <button class="btn-play" bindtap="togglePlay">
+        {{isPlaying ? '暂停' : '播放'}}
+      </button>
+      <button class="btn-loop" bindtap="toggleLoop">
+        {{isLoop ? '单曲循环' : '顺序播放'}}
+      </button>
+    </view>
+  </view>
+</view>

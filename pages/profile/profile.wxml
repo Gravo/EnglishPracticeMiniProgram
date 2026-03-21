@@ -1,0 +1,59 @@
+<!--pages/profile/profile.wxml-->
+<view class="container">
+  <!-- 用户信息 -->
+  <view class="user-section card">
+    <view class="user-info">
+      <image class="avatar" src="{{userInfo.avatarUrl || '/assets/icons/default_avatar.png'}}" mode="aspectFill"></image>
+      <view class="user-detail">
+        <text class="nickname">{{userInfo.nickName || '点击登录'}}</text>
+        <text class="level">Lv.{{userLevel}}</text>
+      </view>
+    </view>
+    <button class="btn-login" bindtap="login" wx:if="{{!isLoggedIn}}">登录</button>
+  </view>
+
+  <!-- 学习统计 -->
+  <view class="stats-card card">
+    <view class="title">学习统计</view>
+    <view class="stats-grid">
+      <view class="stat-item">
+        <text class="stat-value">{{totalStats.words}}</text>
+        <text class="stat-label">累计单词</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{totalStats.listening}}</text>
+        <text class="stat-label">听力分钟</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{totalStats.reading}}</text>
+        <text class="stat-label">阅读篇数</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{totalStats.days}}</text>
+        <text class="stat-label">学习天数</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 功能菜单 -->
+  <view class="menu-section card">
+    <view class="menu-item" bindtap="goToSettings">
+      <text>设置</text>
+      <text class="arrow">></text>
+    </view>
+    <view class="menu-item" bindtap="goToRecords">
+      <text>学习记录</text>
+      <text class="arrow">></text>
+    </view>
+    <view class="menu-item" bindtap="goToFavorites">
+      <text>收藏夹</text>
+      <text class="arrow">></text>
+    </view>
+    <view class="menu-item" bindtap="goToAbout">
+      <text>关于</text>
+      <text class="arrow">></text>
+    </view>
+  </view>
+
+  <button class="btn-logout" bindtap="logout" wx:if="{{isLoggedIn}}">退出登录</button>
+</view>

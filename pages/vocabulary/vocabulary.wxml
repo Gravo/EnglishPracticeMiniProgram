@@ -1,0 +1,47 @@
+<!--pages/vocabulary/vocabulary.wxml-->
+<view class="container">
+  <!-- 单词复习区域 -->
+  <view class="card study-area">
+    <view class="word-card" bindtap="flipCard">
+      <text class="word-text">{{currentWord.word}}</text>
+      <text class="phonetic" wx:if="{{showMeaning}}">{{currentWord.phonetic}}</text>
+      <view class="meaning" wx:if="{{showMeaning}}">
+        <text class="part-of-speech">{{currentWord.partOfSpeech}}</text>
+        <text class="definition">{{currentWord.definition}}</text>
+      </view>
+      <text class="tap-hint" wx:if="{{!showMeaning}}">点击显示释义</text>
+    </view>
+    
+    <!-- 操作按钮 -->
+    <view class="action-buttons" wx:if="{{showMeaning}}">
+      <button class="btn-fail" bindtap="markFail">不认识</button>
+      <button class="btn-know" bindtap="markKnow">认识</button>
+    </view>
+  </view>
+
+  <!-- 进度条 -->
+  <view class="progress-section">
+    <view class="progress-info">
+      <text>进度: {{currentIndex + 1}}/{{wordList.length}}</text>
+      <text>正确率: {{correctRate}}%</text>
+    </view>
+    <view class="progress-bar">
+      <view class="progress-fill" style="width: {{progressPercent}}%"></view>
+    </view>
+  </view>
+
+  <!-- 词书选择 -->
+  <view class="word-book card">
+    <view class="title">选择词书</view>
+    <view class="book-list">
+      <view 
+        class="book-item {{currentBook === item.id ? 'active' : ''}}" 
+        wx:for="{{wordBooks}}" 
+        wx:key="id"
+        bindtap="selectBook"
+        data-id="{{item.id}}">
+        {{item.name}}
+      </view>
+    </view>
+  </view>
+</view>

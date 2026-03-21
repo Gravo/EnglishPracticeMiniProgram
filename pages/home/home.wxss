@@ -1,0 +1,105 @@
+/* pages/home/home.wxss */
+
+.welcome-section {
+  padding: 40rpx 20rpx;
+  text-align: center;
+}
+
+.welcome-text {
+  display: block;
+  font-size: 44rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.subtitle {
+  display: block;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.stats-section {
+  margin: 20rpx;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #4A90E2;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 8rpx;
+}
+
+.feature-section {
+  padding: 20rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-card {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+
+.feature-icon {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 15rpx;
+}
+
+.feature-name {
+  font-size: 26rpx;
+  color: #333;
+}
+
+.daily-sentence {
+  margin: 20rpx;
+}
+
+.sentence-en {
+  display: block;
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 15rpx;
+}
+
+.sentence-cn {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+}

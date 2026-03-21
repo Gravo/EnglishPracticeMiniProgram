@@ -1,0 +1,23 @@
+<!--pages/reading/reading.wxml-->
+<view class="container">
+  <!-- 文章列表 -->
+  <view class="article-list">
+    <view 
+      class="article-item card" 
+      wx:for="{{articles}}" 
+      wx:key="id"
+      bindtap="readArticle"
+      data-id="{{item.id}}">
+      <image class="article-cover" src="{{item.cover}}" mode="aspectFill"></image>
+      <view class="article-info">
+        <text class="article-title">{{item.title}}</text>
+        <text class="article-summary">{{item.summary}}</text>
+        <view class="article-meta">
+          <text class="category">{{item.category}}</text>
+          <text class="words">{{item.words}}词</text>
+          <text class="difficulty {{item.difficulty}}">{{item.difficultyText}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

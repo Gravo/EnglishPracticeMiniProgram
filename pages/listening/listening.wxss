@@ -1,0 +1,113 @@
+/* pages/listening/listening.wxss */
+
+.container {
+  padding: 20rpx;
+}
+
+.material-list {
+  margin-bottom: 20rpx;
+}
+
+.material-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.material-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8rpx;
+}
+
+.material-level {
+  font-size: 24rpx;
+  color: #4A90E2;
+  background-color: #EBF5FF;
+  padding: 4rpx 12rpx;
+  border-radius: 6rpx;
+  display: inline-block;
+}
+
+.material-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.duration, .plays {
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 播放器 */
+.player-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 24rpx 24rpx 0 0;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.1);
+  padding: 30rpx;
+}
+
+.player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.player-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.player-close {
+  font-size: 48rpx;
+  color: #999;
+  line-height: 1;
+}
+
+.player-controls {
+  margin-bottom: 20rpx;
+}
+
+.time-display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 10rpx;
+}
+
+.play-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30rpx;
+}
+
+.btn-play, .btn-loop {
+  padding: 20rpx 50rpx;
+  border-radius: 40rpx;
+  font-size: 28rpx;
+  border: none;
+}
+
+.btn-play {
+  background-color: #4A90E2;
+  color: #fff;
+}
+
+.btn-loop {
+  background-color: #F5F5F5;
+  color: #666;
+}
