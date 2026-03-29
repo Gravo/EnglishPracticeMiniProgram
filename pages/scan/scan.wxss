@@ -1,0 +1,239 @@
+/* pages/scan/scan.wxss */
+
+.container {
+  padding: 20rpx;
+}
+
+/* 提示栏 */
+.tips-bar {
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  color: #fff;
+  padding: 20rpx;
+  border-radius: 16rpx;
+  margin-bottom: 20rpx;
+}
+
+.tips-text {
+  font-size: 26rpx;
+}
+
+/* 相机区 */
+.camera-section {
+  padding: 0;
+  overflow: hidden;
+}
+
+.camera-preview {
+  width: 100%;
+  height: 500rpx;
+  position: relative;
+}
+
+.focus-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600rpx;
+  height: 400rpx;
+  border: 2rpx dashed rgba(74, 144, 226, 0.5);
+  background: rgba(74, 144, 226, 0.05);
+}
+
+.corner {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  border-color: #4A90E2;
+  border-style: solid;
+  border-width: 0;
+}
+
+.corner.top-left {
+  top: -2rpx;
+  left: -2rpx;
+  border-top-width: 4rpx;
+  border-left-width: 4rpx;
+}
+
+.corner.top-right {
+  top: -2rpx;
+  right: -2rpx;
+  border-top-width: 4rpx;
+  border-right-width: 4rpx;
+}
+
+.corner.bottom-left {
+  bottom: -2rpx;
+  left: -2rpx;
+  border-bottom-width: 4rpx;
+  border-left-width: 4rpx;
+}
+
+.corner.bottom-right {
+  bottom: -2rpx;
+  right: -2rpx;
+  border-bottom-width: 4rpx;
+  border-right-width: 4rpx;
+}
+
+.preview-image {
+  width: 100%;
+  height: 500rpx;
+}
+
+.crop-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.crop-hint {
+  position: absolute;
+  bottom: 20rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 26rpx;
+}
+
+/* 操作区 */
+.action-section {
+  margin-top: 20rpx;
+}
+
+.capture-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30rpx 0;
+}
+
+.btn-album, .btn-flash {
+  background: #F5F5F5;
+  color: #666;
+  font-size: 28rpx;
+  padding: 20rpx 40rpx;
+  border-radius: 40rpx;
+  border: none;
+}
+
+.btn-capture {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.capture-ring {
+  width: 140rpx;
+  height: 140rpx;
+  border: 8rpx solid #4A90E2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capture-inner {
+  width: 110rpx;
+  height: 110rpx;
+  background: #4A90E2;
+  border-radius: 50%;
+}
+
+.capture-ring:active .capture-inner {
+  background: #357ABD;
+}
+
+.preview-controls {
+  display: flex;
+  gap: 20rpx;
+  padding: 20rpx 0;
+}
+
+.preview-controls button {
+  flex: 1;
+}
+
+/* 识别中状态 */
+.recognizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx 0;
+}
+
+.loading-spinner {
+  width: 80rpx;
+  height: 80rpx;
+  border: 6rpx solid #E8E8E8;
+  border-top-color: #4A90E2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20rpx;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-text {
+  font-size: 28rpx;
+  color: #666;
+}
+
+/* 识别结果 */
+.result-preview {
+  margin-top: 20rpx;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.btn-edit {
+  background: #F5F5F5;
+  color: #4A90E2;
+  font-size: 24rpx;
+  padding: 10rpx 30rpx;
+  border-radius: 20rpx;
+  border: none;
+}
+
+.result-text {
+  font-size: 30rpx;
+  line-height: 1.8;
+  color: #333;
+  background: #F9F9F9;
+  padding: 20rpx;
+  border-radius: 12rpx;
+}
+
+/* 手动输入 */
+.manual-input {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+}
+
+.manual-input .hint {
+  font-size: 26rpx;
+  color: #999;
+  margin-bottom: 15rpx;
+}
+
+.btn-text {
+  background: transparent;
+  color: #4A90E2;
+  font-size: 28rpx;
+  border: none;
+  text-decoration: underline;
+}

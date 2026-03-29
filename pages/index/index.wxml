@@ -1,0 +1,95 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 用户信息栏 -->
+  <view class="user-header card">
+    <view class="user-info">
+      <view class="avatar-placeholder">
+        <text class="avatar-text">{{userInfo.nickName ? userInfo.nickName[0] : '学'}}</text>
+      </view>
+      <view class="user-detail">
+        <text class="nickname">{{userInfo.nickName || '英语学习者'}}</text>
+        <view class="level-badge">
+          <text>Lv.{{userLevel}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="stats">
+      <view class="stat-item">
+        <text class="stat-value">{{totalPoints}}</text>
+        <text class="stat-label">积分</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{streakDays}}</text>
+        <text class="stat-label">连续天数</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{completedLevels}}/{{totalLevels}}</text>
+        <text class="stat-label">已完成</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关卡列表 -->
+  <view class="levels-section">
+    <view class="section-title">
+      <text class="title">选择关卡</text>
+      <text class="subtitle">完成听写解锁下一关</text>
+    </view>
+
+    <view class="levels-list">
+      <view 
+        class="level-card {{item.status}} {{item.id === currentLevelId ? 'active' : ''}}"
+        wx:for="{{levels}}"
+        wx:key="id"
+        bindtap="onLevelTap"
+        data-id="{{item.id}}">
+        
+        <!-- 关卡头部 -->
+        <view class="level-header">
+          <view class="level-info">
+            <text class="level-number">{{item.id}}</text>
+            <view class="level-title-wrap">
+              <text class="level-title">{{item.title}}</text>
+              <view class="level-tags">
+                <text class="tag tag-{{item.difficulty}}">{{item.difficultyText}}</text>
+                <text class="duration">{{item.duration}}秒</text>
+              </view>
+            </view>
+          </view>
+          <view class="level-status">
+            <text wx:if="{{item.status === 'locked'}}" class="lock-icon">🔒</text>
+            <text wx:if="{{item.status === 'completed'}}" class="complete-icon">✓</text>
+          </view>
+        </view>
+
+        <!-- 进度条 -->
+        <view class="level-progress" wx:if="{{item.bestScore > 0}}">
+          <view class="progress-bar">
+            <view class="progress-fill" style="width: {{item.bestScore}}%"></view>
+          </view>
+          <text class="score-text">最佳: {{item.bestScore}}分</text>
+        </view>
+
+        <!-- 底部信息 -->
+        <view class="level-footer">
+          <text class="play-count">已播放 {{item.playCount}} 次</text>
+          <view class="points-badge" wx:if="{{item.status !== 'locked'}}">
+            <text>+{{item.points}}积分</text>
+          </view>
+        </view>
+
+        <!-- 解锁提示 -->
+        <view class="unlock-hint" wx:if="{{item.status === 'locked'}}">
+          <text>需要上一关达到 {{item.unlockScore}} 分解锁</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 开始按钮 -->
+  <view class="action-area" wx:if="{{currentLevelId}}">
+    <button class="btn-primary start-btn" bindtap="startLevel">
+      开始挑战
+    </button>
+  </view>
+</view>

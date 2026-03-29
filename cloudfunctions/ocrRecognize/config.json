@@ -1,0 +1,5 @@
+{
+  "name": "ocrRecognize",
+  "version": "1.0.0",
+  "description": "腾讯云OCR文字识别云函数"
+}

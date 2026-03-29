@@ -1,0 +1,243 @@
+/* pages/player/player.wxss */
+
+.container {
+  padding: 20rpx;
+  padding-bottom: 150rpx;
+}
+
+/* 关卡信息栏 */
+.level-info-bar {
+  margin-bottom: 20rpx;
+}
+
+.level-title {
+  display: block;
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15rpx;
+}
+
+.level-tags {
+  display: flex;
+  gap: 20rpx;
+  align-items: center;
+}
+
+.play-count {
+  font-size: 26rpx;
+  color: #666;
+}
+
+/* 音频可视化 */
+.audio-visualizer {
+  text-align: center;
+  padding: 40rpx 30rpx;
+}
+
+.waveform {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 150rpx;
+  margin-bottom: 30rpx;
+  gap: 8rpx;
+}
+
+.wave-bar {
+  width: 12rpx;
+  height: 30rpx;
+  background: linear-gradient(180deg, #4A90E2 0%, #6BA3E0 100%);
+  border-radius: 6rpx;
+  transition: height 0.3s ease;
+}
+
+.wave-bar.playing {
+  animation: wave 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes wave {
+  0% { height: 30rpx; }
+  100% { height: 120rpx; }
+}
+
+/* 为每个bar设置不同的动画延迟 */
+.wave-bar:nth-child(1) { animation-delay: 0s; }
+.wave-bar:nth-child(2) { animation-delay: 0.1s; }
+.wave-bar:nth-child(3) { animation-delay: 0.2s; }
+.wave-bar:nth-child(4) { animation-delay: 0.3s; }
+.wave-bar:nth-child(5) { animation-delay: 0.4s; }
+.wave-bar:nth-child(6) { animation-delay: 0.5s; }
+.wave-bar:nth-child(7) { animation-delay: 0.6s; }
+.wave-bar:nth-child(8) { animation-delay: 0.7s; }
+.wave-bar:nth-child(9) { animation-delay: 0.8s; }
+.wave-bar:nth-child(10) { animation-delay: 0.9s; }
+
+.time-display {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 20rpx;
+}
+
+.progress-slider {
+  margin: 0;
+}
+
+/* AB复读区 */
+.ab-loop-section {
+  margin-top: 20rpx;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.section-header .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.ab-controls {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20rpx;
+}
+
+.ab-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ab-label {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 10rpx;
+}
+
+.time-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rpx;
+}
+
+.time-btn text {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #4A90E2;
+}
+
+.btn-set {
+  background-color: #4A90E2;
+  color: #fff;
+  font-size: 24rpx;
+  padding: 10rpx 30rpx;
+  border-radius: 25rpx;
+  border: none;
+}
+
+.loop-hint {
+  display: block;
+  text-align: center;
+  font-size: 26rpx;
+  color: #4A90E2;
+  background-color: #EBF5FF;
+  padding: 15rpx;
+  border-radius: 10rpx;
+}
+
+/* 播放控制区 */
+.player-controls {
+  margin-top: 20rpx;
+}
+
+.speed-control {
+  margin-bottom: 30rpx;
+}
+
+.speed-label {
+  display: block;
+  font-size: 26rpx;
+  color: #666;
+  margin-bottom: 15rpx;
+}
+
+.speed-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10rpx;
+}
+
+.speed-btn {
+  flex: 1;
+  background-color: #F5F5F5;
+  color: #666;
+  font-size: 26rpx;
+  padding: 15rpx 0;
+  border-radius: 30rpx;
+  border: none;
+}
+
+.speed-btn.active {
+  background-color: #4A90E2;
+  color: #fff;
+}
+
+/* 主控制按钮 */
+.main-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40rpx;
+}
+
+.control-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.control-btn.secondary {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #F5F5F5;
+  color: #666;
+  font-size: 24rpx;
+}
+
+.control-btn.primary {
+  width: 140rpx;
+  height: 140rpx;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  box-shadow: 0 8rpx 30rpx rgba(74, 144, 226, 0.4);
+}
+
+.play-icon {
+  font-size: 60rpx;
+  color: #fff;
+}
+
+/* 底部操作 */
+.bottom-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.1);
+}
+
+.scan-btn {
+  width: 100%;
+}

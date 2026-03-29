@@ -3,101 +3,114 @@ const app = getApp();
 
 Page({
   data: {
-    userInfo: {},
-    isLoggedIn: false,
+    userInfo: null,
     userLevel: 1,
-    totalStats: {
-      words: 0,
-      listening: 0,
-      reading: 0,
-      days: 0
-    }
+    totalPoints: 0,
+    streakDays: 1,
+    completedLevels: 0,
+    totalPlayCount: 0,
+    avgScore: 0,
+    studyDays: 1,
+    recentRecords: []
+  },
+
+  onLoad() {
+    this.loadUserData();
   },
 
   onShow() {
-    this.checkLoginStatus();
-    this.loadStats();
+    this.loadUserData();
   },
 
-  // 检查登录状态
-  checkLoginStatus() {
-    const userInfo = wx.getStorageSync('userInfo');
-    if (userInfo) {
-      this.setData({
-        userInfo: userInfo,
-        isLoggedIn: true
-      });
-    }
-  },
+  // 加载用户数据
+  loadUserData() {
+    const levels = app.globalData.levels || [];
+    const userInfo = wx.getStorageSync('user_info') || {};
+    const records = wx.getStorageSync('score_records') || [];
 
-  // 加载统计数据
-  loadStats() {
-    try {
-      const allStats = wx.getStorageSync('all_stats') || {};
-      this.setData({ totalStats: allStats });
-    } catch (e) {
-      console.error('加载统计数据失败', e);
-    }
-  },
+    // 计算统计数据
+    let completedLevels = 0;
+    let totalPlayCount = 0;
+    let totalScore = 0;
+    let scoreCount = 0;
 
-  // 登录
-  login() {
-    // 实际项目中调用 wx.login 获取用户信息
-    wx.showLoading({ title: '登录中...' });
-    
-    setTimeout(() => {
-      const mockUserInfo = {
-        nickName: '英语学习者',
-        avatarUrl: ''
+    levels.forEach(level => {
+      totalPlayCount += level.playCount || 0;
+      if (level.status === 'completed') {
+        completedLevels++;
+      }
+      if (level.bestScore > 0) {
+        totalScore += level.bestScore;
+        scoreCount++;
+      }
+    });
+
+    // 计算平均分
+    const avgScore = scoreCount > 0 ? Math.round(totalScore / scoreCount) : 0;
+
+    // 计算用户等级
+    const totalPoints = userInfo.totalPoints || 0;
+    const userLevel = Math.floor(totalPoints / 500) + 1;
+
+    // 格式化最近记录
+    const recentRecords = records.slice(-5).reverse().map(record => {
+      const level = levels.find(l => l.id === record.levelId) || {};
+      return {
+        ...record,
+        levelTitle: level.title || '关卡 ' + record.levelId,
+        date: new Date(record.date).toLocaleDateString()
       };
-      
-      wx.setStorageSync('userInfo', mockUserInfo);
-      
-      this.setData({
-        userInfo: mockUserInfo,
-        isLoggedIn: true
-      });
-      
-      wx.hideLoading();
-      wx.showToast({ title: '登录成功', icon: 'success' });
-    }, 1000);
+    });
+
+    this.setData({
+      userInfo,
+      userLevel,
+      totalPoints,
+      streakDays: userInfo.streakDays || 1,
+      completedLevels,
+      totalPlayCount,
+      avgScore,
+      studyDays: userInfo.studyDays || 1,
+      recentRecords
+    });
   },
 
-  // 退出登录
-  logout() {
+  // 查看全部记录
+  viewAllRecords() {
+    wx.showToast({ title: '功能开发中', icon: 'none' });
+  },
+
+  // 设置
+  goToSettings() {
+    wx.showToast({ title: '功能开发中', icon: 'none' });
+  },
+
+  // 清除数据
+  clearData() {
     wx.showModal({
       title: '提示',
-      content: '确定要退出登录吗？',
+      content: '确定要清除所有数据吗？这将重置你的进度和成绩。',
       success: (res) => {
         if (res.confirm) {
-          wx.removeStorageSync('userInfo');
-          this.setData({
-            userInfo: {},
-            isLoggedIn: false
+          wx.clearStorageSync();
+          app.globalData.levels.forEach(level => {
+            level.bestScore = 0;
+            level.playCount = 0;
+            level.status = level.id === 1 ? 'unlocked' : 'locked';
           });
-          wx.showToast({ title: '已退出登录' });
+          wx.showToast({ title: '数据已清除', icon: 'success' });
+          this.loadUserData();
         }
       }
     });
   },
 
-  // 跳转设置
-  goToSettings() {
-    wx.navigateTo({ url: '/pages/settings/settings' });
-  },
-
-  // 跳转学习记录
-  goToRecords() {
-    wx.navigateTo({ url: '/pages/records/records' });
-  },
-
-  // 跳转收藏夹
-  goToFavorites() {
-    wx.navigateTo({ url: '/pages/favorites/favorites' });
-  },
-
-  // 跳转关于
-  goToAbout() {
-    wx.navigateTo({ url: '/pages/about/about' });
+  // 关于
+  about() {
+    wx.showModal({
+      title: '英语听写练习',
+      content: '版本: 1.0.0\n\n基于尚雯婕英语学习法，帮你提升英语听力水平。',
+      showCancel: false
+    });
   }
 });

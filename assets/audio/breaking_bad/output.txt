@@ -1,0 +1,887 @@
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e02 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+  Duration: 00:48:12.85, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 332.707000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 332.707000, end 859.192000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 859.192000, end 1386.427000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1386.427000, end 2250.039000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2250.039000, end 2848.054000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2848.054000, end 2892.848750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\13_01.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 18.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+[out#0/mp3 @ 000001c674ff76c0] video:0KiB audio:141KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.278386%
+size=     141KiB time=00:00:18.00 bitrate=  64.4kbits/s speed=  44x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e02 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+  Duration: 00:48:12.85, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 332.707000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 332.707000, end 859.192000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 859.192000, end 1386.427000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1386.427000, end 2250.039000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2250.039000, end 2848.054000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2848.054000, end 2892.848750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\13_02.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 7.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+[out#0/mp3 @ 000001f97b208140] video:0KiB audio:55KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.715112%
+size=      55KiB time=00:00:07.00 bitrate=  64.7kbits/s speed=25.3x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e02 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+  Duration: 00:48:12.85, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 332.707000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 332.707000, end 859.192000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 859.192000, end 1386.427000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1386.427000, end 2250.039000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2250.039000, end 2848.054000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2848.054000, end 2892.848750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\13_03.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.02-Cat's.in.the.Bag...720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 13.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+[out#0/mp3 @ 00000225cfdc8800] video:0KiB audio:102KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.385501%
+size=     102KiB time=00:00:13.00 bitrate=  64.4kbits/s speed=26.6x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, concat, from 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\list13.txt':
+  Duration: N/A, start: -0.025057, bitrate: 64 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 64 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\clips\02_asking_directions.mp3':
+  Metadata:
+    TSSE            : Lavf61.7.100
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s
+Press [q] to stop, [?] for help
+[out#0/mp3 @ 0000024aab0c7ac0] video:0KiB audio:298KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.082650%
+size=     298KiB time=00:00:38.11 bitrate=  64.1kbits/s speed=2.35e+03x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e04 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+  Duration: 00:48:15.64, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 149.274000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 149.274000, end 953.035000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 953.035000, end 1569.943000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1569.943000, end 2310.892000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2310.892000, end 2850.431000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2850.431000, end 2895.642750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\15_01.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 38.000000
+      Metadata:
+        TIT2            : Chapter 3
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=      53KiB time=00:00:06.68 bitrate=  64.5kbits/s speed=4.34x    [out#0/mp3 @ 000001fcff8792c0] video:0KiB audio:297KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.129489%
+size=     298KiB time=00:00:38.00 bitrate=  64.1kbits/s speed=19.7x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e04 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+  Duration: 00:48:15.64, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 149.274000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 149.274000, end 953.035000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 953.035000, end 1569.943000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1569.943000, end 2310.892000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2310.892000, end 2850.431000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2850.431000, end 2895.642750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\15_02.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 60.000000
+      Metadata:
+        TIT2            : Chapter 3
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     256KiB time=00:00:45.84 bitrate=  45.7kbits/s speed=22.2x    [out#0/mp3 @ 0000026cfacd9340] video:0KiB audio:469KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.082043%
+size=     469KiB time=00:01:00.00 bitrate=  64.1kbits/s speed=  27x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e05 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+  Duration: 00:48:11.85, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 245.287000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 245.287000, end 978.811000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 978.811000, end 1556.597000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1556.597000, end 2343.341000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2343.341000, end 2847.053000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2847.053000, end 2891.847750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\15_03.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 45.000000
+      Metadata:
+        TIT2            : Chapter 2
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     256KiB time=00:00:41.45 bitrate=  50.6kbits/s speed=26.8x    [out#0/mp3 @ 0000013504d57940] video:0KiB audio:352KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.109637%
+size=     352KiB time=00:00:45.00 bitrate=  64.1kbits/s speed=28.4x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e04 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+  Duration: 00:48:15.64, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 149.274000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 149.274000, end 953.035000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 953.035000, end 1569.943000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1569.943000, end 2310.892000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2310.892000, end 2850.431000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2850.431000, end 2895.642750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\15_04.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 40.000000
+      Metadata:
+        TIT2            : Chapter 2
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     228KiB time=00:00:29.10 bitrate=  64.2kbits/s speed=  19x    [out#0/mp3 @ 00000232a13cac80] video:0KiB audio:313KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.122985%
+size=     313KiB time=00:00:40.00 bitrate=  64.2kbits/s speed=24.2x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, concat, from 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\list15.txt':
+  Duration: N/A, start: -0.025057, bitrate: 64 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 64 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\clips\04_hospital.mp3':
+  Metadata:
+    TSSE            : Lavf61.7.100
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s
+Press [q] to stop, [?] for help
+[out#0/mp3 @ 0000022db98aaa00] video:0KiB audio:1431KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.017200%
+size=    1431KiB time=00:03:03.14 bitrate=  64.0kbits/s speed=3.1e+03x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e01 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.01-Pilot.720p.BluRay.x264-HQMi
+  Duration: 00:58:06.44, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 247.372000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 247.372000, end 967.425000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 967.425000, end 1901.191000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1901.191000, end 2910.866000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2910.866000, end 3432.262000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 3432.262000, end 3486.441750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\16_01.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.01-Pilot.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 13.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+[out#0/mp3 @ 0000023cae878d80] video:0KiB audio:102KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.373034%
+size=     102KiB time=00:00:13.00 bitrate=  64.4kbits/s speed=34.8x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e01 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.01-Pilot.720p.BluRay.x264-HQMi
+  Duration: 00:58:06.44, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 247.372000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 247.372000, end 967.425000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 967.425000, end 1901.191000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1901.191000, end 2910.866000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2910.866000, end 3432.262000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 3432.262000, end 3486.441750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\16_02.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.01-Pilot.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 19.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     148KiB time=N/A bitrate=N/A speed=N/A    [out#0/mp3 @ 0000019b42d78c80] video:0KiB audio:149KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.255340%
+size=     149KiB time=00:00:19.00 bitrate=  64.3kbits/s speed=37.8x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e04 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+  Duration: 00:48:15.64, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 149.274000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 149.274000, end 953.035000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 953.035000, end 1569.943000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1569.943000, end 2310.892000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2310.892000, end 2850.431000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2850.431000, end 2895.642750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\16_03.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 32.000000
+      Metadata:
+        TIT2            : Chapter 2
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     180KiB time=00:00:22.93 bitrate=  64.1kbits/s speed=45.3x    [out#0/mp3 @ 000002e24bba7b40] video:0KiB audio:250KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.153781%
+size=     251KiB time=00:00:32.00 bitrate=  64.2kbits/s speed=52.4x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e04 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+  Duration: 00:48:15.64, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 149.274000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 149.274000, end 953.035000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 953.035000, end 1569.943000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1569.943000, end 2310.892000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2310.892000, end 2850.431000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2850.431000, end 2895.642750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\16_04.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.04-Cancer.Man.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 31.000000
+      Metadata:
+        TIT2            : Chapter 2
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     158KiB time=00:00:20.21 bitrate=  64.2kbits/s speed=19.7x    [out#0/mp3 @ 0000013810467940] video:0KiB audio:242KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.158700%
+size=     243KiB time=00:00:31.00 bitrate=  64.2kbits/s speed=  27x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, concat, from 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\list16.txt':
+  Duration: N/A, start: -0.025057, bitrate: 64 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 64 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\clips\05_family.mp3':
+  Metadata:
+    TSSE            : Lavf61.7.100
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s
+Press [q] to stop, [?] for help
+[out#0/mp3 @ 000001d20bec8500] video:0KiB audio:743KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.033110%
+size=     744KiB time=00:01:35.13 bitrate=  64.0kbits/s speed=2.77e+03x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e05 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+  Duration: 00:48:11.85, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 245.287000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 245.287000, end 978.811000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 978.811000, end 1556.597000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1556.597000, end 2343.341000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2343.341000, end 2847.053000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2847.053000, end 2891.847750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\17_01.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 58.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     256KiB time=00:00:38.34 bitrate=  54.7kbits/s speed=74.7x    [out#0/mp3 @ 00000271e15c7b40] video:0KiB audio:453KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.085065%
+size=     454KiB time=00:00:58.00 bitrate=  64.1kbits/s speed=77.4x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e05 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+  Duration: 00:48:11.85, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 245.287000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 245.287000, end 978.811000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 978.811000, end 1556.597000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1556.597000, end 2343.341000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2343.341000, end 2847.053000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2847.053000, end 2891.847750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\17_02.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 55.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     199KiB time=00:00:25.47 bitrate=  64.1kbits/s speed=49.6x    [out#0/mp3 @ 0000015f10889540] video:0KiB audio:430KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.089707%
+size=     430KiB time=00:00:55.00 bitrate=  64.1kbits/s speed=64.5x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e05 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+  Duration: 00:48:11.85, start: 0.000000, bitrate: 1117 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 245.287000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 245.287000, end 978.811000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 978.811000, end 1556.597000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1556.597000, end 2343.341000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2343.341000, end 2847.053000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2847.053000, end 2891.847750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\17_03.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.05-Gray.Matter.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 70.000000
+      Metadata:
+        TIT2            : Chapter 2
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=      10KiB time=00:00:01.25 bitrate=  66.5kbits/s speed=1.22x    size=     256KiB time=00:00:45.76 bitrate=  45.8kbits/s speed=29.7x    [out#0/mp3 @ 0000020adca887c0] video:0KiB audio:547KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.070501%
+size=     548KiB time=00:01:10.00 bitrate=  64.1kbits/s speed=38.8x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, concat, from 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\temp\list17.txt':
+  Duration: N/A, start: -0.025057, bitrate: 64 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 64 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\clips\06_negotiation.mp3':
+  Metadata:
+    TSSE            : Lavf61.7.100
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s
+Press [q] to stop, [?] for help
+[out#0/mp3 @ 0000023883669240] video:0KiB audio:1431KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.017202%
+size=    1431KiB time=00:03:03.11 bitrate=  64.0kbits/s speed=3.1e+03x    
+ffmpeg version n7.1.2-8-gbcef916726-20251105 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (crosstool-NG 1.28.0.1_403899e)
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --disable-w32threads --enable-pthreads --enable-iconv --enable-zlib --enable-libxml2 --enable-libvmaf --enable-fontconfig --enable-libharfbuzz --enable-libfreetype --enable-libfribidi --enable-vulkan --enable-libshaderc --enable-libvorbis --disable-libxcb --disable-xlib --disable-libpulse --enable-gmp --enable-lzma --enable-opencl --enable-amf --enable-libaom --enable-libaribb24 --enable-avisynth --enable-chromaprint --enable-libdav1d --enable-libdavs2 --enable-libdvdread --enable-libdvdnav --disable-libfdk-aac --enable-ffnvcodec --enable-cuda-llvm --enable-frei0r --enable-libgme --enable-libkvazaar --enable-libaribcaption --enable-libass --enable-libbluray --enable-libjxl --enable-libmp3lame --enable-libopus --enable-libplacebo --enable-librist --enable-libssh --enable-libtheora --enable-libvpx --enable-libwebp --enable-libzmq --enable-lv2 --enable-libvpl --enable-openal --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-librav1e --enable-librubberband --enable-schannel --enable-sdl2 --enable-libsnappy --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libuavs3d --disable-libdrm --enable-vaapi --enable-libvidstab --enable-libvvenc --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libzimg --enable-libzvbi --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-libs=-lgomp --extra-ldflags=-pthread --extra-ldexeflags= --cc=x86_64-w64-mingw32-gcc --cxx=x86_64-w64-mingw32-g++ --ar=x86_64-w64-mingw32-gcc-ar --ranlib=x86_64-w64-mingw32-gcc-ranlib --nm=x86_64-w64-mingw32-gcc-nm --extra-version=20251105
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, matroska,webm, from 'E:\moive\Breaking Bad 01\Breaking Bad s01e03 720p.BRrip.Sujaidr.mkv':
+  Metadata:
+    encoder         : libmkv 0.6.5
+    TITLE           : Breaking.Bad.2008.S1.Ep.03-...And.the.Bag's.in.the.River.720p.BluRay.x264-HQMi
+  Duration: 00:48:11.85, start: 0.000000, bitrate: 1118 kb/s
+  Chapters:
+    Chapter #0:0: start 0.000000, end 200.909000
+      Metadata:
+        title           : Chapter 1
+    Chapter #0:1: start 200.909000, end 775.400000
+      Metadata:
+        title           : Chapter 2
+    Chapter #0:2: start 775.400000, end 1455.829000
+      Metadata:
+        title           : Chapter 3
+    Chapter #0:3: start 1455.829000, end 2412.368000
+      Metadata:
+        title           : Chapter 4
+    Chapter #0:4: start 2412.368000, end 2846.635000
+      Metadata:
+        title           : Chapter 5
+    Chapter #0:5: start 2846.635000, end 2891.847750
+      Metadata:
+        title           : Chapter 6
+  Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1280x720 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+  Stream #0:1(eng): Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:1 -> #0:0 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, mp3, to 'D:\EnglishPracticeMiniProgram\assets\audio\breaking_bad\clips\07_complex_dialogue.mp3':
+  Metadata:
+    TIT2            : Breaking.Bad.2008.S1.Ep.03-...And.the.Bag's.in.the.River.720p.BluRay.x264-HQMi
+    TSSE            : Lavf61.7.100
+  Chapters:
+    Chapter #0:0: start 0.000000, end 122.000000
+      Metadata:
+        TIT2            : Chapter 1
+  Stream #0:0(eng): Audio: mp3, 44100 Hz, mono, fltp, 64 kb/s (default)
+      Metadata:
+        encoder         : Lavc61.19.101 libmp3lame
+size=     256KiB time=00:00:35.68 bitrate=  58.8kbits/s speed=70.4x    size=     512KiB time=00:01:19.04 bitrate=  53.1kbits/s speed=77.2x    size=     768KiB time=N/A bitrate=N/A speed=N/A    [out#0/mp3 @ 000002167680a0c0] video:0KiB audio:953KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.042300%
+size=     954KiB time=00:02:02.00 bitrate=  64.1kbits/s speed=79.1x    

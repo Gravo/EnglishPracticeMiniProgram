@@ -1,14 +1,72 @@
-# Windows
-[Dd]esktop.ini
-Thumbs.db
-$RECYCLE.BIN/
+# ============================================
+# 英语学习小程序 - Git Ignore
+# ============================================
 
-# macOS
-.DS_Store
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
+# === 微信小程序框架 ===
+miniprogram_npm/
+weui-miniprogram/
 
-# Node.js
+# === Node.js ===
 node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === 微信开发者工具 ===
+.project
+.project.lock
+.local.json
+dev-tools/
+
+# === 音频文件（敏感资源）===
+# assets/audio/*.mp3
+# assets/audio/**/*.mp3
+
+# === 云函数依赖 ===
+cloudfunctions/**/node_modules/
+cloudfunctions/**/package-lock.json
+
+# === 编译产物 ===
+*.wxss.d.ts
+*.wxml.d.ts
+
+# === 本地配置 ===
+app_temp.js
+project.config.json.local
+*.local
+.env
+
+# === 临时文件 ===
+*.tmp
+*.temp
+.cache/
+
+# ============================================
+# 保留的文件类型
+# ============================================
+# !assets/audio/.gitkeep
+# !assets/audio/breaking_bad/transcripts/.gitkeep

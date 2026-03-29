@@ -1,0 +1,258 @@
+/* pages/compare/compare.wxss */
+
+.container {
+  padding: 20rpx;
+  padding-bottom: 150rpx;
+}
+
+/* 评分头部 */
+.score-header {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  color: #fff;
+}
+
+.score-circle {
+  width: 150rpx;
+  height: 150rpx;
+  border: 8rpx solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30rpx;
+}
+
+.score-value {
+  font-size: 56rpx;
+  font-weight: bold;
+}
+
+.score-label {
+  font-size: 24rpx;
+}
+
+.score-detail {
+  flex: 1;
+}
+
+.accuracy {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-bottom: 10rpx;
+}
+
+.points-earned {
+  display: block;
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+
+/* 统计区 */
+.stats-section {
+  margin-top: 20rpx;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+
+.stat-value.correct {
+  color: #4CAF50;
+}
+
+.stat-value.error {
+  color: #F44336;
+}
+
+.stat-value.missing {
+  color: #FF9800;
+}
+
+.stat-value.extra {
+  color: #9C27B0;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  color: #666;
+}
+
+/* 对照区 */
+.compare-section {
+  margin-top: 20rpx;
+  padding: 0;
+}
+
+.compare-tabs {
+  display: flex;
+  border-bottom: 1rpx solid #E8E8E8;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 25rpx 0;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+
+.tab.active {
+  color: #4A90E2;
+  font-weight: 500;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60rpx;
+  height: 4rpx;
+  background-color: #4A90E2;
+  border-radius: 2rpx;
+}
+
+.compare-content {
+  padding: 30rpx;
+}
+
+.legend {
+  display: flex;
+  gap: 30rpx;
+  margin-bottom: 20rpx;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 10rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.color-box {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 6rpx;
+}
+
+.color-box.correct {
+  background-color: #4CAF50;
+}
+
+.color-box.error {
+  background-color: #F44336;
+}
+
+.color-box.missing {
+  background-color: #FF9800;
+}
+
+.text-block {
+  font-size: 30rpx;
+  line-height: 1.8;
+  padding: 20rpx;
+  background: #F9F9F9;
+  border-radius: 12rpx;
+}
+
+/* 错误详情 */
+.errors-section {
+  margin-top: 20rpx;
+}
+
+.section-title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+
+.error-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15rpx;
+}
+
+.error-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20rpx;
+  background: #F9F9F9;
+  border-radius: 12rpx;
+}
+
+.error-type {
+  padding: 6rpx 16rpx;
+  border-radius: 6rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+  margin-right: 20rpx;
+}
+
+.error-type.error {
+  background: #FFEBEE;
+  color: #F44336;
+}
+
+.error-type.missing {
+  background: #FFF3E0;
+  color: #FF9800;
+}
+
+.error-type.extra {
+  background: #F3E5F5;
+  color: #9C27B0;
+}
+
+.error-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-detail .original {
+  color: #4CAF50;
+  margin-bottom: 5rpx;
+}
+
+.error-detail .user {
+  color: #F44336;
+}
+
+/* 底部操作 */
+.bottom-actions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 20rpx;
+}
+
+.bottom-actions button {
+  flex: 1;
+}

@@ -1,6 +1,13 @@
 {
   "description": "英语学习微信小程序",
   "appid": "wx9e03ad6a5666130c",
+  "cloudfunctionTemplate": {
+    "ocrRecognize": {
+      "name": "ocrRecognize",
+      "path": "cloudfunctions/ocrRecognize/",
+      "description": "腾讯云OCR文字识别"
+    }
+  },
   "setting": {
     "es6": true,
     "enhance": true,
@@ -51,5 +58,6 @@
     "ignore": [],
     "include": []
   },
-  "editorSetting": {}
+  "editorSetting": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
 }

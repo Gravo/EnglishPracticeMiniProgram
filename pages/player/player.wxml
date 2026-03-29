@@ -1,0 +1,123 @@
+<!--pages/player/player.wxml-->
+<view class="container">
+  <!-- 顶部关卡信息 -->
+  <view class="level-info-bar">
+    <text class="level-title">{{level.title}}</text>
+    <view class="level-tags">
+      <text class="tag tag-{{level.difficulty}}">{{level.difficultyText}}</text>
+      <text class="play-count">播放次数: {{playCount}}</text>
+    </view>
+  </view>
+
+  <!-- 音频可视化区域 -->
+  <view class="audio-visualizer card">
+    <!-- 波形动画 -->
+    <view class="waveform">
+      <view class="wave-bar {{isPlaying ? 'playing' : ''}}" wx:for="{{20}}" wx:key="index"></view>
+    </view>
+    
+    <!-- 时间显示 -->
+    <view class="time-display">
+      <text class="current-time">{{formatTime(currentTime)}}</text>
+      <text class="total-time">{{formatTime(duration)}}</text>
+    </view>
+
+    <!-- 进度条 -->
+    <slider 
+      class="progress-slider"
+      value="{{currentTime}}" 
+      max="{{duration}}" 
+      bindchange="onSeek"
+      bindchanging="onSeeking"
+      activeColor="#4A90E2"
+      backgroundColor="#E8E8E8"
+      block-size="16"/>
+  </view>
+
+  <!-- AB复读设置 -->
+  <view class="ab-loop-section card">
+    <view class="section-header">
+      <text class="title">AB复读</text>
+      <switch 
+        checked="{{loopEnabled}}" 
+        bindchange="toggleLoop"
+        color="#4A90E2"/>
+    </view>
+    
+    <view class="ab-controls" wx:if="{{loopEnabled}}">
+      <view class="ab-point">
+        <text class="ab-label">A点</text>
+        <view class="time-btn">
+          <text>{{loopStartText}}</text>
+          <button class="btn-set" bindtap="setLoopPoint" data-point="start">设置</button>
+        </view>
+      </view>
+      <view class="ab-point">
+        <text class="ab-label">B点</text>
+        <view class="time-btn">
+          <text>{{loopEndText}}</text>
+          <button class="btn-set" bindtap="setLoopPoint" data-point="end">设置</button>
+        </view>
+      </view>
+    </view>
+    
+    <text class="loop-hint" wx:if="{{loopEnabled && loopStart !== loopEnd}}">
+      已设置循环区间: {{loopStartText}} - {{loopEndText}}
+    </text>
+  </view>
+
+  <!-- 播放控制区 -->
+  <view class="player-controls card">
+    <!-- 播放速度 -->
+    <view class="speed-control">
+      <text class="speed-label">速度</text>
+      <view class="speed-buttons">
+        <button 
+          class="speed-btn {{playbackRate === 0.5 ? 'active' : ''}}" 
+          bindtap="setPlaybackRate" 
+          data-rate="0.5">0.5x</button>
+        <button 
+          class="speed-btn {{playbackRate === 0.75 ? 'active' : ''}}" 
+          bindtap="setPlaybackRate" 
+          data-rate="0.75">0.75x</button>
+        <button 
+          class="speed-btn {{playbackRate === 1 ? 'active' : ''}}" 
+          bindtap="setPlaybackRate" 
+          data-rate="1">1.0x</button>
+        <button 
+          class="speed-btn {{playbackRate === 1.25 ? 'active' : ''}}" 
+          bindtap="setPlaybackRate" 
+          data-rate="1.25">1.25x</button>
+        <button 
+          class="speed-btn {{playbackRate === 1.5 ? 'active' : ''}}" 
+          bindtap="setPlaybackRate" 
+          data-rate="1.5">1.5x</button>
+      </view>
+    </view>
+
+    <!-- 主播放按钮 -->
+    <view class="main-controls">
+      <!-- 倒退5秒 -->
+      <button class="control-btn secondary" bindtap="seekBackward">
+        <text>-5s</text>
+      </button>
+      
+      <!-- 播放/暂停 -->
+      <button class="control-btn primary" bindtap="togglePlay">
+        <text class="play-icon">{{isPlaying ? '⏸' : '▶'}}</text>
+      </button>
+      
+      <!-- 快进5秒 -->
+      <button class="control-btn secondary" bindtap="seekForward">
+        <text>+5s</text>
+      </button>
+    </view>
+  </view>
+
+  <!-- 底部操作区 -->
+  <view class="bottom-actions">
+    <button class="btn-secondary scan-btn" bindtap="goToScan">
+      <text>📷 扫描文本</text>
+    </button>
+  </view>
+</view>

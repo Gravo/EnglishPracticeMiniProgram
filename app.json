@@ -1,15 +1,15 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/vocabulary/vocabulary",
-    "pages/listening/listening",
-    "pages/reading/reading",
+    "pages/index/index",
+    "pages/player/player",
+    "pages/scan/scan",
+    "pages/compare/compare",
     "pages/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#4A90E2",
-    "navigationBarTitleText": "英语学习",
+    "navigationBarTitleText": "英语听写练习",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#F5F5F5"
   },
@@ -20,20 +20,8 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/home/home",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/vocabulary/vocabulary",
-        "text": "单词"
-      },
-      {
-        "pagePath": "pages/listening/listening",
-        "text": "听力"
-      },
-      {
-        "pagePath": "pages/reading/reading",
-        "text": "阅读"
+        "pagePath": "pages/index/index",
+        "text": "关卡"
       },
       {
         "pagePath": "pages/profile/profile",
@@ -41,6 +29,12 @@
       }
     ]
   },
+  "permission": {
+    "scope.camera": {
+      "desc": "用于扫描手写文稿"
+    }
+  },
+  "requiredBackgroundModes": ["audio"],
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"

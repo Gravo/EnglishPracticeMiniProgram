@@ -1,6 +1,14 @@
 {
   "libVersion": "3.4.3",
   "projectname": "EnglishPracticeMiniProgram",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "cloudfunctionTemplate": {
+    "ocrRecognize": {
+      "name": "ocrRecognize",
+      "path": "cloudfunctions/ocrRecognize/",
+      "description": "腾讯云OCR文字识别"
+    }
+  },
   "condition": {},
   "setting": {
     "urlCheck": true,

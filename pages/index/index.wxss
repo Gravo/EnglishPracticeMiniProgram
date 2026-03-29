@@ -1,0 +1,267 @@
+/* pages/index/index.wxss */
+
+.container {
+  padding: 20rpx;
+  padding-bottom: 150rpx;
+}
+
+/* 用户头部 */
+.user-header {
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  color: #fff;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  border: 4rpx solid rgba(255, 255, 255, 0.3);
+  margin-right: 20rpx;
+}
+
+.avatar-placeholder {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20rpx;
+  border: 4rpx solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar-text {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #fff;
+}
+
+.user-detail {
+  flex: 1;
+}
+
+.nickname {
+  display: block;
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.level-badge {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 6rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1rpx solid rgba(255, 255, 255, 0.2);
+  padding-top: 20rpx;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-value {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-bottom: 5rpx;
+}
+
+.stat-label {
+  font-size: 24rpx;
+  opacity: 0.8;
+}
+
+/* 关卡列表 */
+.levels-section {
+  margin-top: 20rpx;
+}
+
+.section-title {
+  margin-bottom: 20rpx;
+}
+
+.section-title .title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-title .subtitle {
+  font-size: 26rpx;
+  color: #999;
+  margin-top: 5rpx;
+}
+
+.levels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.level-card {
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.level-card.unlocked {
+  border-left: 8rpx solid #4A90E2;
+}
+
+.level-card.locked {
+  opacity: 0.6;
+  background-color: #F9F9F9;
+}
+
+.level-card.completed {
+  border-left: 8rpx solid #4CAF50;
+}
+
+.level-card.active {
+  transform: scale(1.02);
+  box-shadow: 0 8rpx 30rpx rgba(74, 144, 226, 0.2);
+}
+
+.level-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20rpx;
+}
+
+.level-info {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.level-number {
+  width: 60rpx;
+  height: 60rpx;
+  background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+  color: #fff;
+  border-radius: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+
+.level-card.locked .level-number {
+  background: #ccc;
+}
+
+.level-title-wrap {
+  flex: 1;
+}
+
+.level-title {
+  display: block;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+
+.level-tags {
+  display: flex;
+  gap: 15rpx;
+  align-items: center;
+}
+
+.duration {
+  font-size: 22rpx;
+  color: #999;
+}
+
+.level-status {
+  font-size: 40rpx;
+}
+
+.lock-icon {
+  color: #999;
+}
+
+.complete-icon {
+  color: #4CAF50;
+}
+
+/* 进度条 */
+.level-progress {
+  margin-bottom: 15rpx;
+}
+
+.level-progress .progress-bar {
+  margin-bottom: 10rpx;
+}
+
+.score-text {
+  font-size: 24rpx;
+  color: #4A90E2;
+  font-weight: 500;
+}
+
+/* 底部信息 */
+.level-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-count {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.points-badge {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  color: #fff;
+  padding: 6rpx 20rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  font-weight: 500;
+}
+
+/* 解锁提示 */
+.unlock-hint {
+  margin-top: 15rpx;
+  padding-top: 15rpx;
+  border-top: 1rpx dashed #ddd;
+  font-size: 24rpx;
+  color: #999;
+}
+
+/* 操作区域 */
+.action-area {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20rpx 30rpx;
+  box-shadow: 0 -4rpx 20rpx rgba(0, 0, 0, 0.1);
+}
+
+.start-btn {
+  width: 100%;
+}

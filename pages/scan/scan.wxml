@@ -1,0 +1,94 @@
+<!--pages/scan/scan.wxml-->
+<view class="container">
+  <!-- 顶部提示 -->
+  <view class="tips-bar">
+    <text class="tips-text">📷 请拍摄你的听写文本，确保文字清晰可见</text>
+  </view>
+
+  <!-- 相机预览区 -->
+  <view class="camera-section card">
+    <camera 
+      wx:if="{{!imageSrc}}"
+      class="camera-preview"
+      device-position="back"
+      flash="auto"
+      resolution="high">
+      <!-- 取景框 -->
+      <cover-view class="focus-frame">
+        <cover-view class="corner top-left"></cover-view>
+        <cover-view class="corner top-right"></cover-view>
+        <cover-view class="corner bottom-left"></cover-view>
+        <cover-view class="corner bottom-right"></cover-view>
+      </cover-view>
+    </camera>
+
+    <!-- 预览图片 -->
+    <image 
+      wx:if="{{imageSrc}}"
+      class="preview-image"
+      src="{{imageSrc}}"
+      mode="aspectFit">
+    </image>
+
+    <!-- 裁剪遮罩 -->
+    <view class="crop-overlay" wx:if="{{isCropping && imageSrc}}">
+      <view class="crop-hint">拖动调整识别区域</view>
+    </view>
+  </view>
+
+  <!-- 操作按钮区 -->
+  <view class="action-section card">
+    <!-- 拍摄模式 -->
+    <view class="capture-controls" wx:if="{{!imageSrc}}">
+      <button class="btn-album" bindtap="chooseFromAlbum">
+        <text>📁 相册</text>
+      </button>
+      
+      <button class="btn-capture" bindtap="takePhoto">
+        <view class="capture-ring">
+          <view class="capture-inner"></view>
+        </view>
+      </button>
+      
+      <button class="btn-flash" bindtap="toggleFlash">
+        <text>{{flashMode === 'on' ? '⚡' : '🔅'}}</text>
+      </button>
+    </view>
+
+    <!-- 预览模式 -->
+    <view class="preview-controls" wx:if="{{imageSrc && !isRecognizing}}">
+      <button class="btn-secondary" bindtap="retakePhoto">
+        <text>重拍</text>
+      </button>
+      
+      <button class="btn-primary" bindtap="startRecognize" wx:if="{{!recognizedText}}">
+        <text>开始识别</text>
+      </button>
+      
+      <button class="btn-primary" bindtap="goToCompare" wx:if="{{recognizedText}}">
+        <text>查看对照</text>
+      </button>
+    </view>
+
+    <!-- 识别中 -->
+    <view class="recognizing" wx:if="{{isRecognizing}}">
+      <view class="loading-spinner"></view>
+      <text class="loading-text">正在识别文字...</text>
+    </view>
+  </view>
+
+  <!-- 识别结果预览 -->
+  <view class="result-preview card" wx:if="{{recognizedText}}">
+    <view class="result-header">
+      <text class="title">识别结果</text>
+      <button class="btn-edit" bindtap="editText">编辑</button>
+    </view>
+    <view class="result-text">{{recognizedText}}</view>
+  </view>
+
+  <!-- 手动输入备选 -->
+  <view class="manual-input card" wx:if="{{!recognizedText && !isRecognizing}}">
+    <text class="hint">识别效果不佳？</text>
+    <button class="btn-text" bindtap="manualInput">手动输入文本</button>
+  </view>
+</view>

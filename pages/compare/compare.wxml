@@ -1,0 +1,120 @@
+<!--pages/compare/compare.wxml-->
+<view class="container">
+  <!-- 评分头部 -->
+  <view class="score-header card">
+    <view class="score-circle">
+      <text class="score-value">{{score}}</text>
+      <text class="score-label">分</text>
+    </view>
+    <view class="score-detail">
+      <text class="accuracy">准确率 {{accuracy}}%</text>
+      <text class="points-earned">+{{earnedPoints}} 积分</text>
+    </view>
+  </view>
+
+  <!-- 统计信息 -->
+  <view class="stats-section card">
+    <view class="stat-row">
+      <view class="stat-item">
+        <text class="stat-value correct">{{stats.correct}}</text>
+        <text class="stat-label">正确</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value error">{{stats.error}}</text>
+        <text class="stat-label">错误</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value missing">{{stats.missing}}</text>
+        <text class="stat-label">遗漏</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value extra">{{stats.extra}}</text>
+        <text class="stat-label">多余</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 对照展示 -->
+  <view class="compare-section card">
+    <view class="compare-tabs">
+      <view 
+        class="tab {{activeTab === 'original' ? 'active' : ''}}"
+        bindtap="switchTab"
+        data-tab="original">
+        原文
+      </view>
+      <view 
+        class="tab {{activeTab === 'compare' ? 'active' : ''}}"
+        bindtap="switchTab"
+        data-tab="compare">
+        对照
+      </view>
+      <view 
+        class="tab {{activeTab === 'yours' ? 'active' : ''}}"
+        bindtap="switchTab"
+        data-tab="yours">
+        你的
+      </view>
+    </view>
+
+    <!-- 原文 -->
+    <view class="compare-content" wx:if="{{activeTab === 'original'}}">
+      <view class="text-block original-text">{{originalText}}</view>
+    </view>
+
+    <!-- 对照 -->
+    <view class="compare-content" wx:if="{{activeTab === 'compare'}}">
+      <view class="legend">
+        <view class="legend-item">
+          <view class="color-box correct"></view>
+          <text>正确</text>
+        </view>
+        <view class="legend-item">
+          <view class="color-box error"></view>
+          <text>错误</text>
+        </view>
+        <view class="legend-item">
+          <view class="color-box missing"></view>
+          <text>遗漏</text>
+        </view>
+      </view>
+      <view class="text-block compare-text">
+        <rich-text nodes="{{compareHtml}}"></rich-text>
+      </view>
+    </view>
+
+    <!-- 你的文本 -->
+    <view class="compare-content" wx:if="{{activeTab === 'yours'}}">
+      <view class="text-block user-text">{{userText}}</view>
+    </view>
+  </view>
+
+  <!-- 错误详情 -->
+  <view class="errors-section card" wx:if="{{errors.length > 0}}">
+    <view class="section-title">
+      <text>错误详情</text>
+    </view>
+    <view class="error-list">
+      <view class="error-item" wx:for="{{errors}}" wx:key="index">
+        <view class="error-type {{item.type}}">{{item.typeText}}</view>
+        <view class="error-detail">
+          <text class="original">原文: {{item.original}}</text>
+          <text class="user">你的: {{item.user}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部操作 -->
+  <view class="bottom-actions">
+    <button class="btn-secondary" bindtap="retryLevel">
+      <text>🔄 重新听写</text>
+    </button>
+    <button class="btn-primary" bindtap="nextLevel" wx:if="{{score >= level.unlockScore}}">
+      <text>下一关 ➡</text>
+    </button>
+    <button class="btn-primary" bindtap="backToList" wx:if="{{score < level.unlockScore}}">
+      <text>返回列表</text>
+    </button>
+  </view>
+</view>
