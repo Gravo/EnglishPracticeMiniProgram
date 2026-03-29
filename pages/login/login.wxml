@@ -1,0 +1,126 @@
+<!-- pages/login/login.wxml -->
+<view class="login-page">
+  <!-- 顶部 Logo -->
+  <view class="header">
+    <image class="logo" src="/assets/icons/logo.png" mode="aspectFit" />
+    <text class="title">Breaking Bad 英语学习</text>
+    <text class="subtitle">通过经典美剧学习地道英语</text>
+  </view>
+
+  <!-- 登录状态 -->
+  <view class="login-section" wx:if="{{authStatus === 'need_login'}}">
+    <view class="welcome-card">
+      <text class="welcome-title">欢迎使用</text>
+      <text class="welcome-desc">登录后即可开始学习之旅</text>
+    </view>
+
+    <!-- 微信登录按钮 -->
+    <button class="wx-login-btn" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+      <image class="wx-icon" src="/assets/icons/wechat.png" />
+      <text>微信一键登录</text>
+    </button>
+
+    <!-- 用户协议 -->
+    <view class="terms-section">
+      <checkbox-group bindchange="onAgreeTerms">
+        <label class="terms-label">
+          <checkbox value="agree" color="#07C160" />
+          <text class="terms-text">
+            我已阅读并同意
+            <text class="link" bindtap="onShowTerms">《用户协议》</text>
+            和
+            <text class="link" bindtap="onShowTerms">《隐私政策》</text>
+          </text>
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+
+  <!-- 已登录但未激活 -->
+  <view class="activate-section" wx:elif="{{authStatus === 'need_activate'}}">
+    <view class="user-card">
+      <image class="avatar" src="{{userInfo.avatarUrl || '/assets/icons/default_avatar.png'}}" />
+      <text class="nickname">{{userInfo.nickName}}</text>
+      <text class="welcome-tag">登录成功</text>
+    </view>
+
+    <view class="activate-card">
+      <text class="activate-title">🎁 激活解锁全部功能</text>
+      
+      <view class="activate-options">
+        <!-- 激活码激活 -->
+        <view class="activate-option" bindtap="onShowActivate">
+          <text class="option-icon">🔑</text>
+          <view class="option-content">
+            <text class="option-title">输入激活码</text>
+            <text class="option-desc">已有激活码？立即激活</text>
+          </view>
+          <text class="arrow">›</text>
+        </view>
+
+        <!-- 演示模式 -->
+        <view class="activate-option demo" bindtap="onSkipActivate">
+          <text class="option-icon">🎮</text>
+          <view class="option-content">
+            <text class="option-title">演示模式</text>
+            <text class="option-desc">试用所有功能（演示码）</text>
+          </view>
+          <text class="arrow">›</text>
+        </view>
+      </view>
+    </view>
+
+    <button class="logout-btn" bindtap="onLogout">退出登录</button>
+  </view>
+
+  <!-- 已激活 -->
+  <view class="active-section" wx:elif="{{authStatus === 'active'}}">
+    <view class="success-card">
+      <text class="success-icon">✅</text>
+      <text class="success-title">已激活</text>
+      <text class="success-desc">有效期至：{{licenseInfo.expires ? licenseInfo.expires : '永久'}}</text>
+    </view>
+
+    <button class="start-btn" bindtap="onStartLearn">开始学习</button>
+  </view>
+
+  <!-- 激活码弹窗 -->
+  <view class="mask" wx:if="{{showActivateDialog}}" bindtap="onCloseActivate">
+    <view class="activate-dialog" catchtap="noop">
+      <text class="dialog-title">输入激活码</text>
+      
+      <input 
+        class="code-input" 
+        type="text" 
+        placeholder="XXXX-XXXX-XXXX-XXXX" 
+        value="{{licenseCode}}"
+        bindinput="onLicenseInput"
+        maxlength="19"
+      />
+      
+      <text class="error-text" wx:if="{{activateError}}">{{activateError}}</text>
+      
+      <view class="dialog-btns">
+        <button class="dialog-cancel" bindtap="onCloseActivate">取消</button>
+        <button class="dialog-confirm" bindtap="onSubmitLicense" loading="{{isActivating}}">
+          激活
+        </button>
+      </view>
+
+      <view class="demo-hint">
+        <text>演示码: BBDEMO-2024-FREE</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 用户协议弹窗 -->
+  <view class="mask" wx:if="{{showTerms}}" bindtap="onCloseTerms">
+    <view class="terms-dialog" catchtap="noop">
+      <text class="dialog-title">用户协议</text>
+      <scroll-view class="terms-content" scroll-y>
+        <text>这里是用户协议内容...\n\n1. 服务条款\n2. 隐私政策\n3. 版权声明</text>
+      </scroll-view>
+      <button class="terms-confirm" bindtap="onCloseTerms">我已知晓</button>
+    </view>
+  </view>
+</view>

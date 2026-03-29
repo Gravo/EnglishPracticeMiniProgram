@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index/index",
     "pages/player/player",
     "pages/scan/scan",
@@ -8,30 +9,37 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4A90E2",
-    "navigationBarTitleText": "英语听写练习",
+    "navigationBarBackgroundColor": "#1a1a2e",
+    "navigationBarTitleText": "Breaking Bad 英语学习",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#F5F5F5"
   },
   "tabBar": {
     "color": "#999999",
-    "selectedColor": "#4A90E2",
+    "selectedColor": "#07C160",
     "backgroundColor": "#FFFFFF",
     "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "关卡"
+        "text": "关卡",
+        "iconPath": "assets/icons/levels.png",
+        "selectedIconPath": "assets/icons/levels_active.png"
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "assets/icons/profile.png",
+        "selectedIconPath": "assets/icons/profile_active.png"
       }
     ]
   },
   "permission": {
     "scope.camera": {
       "desc": "用于扫描手写文稿"
+    },
+    "scope.writePhotosAlbum": {
+      "desc": "用于保存学习成果"
     }
   },
   "requiredBackgroundModes": ["audio"],
