@@ -1,0 +1,4233 @@
+{
+  "meta": {
+    "total_words": 13820,
+    "unique_words": 2816,
+    "hs_overlap": 429,
+    "episodes": 7,
+    "subtitles": 4114
+  },
+  "frequency": [
+    {
+      "rank": 1,
+      "word": "to",
+      "count": 476,
+      "hs": true
+    },
+    {
+      "rank": 2,
+      "word": "and",
+      "count": 327,
+      "hs": true
+    },
+    {
+      "rank": 3,
+      "word": "of",
+      "count": 254,
+      "hs": true
+    },
+    {
+      "rank": 4,
+      "word": "know",
+      "count": 239,
+      "hs": true
+    },
+    {
+      "rank": 5,
+      "word": "in",
+      "count": 229,
+      "hs": false
+    },
+    {
+      "rank": 6,
+      "word": "right",
+      "count": 189,
+      "hs": true
+    },
+    {
+      "rank": 7,
+      "word": "on",
+      "count": 177,
+      "hs": true
+    },
+    {
+      "rank": 8,
+      "word": "for",
+      "count": 160,
+      "hs": false
+    },
+    {
+      "rank": 9,
+      "word": "like",
+      "count": 160,
+      "hs": true
+    },
+    {
+      "rank": 10,
+      "word": "about",
+      "count": 127,
+      "hs": true
+    },
+    {
+      "rank": 11,
+      "word": "up",
+      "count": 125,
+      "hs": true
+    },
+    {
+      "rank": 12,
+      "word": "got",
+      "count": 121,
+      "hs": false
+    },
+    {
+      "rank": 13,
+      "word": "out",
+      "count": 118,
+      "hs": true
+    },
+    {
+      "rank": 14,
+      "word": "well",
+      "count": 110,
+      "hs": true
+    },
+    {
+      "rank": 15,
+      "word": "man",
+      "count": 106,
+      "hs": true
+    },
+    {
+      "rank": 16,
+      "word": "but",
+      "count": 105,
+      "hs": true
+    },
+    {
+      "rank": 17,
+      "word": "mean",
+      "count": 103,
+      "hs": true
+    },
+    {
+      "rank": 18,
+      "word": "at",
+      "count": 100,
+      "hs": true
+    },
+    {
+      "rank": 19,
+      "word": "with",
+      "count": 93,
+      "hs": true
+    },
+    {
+      "rank": 20,
+      "word": "think",
+      "count": 90,
+      "hs": true
+    },
+    {
+      "rank": 21,
+      "word": "one",
+      "count": 88,
+      "hs": false
+    },
+    {
+      "rank": 22,
+      "word": "come",
+      "count": 87,
+      "hs": true
+    },
+    {
+      "rank": 23,
+      "word": "gonna",
+      "count": 85,
+      "hs": false
+    },
+    {
+      "rank": 24,
+      "word": "go",
+      "count": 85,
+      "hs": true
+    },
+    {
+      "rank": 25,
+      "word": "good",
+      "count": 84,
+      "hs": true
+    },
+    {
+      "rank": 26,
+      "word": "look",
+      "count": 82,
+      "hs": true
+    },
+    {
+      "rank": 27,
+      "word": "get",
+      "count": 76,
+      "hs": true
+    },
+    {
+      "rank": 28,
+      "word": "walt",
+      "count": 75,
+      "hs": false
+    },
+    {
+      "rank": 29,
+      "word": "tell",
+      "count": 70,
+      "hs": true
+    },
+    {
+      "rank": 30,
+      "word": "see",
+      "count": 59,
+      "hs": false
+    },
+    {
+      "rank": 31,
+      "word": "really",
+      "count": 59,
+      "hs": false
+    },
+    {
+      "rank": 32,
+      "word": "now",
+      "count": 53,
+      "hs": true
+    },
+    {
+      "rank": 33,
+      "word": "as",
+      "count": 52,
+      "hs": false
+    },
+    {
+      "rank": 34,
+      "word": "let",
+      "count": 52,
+      "hs": true
+    },
+    {
+      "rank": 35,
+      "word": "god",
+      "count": 51,
+      "hs": false
+    },
+    {
+      "rank": 36,
+      "word": "or",
+      "count": 50,
+      "hs": true
+    },
+    {
+      "rank": 37,
+      "word": "time",
+      "count": 50,
+      "hs": true
+    },
+    {
+      "rank": 38,
+      "word": "from",
+      "count": 50,
+      "hs": true
+    },
+    {
+      "rank": 39,
+      "word": "us",
+      "count": 50,
+      "hs": false
+    },
+    {
+      "rank": 40,
+      "word": "need",
+      "count": 50,
+      "hs": true
+    },
+    {
+      "rank": 41,
+      "word": "yo",
+      "count": 50,
+      "hs": false
+    },
+    {
+      "rank": 42,
+      "word": "say",
+      "count": 49,
+      "hs": true
+    },
+    {
+      "rank": 43,
+      "word": "shit",
+      "count": 47,
+      "hs": false
+    },
+    {
+      "rank": 44,
+      "word": "down",
+      "count": 46,
+      "hs": true
+    },
+    {
+      "rank": 45,
+      "word": "yes",
+      "count": 46,
+      "hs": true
+    },
+    {
+      "rank": 46,
+      "word": "way",
+      "count": 45,
+      "hs": true
+    },
+    {
+      "rank": 47,
+      "word": "thank",
+      "count": 44,
+      "hs": false
+    },
+    {
+      "rank": 48,
+      "word": "hell",
+      "count": 44,
+      "hs": false
+    },
+    {
+      "rank": 49,
+      "word": "something",
+      "count": 44,
+      "hs": true
+    },
+    {
+      "rank": 50,
+      "word": "maybe",
+      "count": 43,
+      "hs": false
+    },
+    {
+      "rank": 51,
+      "word": "back",
+      "count": 42,
+      "hs": true
+    },
+    {
+      "rank": 52,
+      "word": "want",
+      "count": 41,
+      "hs": true
+    },
+    {
+      "rank": 53,
+      "word": "huh",
+      "count": 41,
+      "hs": false
+    },
+    {
+      "rank": 54,
+      "word": "off",
+      "count": 40,
+      "hs": true
+    },
+    {
+      "rank": 55,
+      "word": "talk",
+      "count": 40,
+      "hs": true
+    },
+    {
+      "rank": 56,
+      "word": "then",
+      "count": 38,
+      "hs": true
+    },
+    {
+      "rank": 57,
+      "word": "take",
+      "count": 37,
+      "hs": true
+    },
+    {
+      "rank": 58,
+      "word": "even",
+      "count": 36,
+      "hs": true
+    },
+    {
+      "rank": 59,
+      "word": "said",
+      "count": 36,
+      "hs": false
+    },
+    {
+      "rank": 60,
+      "word": "white",
+      "count": 35,
+      "hs": false
+    },
+    {
+      "rank": 61,
+      "word": "sorry",
+      "count": 35,
+      "hs": false
+    },
+    {
+      "rank": 62,
+      "word": "make",
+      "count": 34,
+      "hs": true
+    },
+    {
+      "rank": 63,
+      "word": "little",
+      "count": 34,
+      "hs": true
+    },
+    {
+      "rank": 64,
+      "word": "going",
+      "count": 33,
+      "hs": false
+    },
+    {
+      "rank": 65,
+      "word": "gotta",
+      "count": 33,
+      "hs": false
+    },
+    {
+      "rank": 66,
+      "word": "any",
+      "count": 33,
+      "hs": true
+    },
+    {
+      "rank": 67,
+      "word": "wanna",
+      "count": 33,
+      "hs": false
+    },
+    {
+      "rank": 68,
+      "word": "thing",
+      "count": 33,
+      "hs": true
+    },
+    {
+      "rank": 69,
+      "word": "money",
+      "count": 32,
+      "hs": true
+    },
+    {
+      "rank": 70,
+      "word": "talking",
+      "count": 31,
+      "hs": false
+    },
+    {
+      "rank": 71,
+      "word": "listen",
+      "count": 31,
+      "hs": true
+    },
+    {
+      "rank": 72,
+      "word": "ca",
+      "count": 31,
+      "hs": false
+    },
+    {
+      "rank": 73,
+      "word": "work",
+      "count": 30,
+      "hs": true
+    },
+    {
+      "rank": 74,
+      "word": "much",
+      "count": 30,
+      "hs": true
+    },
+    {
+      "rank": 75,
+      "word": "sure",
+      "count": 30,
+      "hs": true
+    },
+    {
+      "rank": 76,
+      "word": "meth",
+      "count": 29,
+      "hs": false
+    },
+    {
+      "rank": 77,
+      "word": "two",
+      "count": 28,
+      "hs": false
+    },
+    {
+      "rank": 78,
+      "word": "mr",
+      "count": 28,
+      "hs": false
+    },
+    {
+      "rank": 79,
+      "word": "kind",
+      "count": 28,
+      "hs": true
+    },
+    {
+      "rank": 80,
+      "word": "cook",
+      "count": 28,
+      "hs": false
+    },
+    {
+      "rank": 81,
+      "word": "guy",
+      "count": 28,
+      "hs": false
+    },
+    {
+      "rank": 82,
+      "word": "please",
+      "count": 28,
+      "hs": false
+    },
+    {
+      "rank": 83,
+      "word": "walter",
+      "count": 27,
+      "hs": false
+    },
+    {
+      "rank": 84,
+      "word": "skyler",
+      "count": 27,
+      "hs": false
+    },
+    {
+      "rank": 85,
+      "word": "saying",
+      "count": 27,
+      "hs": false
+    },
+    {
+      "rank": 86,
+      "word": "over",
+      "count": 26,
+      "hs": true
+    },
+    {
+      "rank": 87,
+      "word": "check",
+      "count": 26,
+      "hs": true
+    },
+    {
+      "rank": 88,
+      "word": "house",
+      "count": 26,
+      "hs": true
+    },
+    {
+      "rank": 89,
+      "word": "name",
+      "count": 25,
+      "hs": true
+    },
+    {
+      "rank": 90,
+      "word": "fine",
+      "count": 25,
+      "hs": false
+    },
+    {
+      "rank": 91,
+      "word": "damn",
+      "count": 25,
+      "hs": false
+    },
+    {
+      "rank": 92,
+      "word": "call",
+      "count": 25,
+      "hs": true
+    },
+    {
+      "rank": 93,
+      "word": "big",
+      "count": 24,
+      "hs": true
+    },
+    {
+      "rank": 94,
+      "word": "ass",
+      "count": 24,
+      "hs": false
+    },
+    {
+      "rank": 95,
+      "word": "marie",
+      "count": 24,
+      "hs": false
+    },
+    {
+      "rank": 96,
+      "word": "by",
+      "count": 24,
+      "hs": true
+    },
+    {
+      "rank": 97,
+      "word": "thinking",
+      "count": 24,
+      "hs": false
+    },
+    {
+      "rank": 98,
+      "word": "only",
+      "count": 23,
+      "hs": true
+    },
+    {
+      "rank": 99,
+      "word": "hank",
+      "count": 23,
+      "hs": false
+    },
+    {
+      "rank": 100,
+      "word": "nothing",
+      "count": 23,
+      "hs": true
+    },
+    {
+      "rank": 101,
+      "word": "give",
+      "count": 22,
+      "hs": true
+    },
+    {
+      "rank": 102,
+      "word": "heh",
+      "count": 21,
+      "hs": false
+    },
+    {
+      "rank": 103,
+      "word": "wow",
+      "count": 21,
+      "hs": false
+    },
+    {
+      "rank": 104,
+      "word": "actually",
+      "count": 21,
+      "hs": true
+    },
+    {
+      "rank": 105,
+      "word": "wait",
+      "count": 21,
+      "hs": false
+    },
+    {
+      "rank": 106,
+      "word": "enough",
+      "count": 20,
+      "hs": true
+    },
+    {
+      "rank": 107,
+      "word": "day",
+      "count": 20,
+      "hs": true
+    },
+    {
+      "rank": 108,
+      "word": "last",
+      "count": 20,
+      "hs": true
+    },
+    {
+      "rank": 109,
+      "word": "school",
+      "count": 20,
+      "hs": true
+    },
+    {
+      "rank": 110,
+      "word": "told",
+      "count": 20,
+      "hs": false
+    },
+    {
+      "rank": 111,
+      "word": "tuco",
+      "count": 20,
+      "hs": false
+    },
+    {
+      "rank": 112,
+      "word": "next",
+      "count": 19,
+      "hs": true
+    },
+    {
+      "rank": 113,
+      "word": "better",
+      "count": 19,
+      "hs": true
+    },
+    {
+      "rank": 114,
+      "word": "chemistry",
+      "count": 19,
+      "hs": false
+    },
+    {
+      "rank": 115,
+      "word": "ever",
+      "count": 19,
+      "hs": true
+    },
+    {
+      "rank": 116,
+      "word": "best",
+      "count": 19,
+      "hs": true
+    },
+    {
+      "rank": 117,
+      "word": "jesus",
+      "count": 19,
+      "hs": false
+    },
+    {
+      "rank": 118,
+      "word": "around",
+      "count": 18,
+      "hs": true
+    },
+    {
+      "rank": 119,
+      "word": "pounds",
+      "count": 18,
+      "hs": false
+    },
+    {
+      "rank": 120,
+      "word": "lab",
+      "count": 18,
+      "hs": false
+    },
+    {
+      "rank": 121,
+      "word": "never",
+      "count": 18,
+      "hs": true
+    },
+    {
+      "rank": 122,
+      "word": "dude",
+      "count": 18,
+      "hs": false
+    },
+    {
+      "rank": 123,
+      "word": "whatever",
+      "count": 18,
+      "hs": false
+    },
+    {
+      "rank": 124,
+      "word": "hello",
+      "count": 18,
+      "hs": false
+    },
+    {
+      "rank": 125,
+      "word": "new",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 126,
+      "word": "old",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 127,
+      "word": "into",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 128,
+      "word": "baby",
+      "count": 17,
+      "hs": false
+    },
+    {
+      "rank": 129,
+      "word": "pretty",
+      "count": 17,
+      "hs": false
+    },
+    {
+      "rank": 130,
+      "word": "after",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 131,
+      "word": "find",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 132,
+      "word": "remember",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 133,
+      "word": "start",
+      "count": 17,
+      "hs": true
+    },
+    {
+      "rank": 134,
+      "word": "left",
+      "count": 17,
+      "hs": false
+    },
+    {
+      "rank": 135,
+      "word": "used",
+      "count": 17,
+      "hs": false
+    },
+    {
+      "rank": 136,
+      "word": "life",
+      "count": 16,
+      "hs": true
+    },
+    {
+      "rank": 137,
+      "word": "guess",
+      "count": 16,
+      "hs": false
+    },
+    {
+      "rank": 138,
+      "word": "feel",
+      "count": 16,
+      "hs": true
+    },
+    {
+      "rank": 139,
+      "word": "car",
+      "count": 16,
+      "hs": false
+    },
+    {
+      "rank": 140,
+      "word": "another",
+      "count": 16,
+      "hs": true
+    },
+    {
+      "rank": 141,
+      "word": "always",
+      "count": 16,
+      "hs": true
+    },
+    {
+      "rank": 142,
+      "word": "anything",
+      "count": 16,
+      "hs": true
+    },
+    {
+      "rank": 143,
+      "word": "jesse",
+      "count": 16,
+      "hs": false
+    },
+    {
+      "rank": 144,
+      "word": "honey",
+      "count": 16,
+      "hs": false
+    },
+    {
+      "rank": 145,
+      "word": "elliott",
+      "count": 16,
+      "hs": false
+    },
+    {
+      "rank": 146,
+      "word": "bad",
+      "count": 15,
+      "hs": true
+    },
+    {
+      "rank": 147,
+      "word": "dad",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 148,
+      "word": "understand",
+      "count": 15,
+      "hs": true
+    },
+    {
+      "rank": 149,
+      "word": "emilio",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 150,
+      "word": "half",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 151,
+      "word": "people",
+      "count": 15,
+      "hs": true
+    },
+    {
+      "rank": 152,
+      "word": "looking",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 153,
+      "word": "business",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 154,
+      "word": "sell",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 155,
+      "word": "thought",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 156,
+      "word": "through",
+      "count": 15,
+      "hs": true
+    },
+    {
+      "rank": 157,
+      "word": "thanks",
+      "count": 15,
+      "hs": false
+    },
+    {
+      "rank": 158,
+      "word": "family",
+      "count": 14,
+      "hs": true
+    },
+    {
+      "rank": 159,
+      "word": "love",
+      "count": 14,
+      "hs": true
+    },
+    {
+      "rank": 160,
+      "word": "first",
+      "count": 14,
+      "hs": true
+    },
+    {
+      "rank": 161,
+      "word": "put",
+      "count": 14,
+      "hs": true
+    },
+    {
+      "rank": 162,
+      "word": "boy",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 163,
+      "word": "supposed",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 164,
+      "word": "keep",
+      "count": 14,
+      "hs": true
+    },
+    {
+      "rank": 165,
+      "word": "anyway",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 166,
+      "word": "partner",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 167,
+      "word": "try",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 168,
+      "word": "came",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 169,
+      "word": "trying",
+      "count": 14,
+      "hs": false
+    },
+    {
+      "rank": 170,
+      "word": "says",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 171,
+      "word": "nice",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 172,
+      "word": "place",
+      "count": 13,
+      "hs": true
+    },
+    {
+      "rank": 173,
+      "word": "sit",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 174,
+      "word": "cancer",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 175,
+      "word": "long",
+      "count": 13,
+      "hs": true
+    },
+    {
+      "rank": 176,
+      "word": "ai",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 177,
+      "word": "deal",
+      "count": 13,
+      "hs": true
+    },
+    {
+      "rank": 178,
+      "word": "seriously",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 179,
+      "word": "made",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 180,
+      "word": "working",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 181,
+      "word": "pot",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 182,
+      "word": "cool",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 183,
+      "word": "week",
+      "count": 13,
+      "hs": false
+    },
+    {
+      "rank": 184,
+      "word": "same",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 185,
+      "word": "again",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 186,
+      "word": "idea",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 187,
+      "word": "real",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 188,
+      "word": "wrong",
+      "count": 12,
+      "hs": false
+    },
+    {
+      "rank": 189,
+      "word": "minute",
+      "count": 12,
+      "hs": false
+    },
+    {
+      "rank": 190,
+      "word": "lot",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 191,
+      "word": "help",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 192,
+      "word": "krazy",
+      "count": 12,
+      "hs": false
+    },
+    {
+      "rank": 193,
+      "word": "mind",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 194,
+      "word": "percent",
+      "count": 12,
+      "hs": false
+    },
+    {
+      "rank": 195,
+      "word": "great",
+      "count": 12,
+      "hs": true
+    },
+    {
+      "rank": 196,
+      "word": "home",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 197,
+      "word": "easy",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 198,
+      "word": "brother",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 199,
+      "word": "took",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 200,
+      "word": "morning",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 201,
+      "word": "ha",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 202,
+      "word": "ask",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 203,
+      "word": "years",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 204,
+      "word": "crystal",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 205,
+      "word": "flask",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 206,
+      "word": "else",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 207,
+      "word": "stuff",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 208,
+      "word": "stupid",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 209,
+      "word": "course",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 210,
+      "word": "excuse",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 211,
+      "word": "job",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 212,
+      "word": "already",
+      "count": 11,
+      "hs": true
+    },
+    {
+      "rank": 213,
+      "word": "pound",
+      "count": 11,
+      "hs": false
+    },
+    {
+      "rank": 214,
+      "word": "live",
+      "count": 10,
+      "hs": true
+    },
+    {
+      "rank": 215,
+      "word": "law",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 216,
+      "word": "things",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 217,
+      "word": "buy",
+      "count": 10,
+      "hs": true
+    },
+    {
+      "rank": 218,
+      "word": "getting",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 219,
+      "word": "three",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 220,
+      "word": "couple",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 221,
+      "word": "night",
+      "count": 10,
+      "hs": true
+    },
+    {
+      "rank": 222,
+      "word": "away",
+      "count": 10,
+      "hs": true
+    },
+    {
+      "rank": 223,
+      "word": "leave",
+      "count": 10,
+      "hs": true
+    },
+    {
+      "rank": 224,
+      "word": "whole",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 225,
+      "word": "town",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 226,
+      "word": "everything",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 227,
+      "word": "found",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 228,
+      "word": "buddy",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 229,
+      "word": "treatment",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 230,
+      "word": "hugo",
+      "count": 10,
+      "hs": false
+    },
+    {
+      "rank": 231,
+      "word": "jr",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 232,
+      "word": "matter",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 233,
+      "word": "before",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 234,
+      "word": "happy",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 235,
+      "word": "six",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 236,
+      "word": "coming",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 237,
+      "word": "bring",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 238,
+      "word": "everybody",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 239,
+      "word": "drug",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 240,
+      "word": "still",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 241,
+      "word": "lately",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 242,
+      "word": "rv",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 243,
+      "word": "world",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 244,
+      "word": "happened",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 245,
+      "word": "absolutely",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 246,
+      "word": "level",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 247,
+      "word": "until",
+      "count": 9,
+      "hs": true
+    },
+    {
+      "rank": 248,
+      "word": "bitch",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 249,
+      "word": "making",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 250,
+      "word": "front",
+      "count": 9,
+      "hs": false
+    },
+    {
+      "rank": 251,
+      "word": "year",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 252,
+      "word": "birthday",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 253,
+      "word": "believe",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 254,
+      "word": "late",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 255,
+      "word": "eat",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 256,
+      "word": "hand",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 257,
+      "word": "run",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 258,
+      "word": "looks",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 259,
+      "word": "operation",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 260,
+      "word": "grand",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 261,
+      "word": "probably",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 262,
+      "word": "ahem",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 263,
+      "word": "show",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 264,
+      "word": "use",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 265,
+      "word": "fucking",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 266,
+      "word": "goes",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 267,
+      "word": "exactly",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 268,
+      "word": "whoa",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 269,
+      "word": "heads",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 270,
+      "word": "somebody",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 271,
+      "word": "smoke",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 272,
+      "word": "tight",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 273,
+      "word": "mom",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 274,
+      "word": "selling",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 275,
+      "word": "cousin",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 276,
+      "word": "bullshit",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 277,
+      "word": "hear",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 278,
+      "word": "dead",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 279,
+      "word": "shh",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 280,
+      "word": "together",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 281,
+      "word": "five",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 282,
+      "word": "missing",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 283,
+      "word": "hours",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 284,
+      "word": "wanted",
+      "count": 8,
+      "hs": false
+    },
+    {
+      "rank": 285,
+      "word": "sometimes",
+      "count": 8,
+      "hs": true
+    },
+    {
+      "rank": 286,
+      "word": "till",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 287,
+      "word": "water",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 288,
+      "word": "change",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 289,
+      "word": "done",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 290,
+      "word": "glass",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 291,
+      "word": "turn",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 292,
+      "word": "word",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 293,
+      "word": "minutes",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 294,
+      "word": "son",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 295,
+      "word": "anybody",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 296,
+      "word": "lung",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 297,
+      "word": "tomorrow",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 298,
+      "word": "stay",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 299,
+      "word": "aunt",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 300,
+      "word": "own",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 301,
+      "word": "high",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 302,
+      "word": "dea",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 303,
+      "word": "telling",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 304,
+      "word": "straight",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 305,
+      "word": "break",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 306,
+      "word": "nobody",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 307,
+      "word": "shut",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 308,
+      "word": "phone",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 309,
+      "word": "lock",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 310,
+      "word": "gave",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 311,
+      "word": "face",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 312,
+      "word": "touch",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 313,
+      "word": "times",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 314,
+      "word": "care",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 315,
+      "word": "without",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 316,
+      "word": "problem",
+      "count": 7,
+      "hs": true
+    },
+    {
+      "rank": 317,
+      "word": "party",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 318,
+      "word": "wendy",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 319,
+      "word": "someone",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 320,
+      "word": "turns",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 321,
+      "word": "heard",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 322,
+      "word": "sir",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 323,
+      "word": "pseudo",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 324,
+      "word": "tiara",
+      "count": 7,
+      "hs": false
+    },
+    {
+      "rank": 325,
+      "word": "albuquerque",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 326,
+      "word": "days",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 327,
+      "word": "energy",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 328,
+      "word": "makes",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 329,
+      "word": "wash",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 330,
+      "word": "serious",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 331,
+      "word": "carmen",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 332,
+      "word": "seen",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 333,
+      "word": "point",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 334,
+      "word": "office",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 335,
+      "word": "watch",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 336,
+      "word": "close",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 337,
+      "word": "fifty",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 338,
+      "word": "favor",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 339,
+      "word": "outside",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 340,
+      "word": "powder",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 341,
+      "word": "kill",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 342,
+      "word": "least",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 343,
+      "word": "giving",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 344,
+      "word": "welcome",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 345,
+      "word": "open",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 346,
+      "word": "seems",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 347,
+      "word": "cooking",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 348,
+      "word": "equipment",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 349,
+      "word": "wants",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 350,
+      "word": "seven",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 351,
+      "word": "since",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 352,
+      "word": "happening",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 353,
+      "word": "clean",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 354,
+      "word": "mad",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 355,
+      "word": "small",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 356,
+      "word": "appreciate",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 357,
+      "word": "acting",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 358,
+      "word": "entire",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 359,
+      "word": "ready",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 360,
+      "word": "guys",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 361,
+      "word": "wearing",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 362,
+      "word": "part",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 363,
+      "word": "chemical",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 364,
+      "word": "coin",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 365,
+      "word": "plastic",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 366,
+      "word": "end",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 367,
+      "word": "store",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 368,
+      "word": "excellent",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 369,
+      "word": "called",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 370,
+      "word": "marijuana",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 371,
+      "word": "line",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 372,
+      "word": "spend",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 373,
+      "word": "basement",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 374,
+      "word": "asked",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 375,
+      "word": "happens",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 376,
+      "word": "major",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 377,
+      "word": "door",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 378,
+      "word": "beer",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 379,
+      "word": "weeks",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 380,
+      "word": "chance",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 381,
+      "word": "ice",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 382,
+      "word": "experience",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 383,
+      "word": "gift",
+      "count": 6,
+      "hs": true
+    },
+    {
+      "rank": 384,
+      "word": "gretchen",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 385,
+      "word": "months",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 386,
+      "word": "heisenberg",
+      "count": 6,
+      "hs": false
+    },
+    {
+      "rank": 387,
+      "word": "speaking",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 388,
+      "word": "hope",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 389,
+      "word": "learn",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 390,
+      "word": "wo",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 391,
+      "word": "paid",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 392,
+      "word": "later",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 393,
+      "word": "million",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 394,
+      "word": "crap",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 395,
+      "word": "set",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 396,
+      "word": "chemicals",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 397,
+      "word": "bogdan",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 398,
+      "word": "talked",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 399,
+      "word": "short",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 400,
+      "word": "cleaning",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 401,
+      "word": "ooh",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 402,
+      "word": "amount",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 403,
+      "word": "taken",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 404,
+      "word": "ma",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 405,
+      "word": "cash",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 406,
+      "word": "knock",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 407,
+      "word": "gets",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 408,
+      "word": "eyes",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 409,
+      "word": "case",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 410,
+      "word": "eight",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 411,
+      "word": "snitch",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 412,
+      "word": "cap",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 413,
+      "word": "lives",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 414,
+      "word": "clear",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 415,
+      "word": "gas",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 416,
+      "word": "pinkman",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 417,
+      "word": "alone",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 418,
+      "word": "ago",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 419,
+      "word": "today",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 420,
+      "word": "dollars",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 421,
+      "word": "bottom",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 422,
+      "word": "also",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 423,
+      "word": "feeling",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 424,
+      "word": "skinny",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 425,
+      "word": "pants",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 426,
+      "word": "cow",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 427,
+      "word": "goddamn",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 428,
+      "word": "iron",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 429,
+      "word": "ese",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 430,
+      "word": "ahead",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 431,
+      "word": "lady",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 432,
+      "word": "kick",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 433,
+      "word": "funny",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 434,
+      "word": "photos",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 435,
+      "word": "calling",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 436,
+      "word": "die",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 437,
+      "word": "sales",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 438,
+      "word": "went",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 439,
+      "word": "sick",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 440,
+      "word": "interest",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 441,
+      "word": "reason",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 442,
+      "word": "asking",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 443,
+      "word": "fit",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 444,
+      "word": "reaction",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 445,
+      "word": "body",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 446,
+      "word": "far",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 447,
+      "word": "girl",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 448,
+      "word": "students",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 449,
+      "word": "stop",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 450,
+      "word": "beautiful",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 451,
+      "word": "caught",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 452,
+      "word": "rules",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 453,
+      "word": "figure",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 454,
+      "word": "happen",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 455,
+      "word": "wondering",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 456,
+      "word": "toilet",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 457,
+      "word": "worth",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 458,
+      "word": "hit",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 459,
+      "word": "started",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 460,
+      "word": "hard",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 461,
+      "word": "furniture",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 462,
+      "word": "head",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 463,
+      "word": "key",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 464,
+      "word": "hair",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 465,
+      "word": "breath",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 466,
+      "word": "cooked",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 467,
+      "word": "fat",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 468,
+      "word": "friday",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 469,
+      "word": "thousand",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 470,
+      "word": "dudes",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 471,
+      "word": "wire",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 472,
+      "word": "speak",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 473,
+      "word": "four",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 474,
+      "word": "lose",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 475,
+      "word": "return",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 476,
+      "word": "jeez",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 477,
+      "word": "sweat",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 478,
+      "word": "esmeralda",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 479,
+      "word": "legal",
+      "count": 5,
+      "hs": true
+    },
+    {
+      "rank": 480,
+      "word": "methylamine",
+      "count": 5,
+      "hs": false
+    },
+    {
+      "rank": 481,
+      "word": "christ",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 482,
+      "word": "mexico",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 483,
+      "word": "heart",
+      "count": 4,
+      "hs": true
+    },
+    {
+      "rank": 484,
+      "word": "bacon",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 485,
+      "word": "difference",
+      "count": 4,
+      "hs": true
+    },
+    {
+      "rank": 486,
+      "word": "tonight",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 487,
+      "word": "hot",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 488,
+      "word": "wake",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 489,
+      "word": "person",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 490,
+      "word": "shower",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 491,
+      "word": "study",
+      "count": 4,
+      "hs": true
+    },
+    {
+      "rank": 492,
+      "word": "anyone",
+      "count": 4,
+      "hs": true
+    },
+    {
+      "rank": 493,
+      "word": "table",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 494,
+      "word": "awesome",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 495,
+      "word": "meet",
+      "count": 4,
+      "hs": true
+    },
+    {
+      "rank": 496,
+      "word": "plus",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 497,
+      "word": "gun",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 498,
+      "word": "agents",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 499,
+      "word": "methamphetamine",
+      "count": 4,
+      "hs": false
+    },
+    {
+      "rank": 500,
+      "word": "ride",
+      "count": 4,
+      "hs": false
+    }
+  ],
+  "episodes": {
+    "1": {
+      "total": 2091,
+      "unique": 838,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          53
+        ],
+        [
+          "and",
+          38
+        ],
+        [
+          "on",
+          34
+        ],
+        [
+          "in",
+          31
+        ],
+        [
+          "know",
+          30
+        ],
+        [
+          "of",
+          29
+        ],
+        [
+          "right",
+          26
+        ],
+        [
+          "up",
+          24
+        ],
+        [
+          "come",
+          22
+        ],
+        [
+          "for",
+          22
+        ],
+        [
+          "one",
+          22
+        ],
+        [
+          "at",
+          21
+        ],
+        [
+          "well",
+          20
+        ],
+        [
+          "like",
+          20
+        ],
+        [
+          "go",
+          19
+        ],
+        [
+          "got",
+          18
+        ],
+        [
+          "about",
+          16
+        ],
+        [
+          "gonna",
+          15
+        ],
+        [
+          "cook",
+          15
+        ],
+        [
+          "think",
+          14
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          53
+        ],
+        [
+          "and",
+          38
+        ],
+        [
+          "on",
+          34
+        ],
+        [
+          "know",
+          30
+        ],
+        [
+          "of",
+          29
+        ],
+        [
+          "right",
+          26
+        ],
+        [
+          "up",
+          24
+        ],
+        [
+          "come",
+          22
+        ],
+        [
+          "at",
+          21
+        ],
+        [
+          "well",
+          20
+        ],
+        [
+          "like",
+          20
+        ],
+        [
+          "go",
+          19
+        ],
+        [
+          "about",
+          16
+        ],
+        [
+          "think",
+          14
+        ],
+        [
+          "man",
+          13
+        ],
+        [
+          "get",
+          13
+        ],
+        [
+          "mean",
+          13
+        ],
+        [
+          "want",
+          12
+        ],
+        [
+          "look",
+          12
+        ],
+        [
+          "good",
+          12
+        ]
+      ]
+    },
+    "2": {
+      "total": 1686,
+      "unique": 666,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          62
+        ],
+        [
+          "and",
+          43
+        ],
+        [
+          "of",
+          38
+        ],
+        [
+          "in",
+          36
+        ],
+        [
+          "know",
+          33
+        ],
+        [
+          "right",
+          30
+        ],
+        [
+          "up",
+          22
+        ],
+        [
+          "like",
+          19
+        ],
+        [
+          "on",
+          18
+        ],
+        [
+          "man",
+          17
+        ],
+        [
+          "good",
+          17
+        ],
+        [
+          "for",
+          15
+        ],
+        [
+          "one",
+          15
+        ],
+        [
+          "gonna",
+          14
+        ],
+        [
+          "now",
+          14
+        ],
+        [
+          "yes",
+          13
+        ],
+        [
+          "go",
+          13
+        ],
+        [
+          "with",
+          13
+        ],
+        [
+          "look",
+          13
+        ],
+        [
+          "mean",
+          12
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          62
+        ],
+        [
+          "and",
+          43
+        ],
+        [
+          "of",
+          38
+        ],
+        [
+          "know",
+          33
+        ],
+        [
+          "right",
+          30
+        ],
+        [
+          "up",
+          22
+        ],
+        [
+          "like",
+          19
+        ],
+        [
+          "on",
+          18
+        ],
+        [
+          "man",
+          17
+        ],
+        [
+          "good",
+          17
+        ],
+        [
+          "now",
+          14
+        ],
+        [
+          "yes",
+          13
+        ],
+        [
+          "go",
+          13
+        ],
+        [
+          "with",
+          13
+        ],
+        [
+          "look",
+          13
+        ],
+        [
+          "mean",
+          12
+        ],
+        [
+          "out",
+          12
+        ],
+        [
+          "well",
+          11
+        ],
+        [
+          "at",
+          10
+        ],
+        [
+          "about",
+          10
+        ]
+      ]
+    },
+    "3": {
+      "total": 1696,
+      "unique": 701,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          59
+        ],
+        [
+          "and",
+          40
+        ],
+        [
+          "know",
+          33
+        ],
+        [
+          "in",
+          31
+        ],
+        [
+          "of",
+          27
+        ],
+        [
+          "on",
+          23
+        ],
+        [
+          "like",
+          22
+        ],
+        [
+          "think",
+          21
+        ],
+        [
+          "for",
+          18
+        ],
+        [
+          "about",
+          16
+        ],
+        [
+          "got",
+          16
+        ],
+        [
+          "up",
+          16
+        ],
+        [
+          "sorry",
+          14
+        ],
+        [
+          "down",
+          13
+        ],
+        [
+          "right",
+          13
+        ],
+        [
+          "go",
+          12
+        ],
+        [
+          "but",
+          12
+        ],
+        [
+          "let",
+          11
+        ],
+        [
+          "get",
+          11
+        ],
+        [
+          "out",
+          11
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          59
+        ],
+        [
+          "and",
+          40
+        ],
+        [
+          "know",
+          33
+        ],
+        [
+          "of",
+          27
+        ],
+        [
+          "on",
+          23
+        ],
+        [
+          "like",
+          22
+        ],
+        [
+          "think",
+          21
+        ],
+        [
+          "about",
+          16
+        ],
+        [
+          "up",
+          16
+        ],
+        [
+          "down",
+          13
+        ],
+        [
+          "right",
+          13
+        ],
+        [
+          "go",
+          12
+        ],
+        [
+          "but",
+          12
+        ],
+        [
+          "let",
+          11
+        ],
+        [
+          "get",
+          11
+        ],
+        [
+          "out",
+          11
+        ],
+        [
+          "at",
+          10
+        ],
+        [
+          "come",
+          10
+        ],
+        [
+          "tell",
+          10
+        ],
+        [
+          "man",
+          10
+        ]
+      ]
+    },
+    "4": {
+      "total": 2130,
+      "unique": 861,
+      "new_words": 50,
+      "top20": [
+        [
+          "and",
+          63
+        ],
+        [
+          "to",
+          61
+        ],
+        [
+          "know",
+          46
+        ],
+        [
+          "of",
+          44
+        ],
+        [
+          "in",
+          37
+        ],
+        [
+          "right",
+          35
+        ],
+        [
+          "on",
+          30
+        ],
+        [
+          "out",
+          29
+        ],
+        [
+          "like",
+          26
+        ],
+        [
+          "for",
+          24
+        ],
+        [
+          "think",
+          21
+        ],
+        [
+          "about",
+          21
+        ],
+        [
+          "got",
+          21
+        ],
+        [
+          "tell",
+          16
+        ],
+        [
+          "man",
+          16
+        ],
+        [
+          "but",
+          15
+        ],
+        [
+          "up",
+          15
+        ],
+        [
+          "walt",
+          14
+        ],
+        [
+          "gonna",
+          13
+        ],
+        [
+          "us",
+          13
+        ]
+      ],
+      "hs_top20": [
+        [
+          "and",
+          63
+        ],
+        [
+          "to",
+          61
+        ],
+        [
+          "know",
+          46
+        ],
+        [
+          "of",
+          44
+        ],
+        [
+          "right",
+          35
+        ],
+        [
+          "on",
+          30
+        ],
+        [
+          "out",
+          29
+        ],
+        [
+          "like",
+          26
+        ],
+        [
+          "think",
+          21
+        ],
+        [
+          "about",
+          21
+        ],
+        [
+          "tell",
+          16
+        ],
+        [
+          "man",
+          16
+        ],
+        [
+          "but",
+          15
+        ],
+        [
+          "up",
+          15
+        ],
+        [
+          "mean",
+          13
+        ],
+        [
+          "good",
+          13
+        ],
+        [
+          "get",
+          13
+        ],
+        [
+          "well",
+          12
+        ],
+        [
+          "go",
+          12
+        ],
+        [
+          "at",
+          11
+        ]
+      ]
+    },
+    "5": {
+      "total": 2024,
+      "unique": 732,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          90
+        ],
+        [
+          "and",
+          56
+        ],
+        [
+          "of",
+          36
+        ],
+        [
+          "know",
+          35
+        ],
+        [
+          "for",
+          31
+        ],
+        [
+          "about",
+          27
+        ],
+        [
+          "walt",
+          27
+        ],
+        [
+          "in",
+          26
+        ],
+        [
+          "on",
+          26
+        ],
+        [
+          "but",
+          25
+        ],
+        [
+          "like",
+          23
+        ],
+        [
+          "right",
+          23
+        ],
+        [
+          "mean",
+          18
+        ],
+        [
+          "up",
+          18
+        ],
+        [
+          "well",
+          17
+        ],
+        [
+          "really",
+          17
+        ],
+        [
+          "man",
+          16
+        ],
+        [
+          "get",
+          16
+        ],
+        [
+          "say",
+          15
+        ],
+        [
+          "look",
+          15
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          90
+        ],
+        [
+          "and",
+          56
+        ],
+        [
+          "of",
+          36
+        ],
+        [
+          "know",
+          35
+        ],
+        [
+          "about",
+          27
+        ],
+        [
+          "on",
+          26
+        ],
+        [
+          "but",
+          25
+        ],
+        [
+          "like",
+          23
+        ],
+        [
+          "right",
+          23
+        ],
+        [
+          "mean",
+          18
+        ],
+        [
+          "up",
+          18
+        ],
+        [
+          "well",
+          17
+        ],
+        [
+          "man",
+          16
+        ],
+        [
+          "get",
+          16
+        ],
+        [
+          "say",
+          15
+        ],
+        [
+          "look",
+          15
+        ],
+        [
+          "good",
+          13
+        ],
+        [
+          "with",
+          13
+        ],
+        [
+          "out",
+          13
+        ],
+        [
+          "come",
+          12
+        ]
+      ]
+    },
+    "6": {
+      "total": 1748,
+      "unique": 701,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          56
+        ],
+        [
+          "and",
+          35
+        ],
+        [
+          "right",
+          33
+        ],
+        [
+          "of",
+          31
+        ],
+        [
+          "in",
+          28
+        ],
+        [
+          "know",
+          28
+        ],
+        [
+          "got",
+          24
+        ],
+        [
+          "on",
+          22
+        ],
+        [
+          "like",
+          22
+        ],
+        [
+          "for",
+          22
+        ],
+        [
+          "out",
+          21
+        ],
+        [
+          "with",
+          19
+        ],
+        [
+          "about",
+          18
+        ],
+        [
+          "man",
+          18
+        ],
+        [
+          "mean",
+          17
+        ],
+        [
+          "up",
+          17
+        ],
+        [
+          "well",
+          17
+        ],
+        [
+          "at",
+          14
+        ],
+        [
+          "tuco",
+          13
+        ],
+        [
+          "good",
+          12
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          56
+        ],
+        [
+          "and",
+          35
+        ],
+        [
+          "right",
+          33
+        ],
+        [
+          "of",
+          31
+        ],
+        [
+          "know",
+          28
+        ],
+        [
+          "on",
+          22
+        ],
+        [
+          "like",
+          22
+        ],
+        [
+          "out",
+          21
+        ],
+        [
+          "with",
+          19
+        ],
+        [
+          "about",
+          18
+        ],
+        [
+          "man",
+          18
+        ],
+        [
+          "mean",
+          17
+        ],
+        [
+          "up",
+          17
+        ],
+        [
+          "well",
+          17
+        ],
+        [
+          "at",
+          14
+        ],
+        [
+          "good",
+          12
+        ],
+        [
+          "but",
+          12
+        ],
+        [
+          "from",
+          10
+        ],
+        [
+          "need",
+          10
+        ],
+        [
+          "get",
+          9
+        ]
+      ]
+    },
+    "7": {
+      "total": 2445,
+      "unique": 917,
+      "new_words": 50,
+      "top20": [
+        [
+          "to",
+          95
+        ],
+        [
+          "and",
+          52
+        ],
+        [
+          "of",
+          49
+        ],
+        [
+          "in",
+          40
+        ],
+        [
+          "know",
+          34
+        ],
+        [
+          "right",
+          29
+        ],
+        [
+          "for",
+          28
+        ],
+        [
+          "like",
+          28
+        ],
+        [
+          "well",
+          25
+        ],
+        [
+          "at",
+          24
+        ],
+        [
+          "on",
+          24
+        ],
+        [
+          "but",
+          23
+        ],
+        [
+          "mean",
+          22
+        ],
+        [
+          "got",
+          21
+        ],
+        [
+          "with",
+          21
+        ],
+        [
+          "look",
+          21
+        ],
+        [
+          "out",
+          20
+        ],
+        [
+          "about",
+          19
+        ],
+        [
+          "come",
+          17
+        ],
+        [
+          "gonna",
+          16
+        ]
+      ],
+      "hs_top20": [
+        [
+          "to",
+          95
+        ],
+        [
+          "and",
+          52
+        ],
+        [
+          "of",
+          49
+        ],
+        [
+          "know",
+          34
+        ],
+        [
+          "right",
+          29
+        ],
+        [
+          "like",
+          28
+        ],
+        [
+          "well",
+          25
+        ],
+        [
+          "at",
+          24
+        ],
+        [
+          "on",
+          24
+        ],
+        [
+          "but",
+          23
+        ],
+        [
+          "mean",
+          22
+        ],
+        [
+          "with",
+          21
+        ],
+        [
+          "look",
+          21
+        ],
+        [
+          "out",
+          20
+        ],
+        [
+          "about",
+          19
+        ],
+        [
+          "come",
+          17
+        ],
+        [
+          "man",
+          16
+        ],
+        [
+          "good",
+          15
+        ],
+        [
+          "now",
+          14
+        ],
+        [
+          "up",
+          13
+        ]
+      ]
+    }
+  },
+  "growth": [
+    {
+      "episode": 1,
+      "cumulative": 838,
+      "new": 50
+    },
+    {
+      "episode": 2,
+      "cumulative": 1232,
+      "new": 50
+    },
+    {
+      "episode": 3,
+      "cumulative": 1560,
+      "new": 50
+    },
+    {
+      "episode": 4,
+      "cumulative": 1970,
+      "new": 50
+    },
+    {
+      "episode": 5,
+      "cumulative": 2252,
+      "new": 50
+    },
+    {
+      "episode": 6,
+      "cumulative": 2477,
+      "new": 50
+    },
+    {
+      "episode": 7,
+      "cumulative": 2816,
+      "new": 50
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+Breaking Bad S01 - 每集详细词汇分析
+======================================================================
+
+
+======================================================================
+  Episode 01
+======================================================================
+
+  统计数据:
+    - 总词次: 2091
+    - 不重复词: 838
+    - 新词数: 50
+    - 平均句长: 5.6
+
+  Top 20 高频词:
+     1. to                53 ★
+     2. and               38 ★
+     3. on                34 ★
+     4. in                31
+     5. know              30 ★
+     6. of                29 ★
+     7. right             26 ★
+     8. up                24 ★
+     9. come              22 ★
+    10. for               22
+    11. one               22
+    12. at                21 ★
+    13. well              20 ★
+    14. like              20 ★
+    15. go                19 ★
+    16. got               18
+    17. about             16 ★
+    18. gonna             15
+    19. cook              15
+    20. think             14 ★
+
+  高中词汇 Top 20:
+     1. to                53
+     2. and               38
+     3. on                34
+     4. know              30
+     5. of                29
+     6. right             26
+     7. up                24
+     8. come              22
+     9. at                21
+    10. well              20
+    11. like              20
+    12. go                19
+    13. about             16
+    14. think             14
+    15. man               13
+    16. get               13
+    17. mean              13
+    18. want              12
+    19. look              12
+    20. good              12
+
+  本集新词 (前30):
+    arroyo, fake, cleaning, kjeldahl, apprehended, titration, two, meet, telling, years, new, looks, see, bite, run, mexicans, energy, super, love, make, feeling, daylight, amount, walt, like, krazy, heater, break, hand, butthe
+
+======================================================================
+  Episode 02
+======================================================================
+
+  统计数据:
+    - 总词次: 1686
+    - 不重复词: 666
+    - 新词数: 50
+    - 平均句长: 6.0
+
+  Top 20 高频词:
+     1. to                62 ★
+     2. and               43 ★
+     3. of                38 ★
+     4. in                36
+     5. know              33 ★
+     6. right             30 ★
+     7. up                22 ★
+     8. like              19 ★
+     9. on                18 ★
+    10. man               17 ★
+    11. good              17 ★
+    12. for               15
+    13. one               15
+    14. gonna             14
+    15. now               14 ★
+    16. yes               13 ★
+    17. go                13 ★
+    18. with              13 ★
+    19. look              13 ★
+    20. mean              12 ★
+
+  高中词汇 Top 20:
+     1. to                62
+     2. and               43
+     3. of                38
+     4. know              33
+     5. right             30
+     6. up                22
+     7. like              19
+     8. on                18
+     9. man               17
+    10. good              17
+    11. now               14
+    12. yes               13
+    13. go                13
+    14. with              13
+    15. look              13
+    16. mean              12
+    17. out               12
+    18. well              11
+    19. at                10
+    20. about             10
+
+  本集新词 (前30):
+    everman, finish, active, scientist, private, everything, photos, lock, skycopter, dump, decent, responsibility, calls, wonderful, therefore, seemed, map, tone, working, legs, beautiful, violence, dare, molecular, left, form, neckties, joan, calling, soon
+
+======================================================================
+  Episode 03
+======================================================================
+
+  统计数据:
+    - 总词次: 1696
+    - 不重复词: 701
+    - 新词数: 50
+    - 平均句长: 5.8
+
+  Top 20 高频词:
+     1. to                59 ★
+     2. and               40 ★
+     3. know              33 ★
+     4. in                31
+     5. of                27 ★
+     6. on                23 ★
+     7. like              22 ★
+     8. think             21 ★
+     9. for               18
+    10. about             16 ★
+    11. got               16
+    12. up                16 ★
+    13. sorry             14
+    14. down              13 ★
+    15. right             13 ★
+    16. go                12 ★
+    17. but               12 ★
+    18. let               11 ★
+    19. get               11 ★
+    20. out               11 ★
+
+  高中词汇 Top 20:
+     1. to                59
+     2. and               40
+     3. know              33
+     4. of                27
+     5. on                23
+     6. like              22
+     7. think             21
+     8. about             16
+     9. up                16
+    10. down              13
+    11. right             13
+    12. go                12
+    13. but               12
+    14. let               11
+    15. get               11
+    16. out               11
+    17. at                10
+    18. come              10
+    19. tell              10
+    20. man               10
+
+  本集新词 (前30):
+    across, hydrogen, kid, week, toe, obscenity, strain, quick, furniture, site, comprende, hungry, nowhere, handy, lightheaded, teacher, toothpicks, remotely, hid, drakkar, crib, croaked, wind, shopping, jumps, college, black, female, musician, brings
+
+======================================================================
+  Episode 04
+======================================================================
+
+  统计数据:
+    - 总词次: 2130
+    - 不重复词: 861
+    - 新词数: 50
+    - 平均句长: 6.1
+
+  Top 20 高频词:
+     1. and               63 ★
+     2. to                61 ★
+     3. know              46 ★
+     4. of                44 ★
+     5. in                37
+     6. right             35 ★
+     7. on                30 ★
+     8. out               29 ★
+     9. like              26 ★
+    10. for               24
+    11. think             21 ★
+    12. about             21 ★
+    13. got               21
+    14. tell              16 ★
+    15. man               16 ★
+    16. but               15 ★
+    17. up                15 ★
+    18. walt              14
+    19. gonna             13
+    20. us                13
+
+  高中词汇 Top 20:
+     1. and               63
+     2. to                61
+     3. know              46
+     4. of                44
+     5. right             35
+     6. on                30
+     7. out               29
+     8. like              26
+     9. think             21
+    10. about             21
+    11. tell              16
+    12. man               16
+    13. but               15
+    14. up                15
+    15. mean              13
+    16. good              13
+    17. get               13
+    18. well              12
+    19. go                12
+    20. at                11
+
+  本集新词 (前30):
+    colorado, none, precautions, bicycle, land, bradley, grilled, hog, ratted, goldberg, kidding, whup, downers, adam, sorcher, noticed, tries, expect, booked, coleslaw, charity, uppers, sharing, settling, dr, molina, mayonnaise, locked, bonus, oncology
+
+======================================================================
+  Episode 05
+======================================================================
+
+  统计数据:
+    - 总词次: 2024
+    - 不重复词: 732
+    - 新词数: 50
+    - 平均句长: 6.0
+
+  Top 20 高频词:
+     1. to                90 ★
+     2. and               56 ★
+     3. of                36 ★
+     4. know              35 ★
+     5. for               31
+     6. about             27 ★
+     7. walt              27
+     8. in                26
+     9. on                26 ★
+    10. but               25 ★
+    11. like              23 ★
+    12. right             23 ★
+    13. mean              18 ★
+    14. up                18 ★
+    15. well              17 ★
+    16. really            17
+    17. man               16 ★
+    18. get               16 ★
+    19. say               15 ★
+    20. look              15 ★
+
+  高中词汇 Top 20:
+     1. to                90
+     2. and               56
+     3. of                36
+     4. know              35
+     5. about             27
+     6. on                26
+     7. but               25
+     8. like              23
+     9. right             23
+    10. mean              18
+    11. up                18
+    12. well              17
+    13. man               16
+    14. get               16
+    15. say               15
+    16. look              15
+    17. good              13
+    18. with              13
+    19. out               13
+    20. come              12
+
+  本集新词 (前30):
+    surviving, caltech, thesis, javelinas, concerns, mention, wasted, hardware, strat, wrapped, months, misunderstanding, necessary, complicated, swear, front, statistics, grad, intervention, rehabilitated, gifts, gift, game, convinced, chocolate, upside, poker, artificially, appealing, everyone
+
+======================================================================
+  Episode 06
+======================================================================
+
+  统计数据:
+    - 总词次: 1748
+    - 不重复词: 701
+    - 新词数: 50
+    - 平均句长: 6.5
+
+  Top 20 高频词:
+     1. to                56 ★
+     2. and               35 ★
+     3. right             33 ★
+     4. of                31 ★
+     5. in                28
+     6. know              28 ★
+     7. got               24
+     8. on                22 ★
+     9. like              22 ★
+    10. for               22
+    11. out               21 ★
+    12. with              19 ★
+    13. about             18 ★
+    14. man               18 ★
+    15. mean              17 ★
+    16. up                17 ★
+    17. well              17 ★
+    18. at                14 ★
+    19. tuco              13
+    20. good              12 ★
+
+  高中词汇 Top 20:
+     1. to                56
+     2. and               35
+     3. right             33
+     4. of                31
+     5. know              28
+     6. on                22
+     7. like              22
+     8. out               21
+     9. with              19
+    10. about             18
+    11. man               18
+    12. mean              17
+    13. up                17
+    14. well              17
+    15. at                14
+    16. good              12
+    17. but               12
+    18. from              10
+    19. need              10
+    20. get                9
+
+  本集新词 (前30):
+    underestimate, og, christmas, generates, mule, butter, slip, jack, fulminated, slinging, threw, hugo, informants, slight, marker, dots, introduced, union, gradual, keys, dialing, motivation, accepting, involve, quickly, rest, scarface, explosions, science, monkey
+
+======================================================================
+  Episode 07
+======================================================================
+
+  统计数据:
+    - 总词次: 2445
+    - 不重复词: 917
+    - 新词数: 50
+    - 平均句长: 6.7
+
+  Top 20 高频词:
+     1. to                95 ★
+     2. and               52 ★
+     3. of                49 ★
+     4. in                40
+     5. know              34 ★
+     6. right             29 ★
+     7. for               28
+     8. like              28 ★
+     9. well              25 ★
+    10. at                24 ★
+    11. on                24 ★
+    12. but               23 ★
+    13. mean              22 ★
+    14. got               21
+    15. with              21 ★
+    16. look              21 ★
+    17. out               20 ★
+    18. about             19 ★
+    19. come              17 ★
+    20. gonna             16
+
+  高中词汇 Top 20:
+     1. to                95
+     2. and               52
+     3. of                49
+     4. know              34
+     5. right             29
+     6. like              28
+     7. well              25
+     8. at                24
+     9. on                24
+    10. but               23
+    11. mean              22
+    12. with              21
+    13. look              21
+    14. out               20
+    15. about             19
+    16. come              17
+    17. man               16
+    18. good              15
+    19. now               14
+    20. up                13
+
+  本集新词 (前30):
+    cigars, lift, draw, security, messages, address, stronger, apd, likely, yield, indication, america, electrolytically, vig, arrested, bottleneck, rip, hitting, genie, cuban, julius, legal, thermometer, lawns, currently, junkyard, apologize, president, sniffing, sneak
