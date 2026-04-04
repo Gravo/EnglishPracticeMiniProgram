@@ -1,0 +1,2730 @@
+{
+  "meta": {
+    "total_subtitles": 4108,
+    "high_value_clips": 1934,
+    "tier1_vocab_count": 179,
+    "tier2_vocab_count": 124
+  },
+  "top_clips": [
+    {
+      "episode": 5,
+      "start": "00:31:31,473",
+      "end": "00:31:35,685",
+      "text": "I'm with your old lady on this one. I say take the money and run, man.",
+      "score": 79,
+      "tier1_words": [
+        "old",
+        "one",
+        "say",
+        "take",
+        "money",
+        "man"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:40:12,368",
+      "end": "00:40:15,704",
+      "text": "Got some big cow house way out that way, like two miles,",
+      "score": 74,
+      "tier1_words": [
+        "big",
+        "house",
+        "way",
+        "way",
+        "like",
+        "two"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:07:38,875",
+      "end": "00:07:42,628",
+      "text": "I mean, it's like I feel like you don't even want me around sometimes.",
+      "score": 73,
+      "tier1_words": [
+        "like",
+        "feel",
+        "like",
+        "want"
+      ],
+      "patterns": [
+        "口语填充",
+        "频率"
+      ]
+    },
+    {
+      "episode": 1,
+      "start": "00:39:28,366",
+      "end": "00:39:30,909",
+      "text": "Come on, let's get out of here. Let's go.",
+      "score": 72,
+      "tier1_words": [
+        "come",
+        "let",
+        "get",
+        "let",
+        "go"
+      ],
+      "patterns": [
+        "建议"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:44:27,582",
+      "end": "00:44:31,418",
+      "text": "You know, it was really great seeing you two the other day, you know.",
+      "score": 70,
+      "tier1_words": [
+        "know",
+        "great",
+        "two",
+        "day",
+        "know"
+      ],
+      "patterns": [
+        "口语填充",
+        "程度"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:24:18,624",
+      "end": "00:24:22,210",
+      "text": "Hey, look, buddy. The last thing I wanna do is get you in hot water.",
+      "score": 70,
+      "tier1_words": [
+        "look",
+        "last",
+        "thing",
+        "get",
+        "water"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:30:17,024",
+      "end": "00:30:21,027",
+      "text": "Let's just... Let's face it, you know, you were dealt a shit hand.",
+      "score": 69,
+      "tier1_words": [
+        "let",
+        "let",
+        "face",
+        "know",
+        "hand"
+      ],
+      "patterns": [
+        "口语填充",
+        "建议"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:12:03,473",
+      "end": "00:12:06,725",
+      "text": "You want to make some cash for your people before you check out.",
+      "score": 66,
+      "tier1_words": [
+        "want",
+        "make",
+        "people"
+      ],
+      "patterns": [
+        "过去"
+      ]
+    },
+    {
+      "episode": 1,
+      "start": "00:38:42,237",
+      "end": "00:38:45,406",
+      "text": "I think that, um... I think those jeans look really good on you.",
+      "score": 64,
+      "tier1_words": [
+        "think",
+        "think",
+        "look",
+        "good"
+      ],
+      "patterns": [
+        "表达观点",
+        "程度"
+      ]
+    },
+    {
+      "episode": 2,
+      "start": "00:35:35,425",
+      "end": "00:35:39,345",
+      "text": "You don't come home last night until 2 in the morning.",
+      "score": 64,
+      "tier1_words": [
+        "come",
+        "home",
+        "last",
+        "night",
+        "morning"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:44:56,903",
+      "end": "00:45:00,781",
+      "text": "Let's say you bring me another pound next week.",
+      "score": 64,
+      "tier1_words": [
+        "let",
+        "say",
+        "bring",
+        "next",
+        "week"
+      ],
+      "patterns": [
+        "建议"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:33:22,084",
+      "end": "00:33:24,752",
+      "text": "Come on, man, let me try it. How is it gonna be any different?",
+      "score": 62,
+      "tier1_words": [
+        "come",
+        "man",
+        "let",
+        "try"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:28:47,309",
+      "end": "00:28:50,186",
+      "text": "Not really. High school was a long time ago.",
+      "score": 61,
+      "tier1_words": [
+        "high",
+        "school",
+        "long",
+        "time"
+      ],
+      "patterns": [
+        "不同意",
+        "程度"
+      ]
+    },
+    {
+      "episode": 2,
+      "start": "00:07:34,704",
+      "end": "00:07:37,039",
+      "text": "We can't come to the phone right now, so please leave us a message.",
+      "score": 61,
+      "tier1_words": [
+        "come",
+        "right"
+      ],
+      "patterns": [
+        "现在"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:05:07,057",
+      "end": "00:05:09,684",
+      "text": "Oh, come on, let's go say hello.",
+      "score": 61,
+      "tier1_words": [
+        "come",
+        "let",
+        "go",
+        "say"
+      ],
+      "patterns": [
+        "打招呼",
+        "建议"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:37:05,682",
+      "end": "00:37:10,269",
+      "text": "one year, two years, like it's the only thing that matters.",
+      "score": 61,
+      "tier1_words": [
+        "one",
+        "year",
+        "two",
+        "like",
+        "thing"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:33:37,891",
+      "end": "00:33:42,269",
+      "text": "But after sitting here and listening to you all talk about his future like he has no say in it...",
+      "score": 60,
+      "tier1_words": [
+        "talk",
+        "like",
+        "say"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:01:54,364",
+      "end": "00:01:58,034",
+      "text": "and the next day they found out over half of the students were high on LSD.",
+      "score": 60,
+      "tier1_words": [
+        "next",
+        "day",
+        "high"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 2,
+      "start": "00:42:17,410",
+      "end": "00:42:19,119",
+      "text": "Let's go to your house, you know.",
+      "score": 59,
+      "tier1_words": [
+        "let",
+        "go",
+        "house",
+        "know"
+      ],
+      "patterns": [
+        "口语填充",
+        "建议"
+      ]
+    },
+    {
+      "episode": 4,
+      "start": "00:11:59,010",
+      "end": "00:12:01,512",
+      "text": "Because I could seriously go for a bowl right now, you know what I'm saying,",
+      "score": 59,
+      "tier1_words": [
+        "go",
+        "right",
+        "know"
+      ],
+      "patterns": [
+        "口语填充",
+        "现在"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:05:23,991",
+      "end": "00:05:26,367",
+      "text": "Great to see you. You look beautiful, as always.",
+      "score": 59,
+      "tier1_words": [
+        "great",
+        "see",
+        "look"
+      ],
+      "patterns": [
+        "打招呼",
+        "频率"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:29:35,441",
+      "end": "00:29:39,360",
+      "text": "I think we need to go around the circle first.",
+      "score": 59,
+      "tier1_words": [
+        "think",
+        "need",
+        "go",
+        "first"
+      ],
+      "patterns": [
+        "表达观点"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:00:46,672",
+      "end": "00:00:48,881",
+      "text": "I'd like to know how he got a job here in the first place.",
+      "score": 59,
+      "tier1_words": [
+        "like",
+        "know",
+        "job",
+        "first"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:01:40,392",
+      "end": "00:01:43,269",
+      "text": "You know what I'd like to see in this school? Drug-sniffing dogs.",
+      "score": 59,
+      "tier1_words": [
+        "know",
+        "like",
+        "see",
+        "school"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:33:56,868",
+      "end": "00:33:59,829",
+      "text": "I'll write you a check right now if you let me go.",
+      "score": 58,
+      "tier1_words": [
+        "write",
+        "right",
+        "let",
+        "go"
+      ],
+      "patterns": [
+        "现在"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:19:53,985",
+      "end": "00:19:57,779",
+      "text": "Sorry, man. It's just, you know, after 200 presents, it just gets kind of old.",
+      "score": 58,
+      "tier1_words": [
+        "man",
+        "know",
+        "old"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:32:28,196",
+      "end": "00:32:30,531",
+      "text": "Let's just take this. Come on, come on.",
+      "score": 58,
+      "tier1_words": [
+        "let",
+        "take",
+        "come",
+        "come"
+      ],
+      "patterns": [
+        "建议"
+      ]
+    },
+    {
+      "episode": 1,
+      "start": "00:11:53,254",
+      "end": "00:11:55,798",
+      "text": "Hey, Walt. Everybody, listen up, listen up, listen up.",
+      "score": 57,
+      "tier1_words": [
+        "listen",
+        "listen",
+        "listen"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 1,
+      "start": "00:23:35,998",
+      "end": "00:23:38,583",
+      "text": "All right. Come on, come on, come on.",
+      "score": 57,
+      "tier1_words": [
+        "right",
+        "come",
+        "come",
+        "come"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:38:48,576",
+      "end": "00:38:51,203",
+      "text": "You know what? Why don't you hang out here for a second. I'll be right back.",
+      "score": 57,
+      "tier1_words": [
+        "know",
+        "second",
+        "right"
+      ],
+      "patterns": [
+        "口语填充",
+        "建议"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:01:05,649",
+      "end": "00:01:09,026",
+      "text": "As far as our customers go, I don't want to know anything about them.",
+      "score": 57,
+      "tier1_words": [
+        "go",
+        "want",
+        "know"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:45:51,916",
+      "end": "00:45:54,000",
+      "text": "You know what? Next time you talk to Emilio,",
+      "score": 56,
+      "tier1_words": [
+        "know",
+        "next",
+        "time",
+        "talk"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:23:38,250",
+      "end": "00:23:42,253",
+      "text": "I mean, shit, don't ignore it on my account. Answer it. Come on, I got stuff to do.",
+      "score": 56,
+      "tier1_words": [
+        "answer",
+        "come"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:01:27,004",
+      "end": "00:01:31,007",
+      "text": "But what I can tell you is that we have some very good people working very hard on this case.",
+      "score": 56,
+      "tier1_words": [
+        "tell",
+        "good",
+        "people"
+      ],
+      "patterns": [
+        "程度"
+      ]
+    },
+    {
+      "episode": 2,
+      "start": "00:02:14,134",
+      "end": "00:02:17,929",
+      "text": "Yes. Oh, yes, and my coffee mug. Of coffee? My mug of coffee.",
+      "score": 55,
+      "tier1_words": [
+        "coffee",
+        "coffee",
+        "coffee"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 2,
+      "start": "00:08:07,988",
+      "end": "00:08:10,531",
+      "text": "I went and put my ear to the RV. I can hear him, like,",
+      "score": 55,
+      "tier1_words": [
+        "put",
+        "ear",
+        "hear",
+        "like"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 4,
+      "start": "00:25:05,004",
+      "end": "00:25:07,297",
+      "text": "I'd have to say so. He tries to talk to each one of us",
+      "score": 55,
+      "tier1_words": [
+        "say",
+        "talk",
+        "one"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:13:10,832",
+      "end": "00:13:15,169",
+      "text": "The next time, put an ice pack on your head during chemo.",
+      "score": 55,
+      "tier1_words": [
+        "next",
+        "time",
+        "put",
+        "head"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:31:59,167",
+      "end": "00:32:02,837",
+      "text": "Dr. Delcavoli's trying to talk him into taking some time off from work, but...",
+      "score": 55,
+      "tier1_words": [
+        "talk",
+        "time",
+        "work"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:14:07,847",
+      "end": "00:14:11,099",
+      "text": "Listen, old man, talk is talk.",
+      "score": 55,
+      "tier1_words": [
+        "listen",
+        "old",
+        "man",
+        "talk",
+        "talk"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:14:45,218",
+      "end": "00:14:50,305",
+      "text": "Four pounds. Four pounds. Two pounds wasn't bad enough.",
+      "score": 55,
+      "tier1_words": [
+        "four",
+        "four",
+        "two",
+        "bad"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:07:11,098",
+      "end": "00:07:13,432",
+      "text": "All right, see you at home. Okay, see you.",
+      "score": 54,
+      "tier1_words": [
+        "right",
+        "see",
+        "home",
+        "see"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 2,
+      "start": "00:24:55,619",
+      "end": "00:24:58,329",
+      "text": "You know, not even if you took him to the hospital right now.",
+      "score": 54,
+      "tier1_words": [
+        "know",
+        "right"
+      ],
+      "patterns": [
+        "口语填充",
+        "现在"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:24:30,010",
+      "end": "00:24:33,054",
+      "text": "We don't want people to start wondering about you, right?",
+      "score": 54,
+      "tier1_words": [
+        "want",
+        "people",
+        "start",
+        "right"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:37:56,274",
+      "end": "00:37:58,984",
+      "text": "Are you sure you don't want to get the...? Like a different kind?",
+      "score": 53,
+      "tier1_words": [
+        "want",
+        "get",
+        "like"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 2,
+      "start": "00:03:36,133",
+      "end": "00:03:39,594",
+      "text": "All right. You know what? The RV is going to start now.",
+      "score": 53,
+      "tier1_words": [
+        "right",
+        "know",
+        "start"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:22:02,571",
+      "end": "00:22:04,906",
+      "text": "Listen, I'll come home and we'll talk about it.",
+      "score": 53,
+      "tier1_words": [
+        "listen",
+        "come",
+        "home",
+        "talk"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:29:04,993",
+      "end": "00:29:08,329",
+      "text": "Walt, I know, I understand that it's hard for you to accept help.",
+      "score": 53,
+      "tier1_words": [
+        "know",
+        "understand",
+        "help"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:17:51,612",
+      "end": "00:17:54,531",
+      "text": "Right. Like, \"Hello, sir. Hey, I know you don't know me,",
+      "score": 53,
+      "tier1_words": [
+        "right",
+        "like",
+        "know",
+        "know"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:07:01,838",
+      "end": "00:07:03,839",
+      "text": "Take a look at the money in your hand.",
+      "score": 53,
+      "tier1_words": [
+        "take",
+        "look",
+        "money",
+        "hand"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:16:03,921",
+      "end": "00:16:07,299",
+      "text": "This is the first day of the rest of your life. But what kind of life will it be, huh?",
+      "score": 53,
+      "tier1_words": [
+        "first",
+        "day"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:13:20,550",
+      "end": "00:13:22,885",
+      "text": "Walt, just say the word and I'll take you on a ride-along.",
+      "score": 52,
+      "tier1_words": [
+        "say",
+        "word",
+        "take"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:07:50,929",
+      "end": "00:07:53,848",
+      "text": "And that's maybe only good for, like, maybe a half-pound worth.",
+      "score": 52,
+      "tier1_words": [
+        "good",
+        "like"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 7,
+      "start": "00:36:32,941",
+      "end": "00:36:37,653",
+      "text": "Was there, by any chance, scheduled for this afternoon, an open house?",
+      "score": 52,
+      "tier1_words": [
+        "afternoon",
+        "open",
+        "house"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:05:54,062",
+      "end": "00:05:57,148",
+      "text": "and then you get to be the first person in the shower. Hm.",
+      "score": 51,
+      "tier1_words": [
+        "get",
+        "first",
+        "person"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:12:09,604",
+      "end": "00:12:12,147",
+      "text": "Your heart's in the right place. We love you, man. We love you.",
+      "score": 51,
+      "tier1_words": [
+        "right",
+        "love",
+        "man",
+        "love"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 3,
+      "start": "00:14:20,443",
+      "end": "00:14:22,611",
+      "text": "I want you to talk to him. Walt should talk to him.",
+      "score": 51,
+      "tier1_words": [
+        "want",
+        "talk",
+        "talk"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:15:45,028",
+      "end": "00:15:48,071",
+      "text": "No. I did not put him up... Please. Come on. Come on.",
+      "score": 51,
+      "tier1_words": [
+        "put",
+        "come",
+        "come"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:34:13,593",
+      "end": "00:34:15,761",
+      "text": "Can I get the pillow back? I agree with Marie on this one.",
+      "score": 51,
+      "tier1_words": [
+        "get",
+        "one"
+      ],
+      "patterns": [
+        "同意"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:03:00,222",
+      "end": "00:03:04,433",
+      "text": "You know, actually, it would make me feel a little better",
+      "score": 51,
+      "tier1_words": [
+        "know",
+        "make",
+        "feel"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:28:22,785",
+      "end": "00:28:25,536",
+      "text": "I guess I'd start off by promising that if you let me go",
+      "score": 50,
+      "tier1_words": [
+        "start",
+        "let",
+        "go"
+      ],
+      "patterns": [
+        "表达观点"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:11:52,629",
+      "end": "00:11:56,924",
+      "text": "Skyler and I would love to have you and Gretchen over for dinner sometime.",
+      "score": 50,
+      "tier1_words": [
+        "love",
+        "dinner"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:34:17,139",
+      "end": "00:34:19,306",
+      "text": "What? Maybe Walt wants to die like a man, all right?",
+      "score": 50,
+      "tier1_words": [
+        "like",
+        "man",
+        "right"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:22:40,401",
+      "end": "00:22:42,902",
+      "text": "It's the last house on the right. See it?",
+      "score": 49,
+      "tier1_words": [
+        "last",
+        "house",
+        "right",
+        "see"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:22:43,070",
+      "end": "00:22:44,988",
+      "text": "Not the two-story one, the one next to it.",
+      "score": 49,
+      "tier1_words": [
+        "two",
+        "one",
+        "one",
+        "next"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 4,
+      "start": "00:01:13,866",
+      "end": "00:01:17,785",
+      "text": "But our snitch's car, turns out we find two grams of meth in it,",
+      "score": 49,
+      "tier1_words": [
+        "car",
+        "two"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 4,
+      "start": "00:09:22,562",
+      "end": "00:09:26,941",
+      "text": "Okay, so first thing tomorrow, I talk to my radiologists,",
+      "score": 49,
+      "tier1_words": [
+        "first",
+        "thing",
+        "tomorrow",
+        "talk"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 4,
+      "start": "00:31:27,719",
+      "end": "00:31:32,807",
+      "text": "I mean, if you ever, like, I don't know, need advice.",
+      "score": 49,
+      "tier1_words": [
+        "like",
+        "know",
+        "need"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 4,
+      "start": "00:37:25,118",
+      "end": "00:37:29,163",
+      "text": "you know, saw your way clear to, um, you know,",
+      "score": 49,
+      "tier1_words": [
+        "know",
+        "way",
+        "know"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 4,
+      "start": "00:43:12,090",
+      "end": "00:43:15,300",
+      "text": "And tell them you'll start next week?",
+      "score": 49,
+      "tier1_words": [
+        "tell",
+        "start",
+        "next",
+        "week"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 5,
+      "start": "00:20:55,171",
+      "end": "00:20:57,297",
+      "text": "I need five each. Come on, two more.",
+      "score": 49,
+      "tier1_words": [
+        "need",
+        "five",
+        "come",
+        "two"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:16:29,072",
+      "end": "00:16:32,115",
+      "text": "You think it's cake moving a pound of meth one teenth at a time?",
+      "score": 49,
+      "tier1_words": [
+        "think",
+        "one",
+        "time"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:17:17,829",
+      "end": "00:17:21,289",
+      "text": "We need a distributor. Now, do you know anyone like that?",
+      "score": 49,
+      "tier1_words": [
+        "need",
+        "know",
+        "like"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 7,
+      "start": "00:07:47,843",
+      "end": "00:07:50,719",
+      "text": "and get a couple boxes at a time and then sell them to me.",
+      "score": 49,
+      "tier1_words": [
+        "get",
+        "time"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:11:19,596",
+      "end": "00:11:22,431",
+      "text": "Shit, I seen one of those bounce off a windshield one time.",
+      "score": 48,
+      "tier1_words": [
+        "one",
+        "one",
+        "time"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:13:04,701",
+      "end": "00:13:06,785",
+      "text": "As I say, it's a good day for the citizens of Albuquerque",
+      "score": 48,
+      "tier1_words": [
+        "say",
+        "good",
+        "day"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:44:10,231",
+      "end": "00:44:14,526",
+      "text": "Hey, you got a new dog. Right on, man.",
+      "score": 48,
+      "tier1_words": [
+        "new",
+        "right",
+        "man"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:17:45,982",
+      "end": "00:17:48,817",
+      "text": "Hey, don't make me get out of the car.",
+      "score": 48,
+      "tier1_words": [
+        "make",
+        "get",
+        "car"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:21:23,032",
+      "end": "00:21:27,035",
+      "text": "L-I gotta learn to say, you know, \"No.\"",
+      "score": 48,
+      "tier1_words": [
+        "learn",
+        "say",
+        "know"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 4,
+      "start": "00:11:34,277",
+      "end": "00:11:38,906",
+      "text": "Uh, could be, yeah. You know, from time to time.",
+      "score": 48,
+      "tier1_words": [
+        "know",
+        "time",
+        "time"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:12:00,136",
+      "end": "00:12:04,973",
+      "text": "But, you know, what I mean is that you and I should work together again.",
+      "score": 48,
+      "tier1_words": [
+        "know",
+        "work"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 5,
+      "start": "00:12:28,289",
+      "end": "00:12:31,708",
+      "text": "I wouldn't really know where to begin. I mean...",
+      "score": 48,
+      "tier1_words": [
+        "know",
+        "begin"
+      ],
+      "patterns": [
+        "口语填充",
+        "程度"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:04:02,784",
+      "end": "00:04:06,120",
+      "text": "Call if the discomfort's too much, otherwise we'll see you next week.",
+      "score": 48,
+      "tier1_words": [
+        "see",
+        "next",
+        "week"
+      ],
+      "patterns": [
+        "打招呼"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:16:53,680",
+      "end": "00:16:56,848",
+      "text": "Well, I'll tell you, I know a lack of motivation when I see it.",
+      "score": 48,
+      "tier1_words": [
+        "tell",
+        "know",
+        "see"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:20:47,538",
+      "end": "00:20:49,497",
+      "text": "Well, let me know if you need anything, huh?",
+      "score": 48,
+      "tier1_words": [
+        "let",
+        "know",
+        "need"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:25:19,435",
+      "end": "00:25:22,770",
+      "text": "Maybe this isn't such a good idea, yo. Come on.",
+      "score": 48,
+      "tier1_words": [
+        "good",
+        "idea",
+        "come"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:27:34,320",
+      "end": "00:27:39,073",
+      "text": "No one, man. I mean, I have a partner that I cook with, but that's it.",
+      "score": 48,
+      "tier1_words": [
+        "one",
+        "man"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 6,
+      "start": "00:42:32,550",
+      "end": "00:42:35,802",
+      "text": "Why don't you start talking and tell me what you want?",
+      "score": 48,
+      "tier1_words": [
+        "start",
+        "tell",
+        "want"
+      ],
+      "patterns": [
+        "建议"
+      ]
+    },
+    {
+      "episode": 1,
+      "start": "00:02:04,958",
+      "end": "00:02:07,210",
+      "text": "Okay. Come on, come on, come on.",
+      "score": 47,
+      "tier1_words": [
+        "come",
+        "come",
+        "come"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:32:55,390",
+      "end": "00:32:58,392",
+      "text": "I cook in one of those. A big one.",
+      "score": 47,
+      "tier1_words": [
+        "one",
+        "big",
+        "one"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 1,
+      "start": "00:39:21,443",
+      "end": "00:39:24,486",
+      "text": "You'd better go. Take it. Take your shot. Take it!",
+      "score": 47,
+      "tier1_words": [
+        "go",
+        "take",
+        "take",
+        "take"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 2,
+      "start": "00:10:29,838",
+      "end": "00:10:32,756",
+      "text": "to give to a pregnant woman to prevent morning sickness.",
+      "score": 47,
+      "tier1_words": [
+        "give",
+        "woman",
+        "morning"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 3,
+      "start": "00:04:44,368",
+      "end": "00:04:45,993",
+      "text": "Well, you know, actually, let me back up.",
+      "score": 47,
+      "tier1_words": [
+        "know",
+        "let"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 3,
+      "start": "00:05:47,556",
+      "end": "00:05:50,516",
+      "text": "Marie, you need to look me in the eye.",
+      "score": 47,
+      "tier1_words": [
+        "need",
+        "look",
+        "eye"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 3,
+      "start": "00:17:32,844",
+      "end": "00:17:36,263",
+      "text": "You know, just this, uh, one time, you know...",
+      "score": 47,
+      "tier1_words": [
+        "know",
+        "one",
+        "time",
+        "know"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    },
+    {
+      "episode": 4,
+      "start": "00:18:40,119",
+      "end": "00:18:43,747",
+      "text": "Come on, don't get hung up on money here.",
+      "score": 47,
+      "tier1_words": [
+        "come",
+        "get",
+        "money"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:04:46,453",
+      "end": "00:04:53,417",
+      "text": "For example, when rust collects on the underside of a car, right?",
+      "score": 47,
+      "tier1_words": [
+        "example",
+        "car",
+        "right"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:25:54,845",
+      "end": "00:25:57,305",
+      "text": "No need, man. Me and Tuco go back.",
+      "score": 47,
+      "tier1_words": [
+        "need",
+        "man",
+        "go"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:28:20,657",
+      "end": "00:28:22,617",
+      "text": "It's good. Go on, get out of here.",
+      "score": 47,
+      "tier1_words": [
+        "good",
+        "go",
+        "get"
+      ],
+      "patterns": []
+    },
+    {
+      "episode": 6,
+      "start": "00:32:59,728",
+      "end": "00:33:01,896",
+      "text": "You know, I can't believe the school system",
+      "score": 47,
+      "tier1_words": [
+        "know",
+        "believe",
+        "school"
+      ],
+      "patterns": [
+        "口语填充"
+      ]
+    }
+  ],
+  "clips_by_episode": {
+    "1": [
+      {
+        "start": "00:40:12,368",
+        "end": "00:40:15,704",
+        "text": "Got some big cow house way out that way, like two miles,",
+        "score": 74
+      },
+      {
+        "start": "00:39:28,366",
+        "end": "00:39:30,909",
+        "text": "Come on, let's get out of here. Let's go.",
+        "score": 72
+      },
+      {
+        "start": "00:38:42,237",
+        "end": "00:38:45,406",
+        "text": "I think that, um... I think those jeans look really good on you.",
+        "score": 64
+      },
+      {
+        "start": "00:28:47,309",
+        "end": "00:28:50,186",
+        "text": "Not really. High school was a long time ago.",
+        "score": 61
+      },
+      {
+        "start": "00:11:53,254",
+        "end": "00:11:55,798",
+        "text": "Hey, Walt. Everybody, listen up, listen up, listen up.",
+        "score": 57
+      },
+      {
+        "start": "00:23:35,998",
+        "end": "00:23:38,583",
+        "text": "All right. Come on, come on, come on.",
+        "score": 57
+      },
+      {
+        "start": "00:38:48,576",
+        "end": "00:38:51,203",
+        "text": "You know what? Why don't you hang out here for a second. I'll be right back.",
+        "score": 57
+      },
+      {
+        "start": "00:45:51,916",
+        "end": "00:45:54,000",
+        "text": "You know what? Next time you talk to Emilio,",
+        "score": 56
+      },
+      {
+        "start": "00:07:11,098",
+        "end": "00:07:13,432",
+        "text": "All right, see you at home. Okay, see you.",
+        "score": 54
+      },
+      {
+        "start": "00:37:56,274",
+        "end": "00:37:58,984",
+        "text": "Are you sure you don't want to get the...? Like a different kind?",
+        "score": 53
+      },
+      {
+        "start": "00:13:20,550",
+        "end": "00:13:22,885",
+        "text": "Walt, just say the word and I'll take you on a ride-along.",
+        "score": 52
+      },
+      {
+        "start": "00:05:54,062",
+        "end": "00:05:57,148",
+        "text": "and then you get to be the first person in the shower. Hm.",
+        "score": 51
+      },
+      {
+        "start": "00:12:09,604",
+        "end": "00:12:12,147",
+        "text": "Your heart's in the right place. We love you, man. We love you.",
+        "score": 51
+      },
+      {
+        "start": "00:22:40,401",
+        "end": "00:22:42,902",
+        "text": "It's the last house on the right. See it?",
+        "score": 49
+      },
+      {
+        "start": "00:22:43,070",
+        "end": "00:22:44,988",
+        "text": "Not the two-story one, the one next to it.",
+        "score": 49
+      },
+      {
+        "start": "00:11:19,596",
+        "end": "00:11:22,431",
+        "text": "Shit, I seen one of those bounce off a windshield one time.",
+        "score": 48
+      },
+      {
+        "start": "00:13:04,701",
+        "end": "00:13:06,785",
+        "text": "As I say, it's a good day for the citizens of Albuquerque",
+        "score": 48
+      },
+      {
+        "start": "00:44:10,231",
+        "end": "00:44:14,526",
+        "text": "Hey, you got a new dog. Right on, man.",
+        "score": 48
+      },
+      {
+        "start": "00:02:04,958",
+        "end": "00:02:07,210",
+        "text": "Okay. Come on, come on, come on.",
+        "score": 47
+      },
+      {
+        "start": "00:32:55,390",
+        "end": "00:32:58,392",
+        "text": "I cook in one of those. A big one.",
+        "score": 47
+      },
+      {
+        "start": "00:39:21,443",
+        "end": "00:39:24,486",
+        "text": "You'd better go. Take it. Take your shot. Take it!",
+        "score": 47
+      },
+      {
+        "start": "00:07:41,628",
+        "end": "00:07:44,755",
+        "text": "But I prefer to see it as the study of change.",
+        "score": 46
+      },
+      {
+        "start": "00:40:52,617",
+        "end": "00:40:54,827",
+        "text": "You can't go home smelling like a meth lab.",
+        "score": 45
+      },
+      {
+        "start": "00:42:52,153",
+        "end": "00:42:56,031",
+        "text": "Jesus, you got crystals in here two inches, three inches long.",
+        "score": 45
+      },
+      {
+        "start": "00:23:42,505",
+        "end": "00:23:44,714",
+        "text": "All right. School bus is clear. You got the green light.",
+        "score": 44
+      },
+      {
+        "start": "00:01:27,546",
+        "end": "00:01:30,840",
+        "text": "Oh, my God. Oh, my God. Think, think, think.",
+        "score": 43
+      },
+      {
+        "start": "00:18:47,418",
+        "end": "00:18:49,920",
+        "text": "I'm sorry. I just need to make sure",
+        "score": 43
+      },
+      {
+        "start": "00:30:51,308",
+        "end": "00:30:54,101",
+        "text": "Ever want me to read anything, I could critique it for you.",
+        "score": 43
+      },
+      {
+        "start": "00:11:57,175",
+        "end": "00:11:59,760",
+        "text": "a little toast to my brother-in-law. Come here.",
+        "score": 42
+      },
+      {
+        "start": "00:24:00,022",
+        "end": "00:24:01,523",
+        "text": "Go, go, go, go!",
+        "score": 42
+      }
+    ],
+    "2": [
+      {
+        "start": "00:35:35,425",
+        "end": "00:35:39,345",
+        "text": "You don't come home last night until 2 in the morning.",
+        "score": 64
+      },
+      {
+        "start": "00:07:34,704",
+        "end": "00:07:37,039",
+        "text": "We can't come to the phone right now, so please leave us a message.",
+        "score": 61
+      },
+      {
+        "start": "00:42:17,410",
+        "end": "00:42:19,119",
+        "text": "Let's go to your house, you know.",
+        "score": 59
+      },
+      {
+        "start": "00:02:14,134",
+        "end": "00:02:17,929",
+        "text": "Yes. Oh, yes, and my coffee mug. Of coffee? My mug of coffee.",
+        "score": 55
+      },
+      {
+        "start": "00:08:07,988",
+        "end": "00:08:10,531",
+        "text": "I went and put my ear to the RV. I can hear him, like,",
+        "score": 55
+      },
+      {
+        "start": "00:24:55,619",
+        "end": "00:24:58,329",
+        "text": "You know, not even if you took him to the hospital right now.",
+        "score": 54
+      },
+      {
+        "start": "00:03:36,133",
+        "end": "00:03:39,594",
+        "text": "All right. You know what? The RV is going to start now.",
+        "score": 53
+      },
+      {
+        "start": "00:10:29,838",
+        "end": "00:10:32,756",
+        "text": "to give to a pregnant woman to prevent morning sickness.",
+        "score": 47
+      },
+      {
+        "start": "00:17:04,107",
+        "end": "00:17:06,149",
+        "text": "I mean, what...? What kind of reason? You mean, like,",
+        "score": 46
+      },
+      {
+        "start": "00:20:15,047",
+        "end": "00:20:17,757",
+        "text": "You know, with, like, a delayed reaction or something?",
+        "score": 46
+      },
+      {
+        "start": "00:03:41,680",
+        "end": "00:03:44,390",
+        "text": "It's gonna start and we're gonna drive it over to your house.",
+        "score": 45
+      },
+      {
+        "start": "00:09:45,252",
+        "end": "00:09:48,754",
+        "text": "just as your left hand and your right hand",
+        "score": 45
+      },
+      {
+        "start": "00:44:01,556",
+        "end": "00:44:04,683",
+        "text": "Good job on wearing the pants in the family.",
+        "score": 45
+      },
+      {
+        "start": "00:17:13,616",
+        "end": "00:17:15,575",
+        "text": "No, man, I can't say as I have high fucking hopes",
+        "score": 44
+      },
+      {
+        "start": "00:21:46,055",
+        "end": "00:21:51,643",
+        "text": "I guess the only other fair way to go about this would be",
+        "score": 44
+      },
+      {
+        "start": "00:42:54,322",
+        "end": "00:42:57,616",
+        "text": "Just, I don't know, make sure to feed him, like,",
+        "score": 44
+      },
+      {
+        "start": "00:03:39,761",
+        "end": "00:03:41,512",
+        "text": "The RV is going to start right now.",
+        "score": 43
+      },
+      {
+        "start": "00:25:01,125",
+        "end": "00:25:04,586",
+        "text": "I would just try and think of it like I was...",
+        "score": 43
+      },
+      {
+        "start": "00:17:06,317",
+        "end": "00:17:08,151",
+        "text": "\"Dear Krazy-8, hey, listen, if I let you go,",
+        "score": 42
+      },
+      {
+        "start": "00:21:51,811",
+        "end": "00:21:56,856",
+        "text": "that one of us deals with the body situation",
+        "score": 42
+      },
+      {
+        "start": "00:16:14,891",
+        "end": "00:16:18,560",
+        "text": "Yeah, you know. Not, like, street level. Higher.",
+        "score": 41
+      },
+      {
+        "start": "00:32:05,674",
+        "end": "00:32:09,802",
+        "text": "No store in town sells a plastic bin big enough for a body.",
+        "score": 41
+      },
+      {
+        "start": "00:34:20,976",
+        "end": "00:34:24,437",
+        "text": "then we'll get you out of here. I'll be right back.",
+        "score": 41
+      },
+      {
+        "start": "00:07:48,385",
+        "end": "00:07:50,427",
+        "text": "to talk to you as soon as possible about...",
+        "score": 40
+      },
+      {
+        "start": "00:20:37,236",
+        "end": "00:20:39,529",
+        "text": "And in a way that no one will ever find it.",
+        "score": 40
+      },
+      {
+        "start": "00:42:50,860",
+        "end": "00:42:54,154",
+        "text": "hell, let's just let him live down there.",
+        "score": 40
+      },
+      {
+        "start": "00:06:21,214",
+        "end": "00:06:24,592",
+        "text": "and how we had instituted a new rule last year",
+        "score": 39
+      },
+      {
+        "start": "00:11:22,265",
+        "end": "00:11:24,725",
+        "text": "No, no. Well, maybe. Maybe. Yes, you know...",
+        "score": 38
+      },
+      {
+        "start": "00:15:34,058",
+        "end": "00:15:35,183",
+        "text": "Feel free to go check it yourself.",
+        "score": 38
+      },
+      {
+        "start": "00:17:08,319",
+        "end": "00:17:10,779",
+        "text": "you promise not to come back and waste my entire family?",
+        "score": 38
+      }
+    ],
+    "3": [
+      {
+        "start": "00:33:56,868",
+        "end": "00:33:59,829",
+        "text": "I'll write you a check right now if you let me go.",
+        "score": 58
+      },
+      {
+        "start": "00:22:02,571",
+        "end": "00:22:04,906",
+        "text": "Listen, I'll come home and we'll talk about it.",
+        "score": 53
+      },
+      {
+        "start": "00:14:20,443",
+        "end": "00:14:22,611",
+        "text": "I want you to talk to him. Walt should talk to him.",
+        "score": 51
+      },
+      {
+        "start": "00:28:22,785",
+        "end": "00:28:25,536",
+        "text": "I guess I'd start off by promising that if you let me go",
+        "score": 50
+      },
+      {
+        "start": "00:17:45,982",
+        "end": "00:17:48,817",
+        "text": "Hey, don't make me get out of the car.",
+        "score": 48
+      },
+      {
+        "start": "00:21:23,032",
+        "end": "00:21:27,035",
+        "text": "L-I gotta learn to say, you know, \"No.\"",
+        "score": 48
+      },
+      {
+        "start": "00:04:44,368",
+        "end": "00:04:45,993",
+        "text": "Well, you know, actually, let me back up.",
+        "score": 47
+      },
+      {
+        "start": "00:05:47,556",
+        "end": "00:05:50,516",
+        "text": "Marie, you need to look me in the eye.",
+        "score": 47
+      },
+      {
+        "start": "00:17:32,844",
+        "end": "00:17:36,263",
+        "text": "You know, just this, uh, one time, you know...",
+        "score": 47
+      },
+      {
+        "start": "00:15:01,234",
+        "end": "00:15:04,486",
+        "text": "Ma'am, you need to be wearing footies before you try those on.",
+        "score": 45
+      },
+      {
+        "start": "00:18:28,816",
+        "end": "00:18:30,859",
+        "text": "Come on, Wendy, let's see those pearly whites.",
+        "score": 45
+      },
+      {
+        "start": "00:03:46,768",
+        "end": "00:03:49,145",
+        "text": "Hey, can you call me, like, in two minutes?",
+        "score": 44
+      },
+      {
+        "start": "00:05:54,771",
+        "end": "00:05:59,275",
+        "text": "Right hand to God, Walter Jr. Is not on pot,",
+        "score": 44
+      },
+      {
+        "start": "00:15:14,956",
+        "end": "00:15:18,250",
+        "text": "You know, I hid a pair for you last week, gray ones.",
+        "score": 44
+      },
+      {
+        "start": "00:16:50,134",
+        "end": "00:16:52,469",
+        "text": "Let me tell you something. Every one of these",
+        "score": 44
+      },
+      {
+        "start": "00:18:02,498",
+        "end": "00:18:06,501",
+        "text": "Other side. Go around the other side, talk to my friend here.",
+        "score": 44
+      },
+      {
+        "start": "00:03:33,046",
+        "end": "00:03:35,047",
+        "text": "then take the bus home to my 16 cats.",
+        "score": 43
+      },
+      {
+        "start": "00:19:10,775",
+        "end": "00:19:13,401",
+        "text": "All right, hoof it, get lost. Get out of here.",
+        "score": 43
+      },
+      {
+        "start": "00:17:57,744",
+        "end": "00:18:00,203",
+        "text": "Hey, I ain't holding, okay? Did I say you could open your mouth?",
+        "score": 42
+      },
+      {
+        "start": "00:28:02,264",
+        "end": "00:28:05,141",
+        "text": "I sure as hell am looking for any reason not to.",
+        "score": 42
+      },
+      {
+        "start": "00:28:05,309",
+        "end": "00:28:08,770",
+        "text": "I mean, any good reason at all.",
+        "score": 42
+      },
+      {
+        "start": "00:10:22,872",
+        "end": "00:10:25,374",
+        "text": "Hey, yo, I'm trying to pinch one off in here.",
+        "score": 38
+      },
+      {
+        "start": "00:14:03,927",
+        "end": "00:14:06,094",
+        "text": "Excuse me, his own mother seems to think so.",
+        "score": 38
+      },
+      {
+        "start": "00:14:36,960",
+        "end": "00:14:40,128",
+        "text": "I figure his dad should be the one doing this thing, don't you think?",
+        "score": 38
+      },
+      {
+        "start": "00:33:50,529",
+        "end": "00:33:52,905",
+        "text": "You wanna leave money for your family.",
+        "score": 38
+      },
+      {
+        "start": "00:12:14,150",
+        "end": "00:12:16,402",
+        "text": "And let me tell you something else.",
+        "score": 36
+      },
+      {
+        "start": "00:29:40,404",
+        "end": "00:29:43,197",
+        "text": "Maybe even try out for Oberlin and Berklee.",
+        "score": 36
+      },
+      {
+        "start": "00:03:25,205",
+        "end": "00:03:28,040",
+        "text": "Shoes make me look like I should be changing bedpans,",
+        "score": 35
+      },
+      {
+        "start": "00:09:04,419",
+        "end": "00:09:07,004",
+        "text": "Pretty much everything he could think of.",
+        "score": 35
+      },
+      {
+        "start": "00:11:56,883",
+        "end": "00:11:59,385",
+        "text": "You mean that obscenity I spent the last two hours cleaning up?",
+        "score": 35
+      }
+    ],
+    "4": [
+      {
+        "start": "00:11:59,010",
+        "end": "00:12:01,512",
+        "text": "Because I could seriously go for a bowl right now, you know what I'm saying,",
+        "score": 59
+      },
+      {
+        "start": "00:25:05,004",
+        "end": "00:25:07,297",
+        "text": "I'd have to say so. He tries to talk to each one of us",
+        "score": 55
+      },
+      {
+        "start": "00:01:13,866",
+        "end": "00:01:17,785",
+        "text": "But our snitch's car, turns out we find two grams of meth in it,",
+        "score": 49
+      },
+      {
+        "start": "00:09:22,562",
+        "end": "00:09:26,941",
+        "text": "Okay, so first thing tomorrow, I talk to my radiologists,",
+        "score": 49
+      },
+      {
+        "start": "00:31:27,719",
+        "end": "00:31:32,807",
+        "text": "I mean, if you ever, like, I don't know, need advice.",
+        "score": 49
+      },
+      {
+        "start": "00:37:25,118",
+        "end": "00:37:29,163",
+        "text": "you know, saw your way clear to, um, you know,",
+        "score": 49
+      },
+      {
+        "start": "00:43:12,090",
+        "end": "00:43:15,300",
+        "text": "And tell them you'll start next week?",
+        "score": 49
+      },
+      {
+        "start": "00:11:34,277",
+        "end": "00:11:38,906",
+        "text": "Uh, could be, yeah. You know, from time to time.",
+        "score": 48
+      },
+      {
+        "start": "00:18:40,119",
+        "end": "00:18:43,747",
+        "text": "Come on, don't get hung up on money here.",
+        "score": 47
+      },
+      {
+        "start": "00:40:58,164",
+        "end": "00:41:00,833",
+        "text": "you think we wanna hear, just so we'll give you another chance.",
+        "score": 46
+      },
+      {
+        "start": "00:23:57,228",
+        "end": "00:23:59,479",
+        "text": "before you hit that, man, you know what I'm saying?",
+        "score": 45
+      },
+      {
+        "start": "00:10:26,042",
+        "end": "00:10:29,503",
+        "text": "I'll always take care of your family.",
+        "score": 44
+      },
+      {
+        "start": "00:04:09,625",
+        "end": "00:04:11,876",
+        "text": "Look, a guy doesn't gotta look like, uh,",
+        "score": 43
+      },
+      {
+        "start": "00:06:23,175",
+        "end": "00:06:25,718",
+        "text": "I bet you didn't think your old man had it in him, huh?",
+        "score": 43
+      },
+      {
+        "start": "00:10:00,100",
+        "end": "00:10:04,270",
+        "text": "I really didn't mean for him to find out that way.",
+        "score": 43
+      },
+      {
+        "start": "00:12:47,308",
+        "end": "00:12:50,686",
+        "text": "You know, for, like, health-wise, just lay off.",
+        "score": 43
+      },
+      {
+        "start": "00:17:55,783",
+        "end": "00:17:57,826",
+        "text": "I mean, Marie really came through for us.",
+        "score": 43
+      },
+      {
+        "start": "00:18:30,026",
+        "end": "00:18:33,153",
+        "text": "I mean, just to tell me what I already know?",
+        "score": 43
+      },
+      {
+        "start": "00:43:53,047",
+        "end": "00:43:55,048",
+        "text": "I... I could always go back to work.",
+        "score": 43
+      },
+      {
+        "start": "00:36:54,588",
+        "end": "00:36:56,589",
+        "text": "Kind of, you know, talk about it.",
+        "score": 42
+      },
+      {
+        "start": "00:19:13,027",
+        "end": "00:19:16,822",
+        "text": "I don't even want us thinking about money.",
+        "score": 41
+      },
+      {
+        "start": "00:11:15,967",
+        "end": "00:11:18,177",
+        "text": "You know, it's been caving in left and right.",
+        "score": 40
+      },
+      {
+        "start": "00:30:43,550",
+        "end": "00:30:46,427",
+        "text": "They gave me that one too. The one on the end.",
+        "score": 40
+      },
+      {
+        "start": "00:03:53,942",
+        "end": "00:03:56,277",
+        "text": "You look like a damn movie star, man.",
+        "score": 39
+      },
+      {
+        "start": "00:12:33,795",
+        "end": "00:12:37,047",
+        "text": "But, you know, I don't know, I've been thinking lately",
+        "score": 39
+      },
+      {
+        "start": "00:12:57,485",
+        "end": "00:12:59,820",
+        "text": "Yeah, man, whatever. No, no, it's all good, you know.",
+        "score": 39
+      },
+      {
+        "start": "00:17:24,877",
+        "end": "00:17:29,965",
+        "text": "Okay, so we will see you at 10:45 on Friday morning.",
+        "score": 39
+      },
+      {
+        "start": "00:30:41,131",
+        "end": "00:30:43,382",
+        "text": "Last May at the year-end assembly.",
+        "score": 39
+      },
+      {
+        "start": "00:36:56,756",
+        "end": "00:36:59,758",
+        "text": "I mean, we can't... We can't talk to anybody else.",
+        "score": 39
+      },
+      {
+        "start": "00:47:17,752",
+        "end": "00:47:20,545",
+        "text": "I don't believe this. Do you know how much I paid for that?",
+        "score": 39
+      }
+    ],
+    "5": [
+      {
+        "start": "00:31:31,473",
+        "end": "00:31:35,685",
+        "text": "I'm with your old lady on this one. I say take the money and run, man.",
+        "score": 79
+      },
+      {
+        "start": "00:44:27,582",
+        "end": "00:44:31,418",
+        "text": "You know, it was really great seeing you two the other day, you know.",
+        "score": 70
+      },
+      {
+        "start": "00:30:17,024",
+        "end": "00:30:21,027",
+        "text": "Let's just... Let's face it, you know, you were dealt a shit hand.",
+        "score": 69
+      },
+      {
+        "start": "00:05:07,057",
+        "end": "00:05:09,684",
+        "text": "Oh, come on, let's go say hello.",
+        "score": 61
+      },
+      {
+        "start": "00:37:05,682",
+        "end": "00:37:10,269",
+        "text": "one year, two years, like it's the only thing that matters.",
+        "score": 61
+      },
+      {
+        "start": "00:33:37,891",
+        "end": "00:33:42,269",
+        "text": "But after sitting here and listening to you all talk about his future like he has no say in it...",
+        "score": 60
+      },
+      {
+        "start": "00:05:23,991",
+        "end": "00:05:26,367",
+        "text": "Great to see you. You look beautiful, as always.",
+        "score": 59
+      },
+      {
+        "start": "00:29:35,441",
+        "end": "00:29:39,360",
+        "text": "I think we need to go around the circle first.",
+        "score": 59
+      },
+      {
+        "start": "00:29:04,993",
+        "end": "00:29:08,329",
+        "text": "Walt, I know, I understand that it's hard for you to accept help.",
+        "score": 53
+      },
+      {
+        "start": "00:15:45,028",
+        "end": "00:15:48,071",
+        "text": "No. I did not put him up... Please. Come on. Come on.",
+        "score": 51
+      },
+      {
+        "start": "00:34:13,593",
+        "end": "00:34:15,761",
+        "text": "Can I get the pillow back? I agree with Marie on this one.",
+        "score": 51
+      },
+      {
+        "start": "00:11:52,629",
+        "end": "00:11:56,924",
+        "text": "Skyler and I would love to have you and Gretchen over for dinner sometime.",
+        "score": 50
+      },
+      {
+        "start": "00:34:17,139",
+        "end": "00:34:19,306",
+        "text": "What? Maybe Walt wants to die like a man, all right?",
+        "score": 50
+      },
+      {
+        "start": "00:20:55,171",
+        "end": "00:20:57,297",
+        "text": "I need five each. Come on, two more.",
+        "score": 49
+      },
+      {
+        "start": "00:12:00,136",
+        "end": "00:12:04,973",
+        "text": "But, you know, what I mean is that you and I should work together again.",
+        "score": 48
+      },
+      {
+        "start": "00:12:28,289",
+        "end": "00:12:31,708",
+        "text": "I wouldn't really know where to begin. I mean...",
+        "score": 48
+      },
+      {
+        "start": "00:12:51,062",
+        "end": "00:12:53,856",
+        "text": "You know what it's like when you've been trying to crack some problem",
+        "score": 46
+      },
+      {
+        "start": "00:02:52,422",
+        "end": "00:02:55,675",
+        "text": "Anyway, I mean, pseudo's getting harder and harder to come by and...",
+        "score": 45
+      },
+      {
+        "start": "00:35:44,601",
+        "end": "00:35:49,730",
+        "text": "Sometimes I feel like I never actually",
+        "score": 45
+      },
+      {
+        "start": "00:12:56,234",
+        "end": "00:13:01,155",
+        "text": "One guy thinking outside of the box, you may be exactly what we need.",
+        "score": 44
+      },
+      {
+        "start": "00:15:14,330",
+        "end": "00:15:16,999",
+        "text": "I don't like the way you talk about my private affairs",
+        "score": 44
+      },
+      {
+        "start": "00:28:26,789",
+        "end": "00:28:30,291",
+        "text": "I really need to understand your thought process,",
+        "score": 44
+      },
+      {
+        "start": "00:36:09,751",
+        "end": "00:36:14,129",
+        "text": "you know, had a real say about any of it.",
+        "score": 44
+      },
+      {
+        "start": "00:24:22,378",
+        "end": "00:24:25,380",
+        "text": "What we really need to do is sit him down, all of us,",
+        "score": 43
+      },
+      {
+        "start": "00:28:57,820",
+        "end": "00:29:01,489",
+        "text": "Money has always been an issue for us, I'll give you that.",
+        "score": 43
+      },
+      {
+        "start": "00:30:02,968",
+        "end": "00:30:07,263",
+        "text": "I know I don't get to tell you this enough,",
+        "score": 43
+      },
+      {
+        "start": "00:15:25,508",
+        "end": "00:15:29,052",
+        "text": "Yes. Kind of like some fig leaf, you know.",
+        "score": 42
+      },
+      {
+        "start": "00:21:14,732",
+        "end": "00:21:18,026",
+        "text": "They're always, like, going to some meeting or something.",
+        "score": 42
+      },
+      {
+        "start": "00:30:30,537",
+        "end": "00:30:34,248",
+        "text": "and I ended up with, you know, a full house. Okay?",
+        "score": 42
+      },
+      {
+        "start": "00:00:55,639",
+        "end": "00:00:58,099",
+        "text": "have at least two years on-the-job experience",
+        "score": 41
+      }
+    ],
+    "6": [
+      {
+        "start": "00:07:38,875",
+        "end": "00:07:42,628",
+        "text": "I mean, it's like I feel like you don't even want me around sometimes.",
+        "score": 73
+      },
+      {
+        "start": "00:24:18,624",
+        "end": "00:24:22,210",
+        "text": "Hey, look, buddy. The last thing I wanna do is get you in hot water.",
+        "score": 70
+      },
+      {
+        "start": "00:12:03,473",
+        "end": "00:12:06,725",
+        "text": "You want to make some cash for your people before you check out.",
+        "score": 66
+      },
+      {
+        "start": "00:44:56,903",
+        "end": "00:45:00,781",
+        "text": "Let's say you bring me another pound next week.",
+        "score": 64
+      },
+      {
+        "start": "00:01:05,649",
+        "end": "00:01:09,026",
+        "text": "As far as our customers go, I don't want to know anything about them.",
+        "score": 57
+      },
+      {
+        "start": "00:23:38,250",
+        "end": "00:23:42,253",
+        "text": "I mean, shit, don't ignore it on my account. Answer it. Come on, I got stuff to do.",
+        "score": 56
+      },
+      {
+        "start": "00:13:10,832",
+        "end": "00:13:15,169",
+        "text": "The next time, put an ice pack on your head during chemo.",
+        "score": 55
+      },
+      {
+        "start": "00:31:59,167",
+        "end": "00:32:02,837",
+        "text": "Dr. Delcavoli's trying to talk him into taking some time off from work, but...",
+        "score": 55
+      },
+      {
+        "start": "00:24:30,010",
+        "end": "00:24:33,054",
+        "text": "We don't want people to start wondering about you, right?",
+        "score": 54
+      },
+      {
+        "start": "00:17:51,612",
+        "end": "00:17:54,531",
+        "text": "Right. Like, \"Hello, sir. Hey, I know you don't know me,",
+        "score": 53
+      },
+      {
+        "start": "00:03:00,222",
+        "end": "00:03:04,433",
+        "text": "You know, actually, it would make me feel a little better",
+        "score": 51
+      },
+      {
+        "start": "00:16:29,072",
+        "end": "00:16:32,115",
+        "text": "You think it's cake moving a pound of meth one teenth at a time?",
+        "score": 49
+      },
+      {
+        "start": "00:17:17,829",
+        "end": "00:17:21,289",
+        "text": "We need a distributor. Now, do you know anyone like that?",
+        "score": 49
+      },
+      {
+        "start": "00:04:02,784",
+        "end": "00:04:06,120",
+        "text": "Call if the discomfort's too much, otherwise we'll see you next week.",
+        "score": 48
+      },
+      {
+        "start": "00:16:53,680",
+        "end": "00:16:56,848",
+        "text": "Well, I'll tell you, I know a lack of motivation when I see it.",
+        "score": 48
+      },
+      {
+        "start": "00:20:47,538",
+        "end": "00:20:49,497",
+        "text": "Well, let me know if you need anything, huh?",
+        "score": 48
+      },
+      {
+        "start": "00:25:19,435",
+        "end": "00:25:22,770",
+        "text": "Maybe this isn't such a good idea, yo. Come on.",
+        "score": 48
+      },
+      {
+        "start": "00:27:34,320",
+        "end": "00:27:39,073",
+        "text": "No one, man. I mean, I have a partner that I cook with, but that's it.",
+        "score": 48
+      },
+      {
+        "start": "00:42:32,550",
+        "end": "00:42:35,802",
+        "text": "Why don't you start talking and tell me what you want?",
+        "score": 48
+      },
+      {
+        "start": "00:04:46,453",
+        "end": "00:04:53,417",
+        "text": "For example, when rust collects on the underside of a car, right?",
+        "score": 47
+      },
+      {
+        "start": "00:25:54,845",
+        "end": "00:25:57,305",
+        "text": "No need, man. Me and Tuco go back.",
+        "score": 47
+      },
+      {
+        "start": "00:28:20,657",
+        "end": "00:28:22,617",
+        "text": "It's good. Go on, get out of here.",
+        "score": 47
+      },
+      {
+        "start": "00:32:59,728",
+        "end": "00:33:01,896",
+        "text": "You know, I can't believe the school system",
+        "score": 47
+      },
+      {
+        "start": "00:21:59,402",
+        "end": "00:22:01,611",
+        "text": "No body yet, but we're pretty sure, you know:",
+        "score": 46
+      },
+      {
+        "start": "00:40:38,937",
+        "end": "00:40:43,440",
+        "text": "I want to talk to Tuco, and I'm not leaving until I do.",
+        "score": 46
+      },
+      {
+        "start": "00:10:11,361",
+        "end": "00:10:13,904",
+        "text": "God, I feel like I'm burning up. Sit down, sit down.",
+        "score": 45
+      },
+      {
+        "start": "00:23:51,972",
+        "end": "00:23:54,265",
+        "text": "Bad time to talk? Absolutely.",
+        "score": 45
+      },
+      {
+        "start": "00:31:46,780",
+        "end": "00:31:48,781",
+        "text": "All right, let's see what the turn brings us.",
+        "score": 45
+      },
+      {
+        "start": "00:45:25,223",
+        "end": "00:45:29,726",
+        "text": "One pound is not gonna cut it. You have to take two.",
+        "score": 45
+      },
+      {
+        "start": "00:14:01,257",
+        "end": "00:14:04,635",
+        "text": "This that one we found way out in the boonies at the cook site?",
+        "score": 43
+      }
+    ],
+    "7": [
+      {
+        "start": "00:33:22,084",
+        "end": "00:33:24,752",
+        "text": "Come on, man, let me try it. How is it gonna be any different?",
+        "score": 62
+      },
+      {
+        "start": "00:01:54,364",
+        "end": "00:01:58,034",
+        "text": "and the next day they found out over half of the students were high on LSD.",
+        "score": 60
+      },
+      {
+        "start": "00:00:46,672",
+        "end": "00:00:48,881",
+        "text": "I'd like to know how he got a job here in the first place.",
+        "score": 59
+      },
+      {
+        "start": "00:01:40,392",
+        "end": "00:01:43,269",
+        "text": "You know what I'd like to see in this school? Drug-sniffing dogs.",
+        "score": 59
+      },
+      {
+        "start": "00:19:53,985",
+        "end": "00:19:57,779",
+        "text": "Sorry, man. It's just, you know, after 200 presents, it just gets kind of old.",
+        "score": 58
+      },
+      {
+        "start": "00:32:28,196",
+        "end": "00:32:30,531",
+        "text": "Let's just take this. Come on, come on.",
+        "score": 58
+      },
+      {
+        "start": "00:01:27,004",
+        "end": "00:01:31,007",
+        "text": "But what I can tell you is that we have some very good people working very hard on this case.",
+        "score": 56
+      },
+      {
+        "start": "00:14:07,847",
+        "end": "00:14:11,099",
+        "text": "Listen, old man, talk is talk.",
+        "score": 55
+      },
+      {
+        "start": "00:14:45,218",
+        "end": "00:14:50,305",
+        "text": "Four pounds. Four pounds. Two pounds wasn't bad enough.",
+        "score": 55
+      },
+      {
+        "start": "00:07:01,838",
+        "end": "00:07:03,839",
+        "text": "Take a look at the money in your hand.",
+        "score": 53
+      },
+      {
+        "start": "00:16:03,921",
+        "end": "00:16:07,299",
+        "text": "This is the first day of the rest of your life. But what kind of life will it be, huh?",
+        "score": 53
+      },
+      {
+        "start": "00:07:50,929",
+        "end": "00:07:53,848",
+        "text": "And that's maybe only good for, like, maybe a half-pound worth.",
+        "score": 52
+      },
+      {
+        "start": "00:36:32,941",
+        "end": "00:36:37,653",
+        "text": "Was there, by any chance, scheduled for this afternoon, an open house?",
+        "score": 52
+      },
+      {
+        "start": "00:07:47,843",
+        "end": "00:07:50,719",
+        "text": "and get a couple boxes at a time and then sell them to me.",
+        "score": 49
+      },
+      {
+        "start": "00:11:02,620",
+        "end": "00:11:05,956",
+        "text": "You know, wait at the Gap. \"Hey, it's time for the meet.\"",
+        "score": 47
+      },
+      {
+        "start": "00:23:00,254",
+        "end": "00:23:05,467",
+        "text": "Yeah. You know, I think she got that at Gertrude Zachary's in Knob Hill.",
+        "score": 47
+      },
+      {
+        "start": "00:09:12,969",
+        "end": "00:09:17,139",
+        "text": "Truth is, until Walt's finished this round of chemo and we look at a new PET scan,",
+        "score": 46
+      },
+      {
+        "start": "00:17:48,359",
+        "end": "00:17:55,323",
+        "text": "There's Daddy. Speak, Daddy. Say hello to your daughter.",
+        "score": 46
+      },
+      {
+        "start": "00:02:34,238",
+        "end": "00:02:38,074",
+        "text": "And I'd like to take a moment to thank him for that.",
+        "score": 45
+      },
+      {
+        "start": "00:15:57,165",
+        "end": "00:16:01,209",
+        "text": "Today is the first day of the rest of your life.",
+        "score": 45
+      },
+      {
+        "start": "00:17:11,197",
+        "end": "00:17:15,325",
+        "text": "Okay, not right up the nose. Don't... Okay, not up it. Back. Back to me.",
+        "score": 45
+      },
+      {
+        "start": "00:07:07,803",
+        "end": "00:07:12,389",
+        "text": "That's right. Two pounds a week, 35,000 a pound.",
+        "score": 44
+      },
+      {
+        "start": "00:18:17,513",
+        "end": "00:18:23,351",
+        "text": "always know that you have a family who loves you very, very much.",
+        "score": 44
+      },
+      {
+        "start": "00:23:05,634",
+        "end": "00:23:11,973",
+        "text": "I mean, that thing must've cost, like, what, 5 or 600 dollars.",
+        "score": 44
+      },
+      {
+        "start": "00:37:29,164",
+        "end": "00:37:33,500",
+        "text": "You know what, Marie? Marie, I have never been so humiliated in my life.",
+        "score": 44
+      },
+      {
+        "start": "00:01:20,664",
+        "end": "00:01:24,000",
+        "text": "We're talking inside job? Someone who's still at the school?",
+        "score": 43
+      },
+      {
+        "start": "00:08:58,496",
+        "end": "00:09:02,541",
+        "text": "Frisky, actually. I mean, that's gotta be a good sign, right?",
+        "score": 43
+      },
+      {
+        "start": "00:17:36,013",
+        "end": "00:17:38,306",
+        "text": "And I believe, Hank, that that was around the time.",
+        "score": 43
+      },
+      {
+        "start": "00:45:37,402",
+        "end": "00:45:41,321",
+        "text": "Whoo! Damn, man! Look at that! Look!",
+        "score": 43
+      },
+      {
+        "start": "00:06:17,502",
+        "end": "00:06:20,963",
+        "text": "I mean, the whole damn house has gotta be haunted by now.",
+        "score": 42
+      }
+    ]
+  }
+}
