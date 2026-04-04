@@ -1,0 +1,24 @@
+Breaking Bad S01 - 每集词汇统计
+==================================================
+
+  E01  总词次:  2091  不重复:  838
+       Top10: to, and, on, in, know, of, right, up, come, for
+
+  E02  总词次:  1686  不重复:  666
+       Top10: to, and, of, in, know, right, up, like, on, man
+
+  E03  总词次:  1696  不重复:  701
+       Top10: to, and, know, in, of, on, like, think, for, about
+
+  E04  总词次:  2130  不重复:  861
+       Top10: and, to, know, of, in, right, on, out, like, for
+
+  E05  总词次:  2024  不重复:  732
+       Top10: to, and, of, know, for, about, walt, in, on, but
+
+  E06  总词次:  1748  不重复:  701
+       Top10: to, and, right, of, in, know, got, on, like, for
+
+  E07  总词次:  2445  不重复:  917
+       Top10: to, and, of, in, know, right, for, like, well, at
+

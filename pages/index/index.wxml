@@ -3,11 +3,11 @@
   <!-- 用户信息栏 -->
   <view class="user-header card">
     <view class="user-info">
-      <view class="avatar-placeholder">
+      <view class="avatar-placeholder" bindtap="onGoToLogin">
         <text class="avatar-text">{{userInfo.nickName ? userInfo.nickName[0] : '学'}}</text>
       </view>
       <view class="user-detail">
-        <text class="nickname">{{userInfo.nickName || '英语学习者'}}</text>
+        <text class="nickname">{{userInfo.nickName || '点击登录'}}</text>
         <view class="level-badge">
           <text>Lv.{{userLevel}}</text>
         </view>
@@ -26,6 +26,22 @@
         <text class="stat-value">{{completedLevels}}/{{totalLevels}}</text>
         <text class="stat-label">已完成</text>
       </view>
+    </view>
+  </view>
+
+  <!-- 快速入口 -->
+  <view class="quick-actions card">
+    <view class="action-btn" bindtap="onShowLocalFiles">
+      <text class="action-icon">📁</text>
+      <text class="action-text">本地文件</text>
+    </view>
+    <view class="action-btn" bindtap="onGoToLogin">
+      <text class="action-icon">👤</text>
+      <text class="action-text">{{isLoggedIn ? '已登录' : '登录'}}</text>
+    </view>
+    <view class="action-btn {{isActivated ? 'active' : ''}}" bindtap="onGoToLogin">
+      <text class="action-icon">{{isActivated ? '✅' : '🔒'}}</text>
+      <text class="action-text">{{isActivated ? '已激活' : '激活'}}</text>
     </view>
   </view>
 
@@ -92,4 +108,58 @@
       开始挑战
     </button>
   </view>
+
+  <!-- ========================================== -->
+  <!-- 本地文件选择弹窗 -->
+  <!-- ========================================== -->
+  <view class="mask" wx:if="{{showLocalFileDialog}}" bindtap="onCloseLocalDialog">
+    <view class="local-file-dialog" catchtap="noop">
+      <view class="dialog-header">
+        <text class="dialog-title">📁 本地文件学习</text>
+        <text class="close-btn" bindtap="onCloseLocalDialog">×</text>
+      </view>
+
+      <view class="dialog-content">
+        <text class="dialog-desc">选择本地音频和字幕文件进行学习</text>
+
+        <!-- 音频选择 -->
+        <view class="file-select-item">
+          <view class="file-icon">🎵</view>
+          <view class="file-info">
+            <text class="file-label">音频文件</text>
+            <text class="file-name" wx:if="{{localAudioPath}}">{{localAudioPath}}</text>
+            <text class="file-hint" wx:else>点击选择 MP3/WAV/M4A</text>
+          </view>
+          <view class="select-btn" bindtap="onChooseAudio">选择</view>
+        </view>
+
+        <!-- 文本选择 -->
+        <view class="file-select-item">
+          <view class="file-icon">📝</view>
+          <view class="file-info">
+            <text class="file-label">字幕/文本</text>
+            <text class="file-name" wx:if="{{localTextPath}}">{{localTextPath}}</text>
+            <text class="file-hint" wx:else>点击选择 TXT/SRT/LRC（可选）</text>
+          </view>
+          <view class="select-btn" bindtap="onChooseText">选择</view>
+        </view>
+
+        <!-- 文本预览 -->
+        <view class="text-preview" wx:if="{{localTextContent}}">
+          <text class="preview-title">文本预览：</text>
+          <scroll-view class="preview-content" scroll-y>
+            <text>{{localTextContent}}</text>
+          </scroll-view>
+        </view>
+      </view>
+
+      <view class="dialog-footer">
+        <button class="btn-cancel" bindtap="onCloseLocalDialog">取消</button>
+        <button class="btn-primary" bindtap="onStartLocalLearn" disabled="{{!localAudioPath}}">
+          开始学习
+        </button>
+      </view>
+    </view>
+  </view>
+
 </view>

@@ -1,0 +1,435 @@
+Breaking Bad S01 × 高中词汇 重叠分析
+==================================================
+共 429 个高中词汇出现在剧中
+
+排名     单词                   频次       级别
+--------------------------------------------------
+1      to                   476      A级 ★★★
+2      and                  327      A级 ★★★
+3      of                   254      A级 ★★★
+4      know                 239      A级 ★★★
+5      right                189      A级 ★★★
+6      on                   177      A级 ★★★
+7      like                 160      A级 ★★★
+8      about                127      A级 ★★★
+9      up                   125      A级 ★★★
+10     out                  118      A级 ★★★
+11     well                 110      A级 ★★★
+12     man                  106      A级 ★★★
+13     but                  105      A级 ★★★
+14     mean                 103      A级 ★★★
+15     at                   100      A级 ★★★
+16     with                 93       A级 ★★★
+17     think                90       A级 ★★★
+18     come                 87       A级 ★★★
+19     go                   85       A级 ★★★
+20     good                 84       A级 ★★★
+21     look                 82       A级 ★★★
+22     get                  76       A级 ★★★
+23     tell                 70       A级 ★★★
+24     now                  53       A级 ★★★
+25     let                  52       A级 ★★★
+26     or                   50       A级 ★★★
+27     time                 50       A级 ★★★
+28     from                 50       A级 ★★★
+29     need                 50       A级 ★★★
+30     say                  49       A级 ★★★
+31     down                 46       A级 ★★★
+32     yes                  46       A级 ★★★
+33     way                  45       A级 ★★★
+34     something            44       A级 ★★★
+35     back                 42       A级 ★★★
+36     want                 41       A级 ★★★
+37     off                  40       A级 ★★★
+38     talk                 40       A级 ★★★
+39     then                 38       A级 ★★★
+40     take                 37       A级 ★★★
+41     even                 36       A级 ★★★
+42     make                 34       A级 ★★★
+43     little               34       A级 ★★★
+44     any                  33       A级 ★★★
+45     thing                33       A级 ★★★
+46     money                32       A级 ★★★
+47     listen               31       A级 ★★★
+48     work                 30       A级 ★★★
+49     much                 30       A级 ★★★
+50     sure                 30       A级 ★★★
+51     kind                 28       A级 ★★★
+52     over                 26       A级 ★★★
+53     check                26       A级 ★★★
+54     house                26       A级 ★★★
+55     name                 25       A级 ★★★
+56     call                 25       A级 ★★★
+57     big                  24       A级 ★★★
+58     by                   24       A级 ★★★
+59     only                 23       A级 ★★★
+60     nothing              23       A级 ★★★
+61     give                 22       A级 ★★★
+62     actually             21       A级 ★★★
+63     enough               20       A级 ★★★
+64     day                  20       A级 ★★★
+65     last                 20       A级 ★★★
+66     school               20       A级 ★★★
+67     next                 19       B级 ★★
+68     better               19       B级 ★★
+69     ever                 19       B级 ★★
+70     best                 19       B级 ★★
+71     around               18       B级 ★★
+72     never                18       B级 ★★
+73     new                  17       B级 ★★
+74     old                  17       B级 ★★
+75     into                 17       B级 ★★
+76     after                17       B级 ★★
+77     find                 17       B级 ★★
+78     remember             17       B级 ★★
+79     start                17       B级 ★★
+80     life                 16       B级 ★★
+81     feel                 16       B级 ★★
+82     another              16       B级 ★★
+83     always               16       B级 ★★
+84     anything             16       B级 ★★
+85     bad                  15       B级 ★★
+86     understand           15       B级 ★★
+87     people               15       B级 ★★
+88     through              15       B级 ★★
+89     family               14       B级 ★★
+90     love                 14       B级 ★★
+91     first                14       B级 ★★
+92     put                  14       B级 ★★
+93     keep                 14       B级 ★★
+94     place                13       B级 ★★
+95     long                 13       B级 ★★
+96     deal                 13       B级 ★★
+97     same                 12       B级 ★★
+98     again                12       B级 ★★
+99     idea                 12       B级 ★★
+100    real                 12       B级 ★★
+101    lot                  12       B级 ★★
+102    help                 12       B级 ★★
+103    mind                 12       B级 ★★
+104    great                12       B级 ★★
+105    home                 11       B级 ★★
+106    easy                 11       B级 ★★
+107    ask                  11       B级 ★★
+108    else                 11       B级 ★★
+109    job                  11       B级 ★★
+110    already              11       B级 ★★
+111    live                 10       B级 ★★
+112    buy                  10       B级 ★★
+113    night                10       B级 ★★
+114    away                 10       B级 ★★
+115    leave                10       B级 ★★
+116    before               9        C级 ★
+117    happy                9        C级 ★
+118    bring                9        C级 ★
+119    still                9        C级 ★
+120    world                9        C级 ★
+121    level                9        C级 ★
+122    until                9        C级 ★
+123    year                 8        C级 ★
+124    believe              8        C级 ★
+125    late                 8        C级 ★
+126    hand                 8        C级 ★
+127    run                  8        C级 ★
+128    show                 8        C级 ★
+129    use                  8        C级 ★
+130    hear                 8        C级 ★
+131    dead                 8        C级 ★
+132    together             8        C级 ★
+133    sometimes            8        C级 ★
+134    water                7        C级 ★
+135    change               7        C级 ★
+136    turn                 7        C级 ★
+137    word                 7        C级 ★
+138    stay                 7        C级 ★
+139    own                  7        C级 ★
+140    high                 7        C级 ★
+141    break                7        C级 ★
+142    face                 7        C级 ★
+143    care                 7        C级 ★
+144    without              7        C级 ★
+145    problem              7        C级 ★
+146    energy               6        C级 ★
+147    serious              6        C级 ★
+148    point                6        C级 ★
+149    close                6        C级 ★
+150    welcome              6        C级 ★
+151    open                 6        C级 ★
+152    since                6        C级 ★
+153    small                6        C级 ★
+154    appreciate           6        C级 ★
+155    part                 6        C级 ★
+156    end                  6        C级 ★
+157    excellent            6        C级 ★
+158    line                 6        C级 ★
+159    spend                6        C级 ★
+160    chance               6        C级 ★
+161    experience           6        C级 ★
+162    gift                 6        C级 ★
+163    hope                 5        C级 ★
+164    learn                5        C级 ★
+165    set                  5        C级 ★
+166    amount               5        C级 ★
+167    clear                5        C级 ★
+168    alone                5        C级 ★
+169    ago                  5        C级 ★
+170    today                5        C级 ★
+171    also                 5        C级 ★
+172    ahead                5        C级 ★
+173    interest             5        C级 ★
+174    reason               5        C级 ★
+175    fit                  5        C级 ★
+176    body                 5        C级 ★
+177    far                  5        C级 ★
+178    stop                 5        C级 ★
+179    figure               5        C级 ★
+180    happen               5        C级 ★
+181    worth                5        C级 ★
+182    hard                 5        C级 ★
+183    head                 5        C级 ★
+184    speak                5        C级 ★
+185    lose                 5        C级 ★
+186    return               5        C级 ★
+187    legal                5        C级 ★
+188    heart                4        D级
+189    difference           4        D级
+190    study                4        D级
+191    anyone               4        D级
+192    meet                 4        D级
+193    relax                4        D级
+194    offer                4        D级
+195    story                4        D级
+196    pay                  4        D级
+197    drive                4        D级
+198    different            4        D级
+199    lucky                4        D级
+200    teach                4        D级
+201    move                 4        D级
+202    plan                 4        D级
+203    choice               4        D级
+204    promise              4        D级
+205    important            4        D级
+206    situation            4        D级
+207    consider             4        D级
+208    share                4        D级
+209    across               4        D级
+210    between              4        D级
+211    friend               4        D级
+212    side                 4        D级
+213    choose               4        D级
+214    play                 4        D级
+215    patient              4        D级
+216    many                 4        D级
+217    air                  4        D级
+218    forget               3        D级
+219    hold                 3        D级
+220    along                3        D级
+221    worry                3        D级
+222    low                  3        D级
+223    forward              3        D级
+224    read                 3        D级
+225    safe                 3        D级
+226    seem                 3        D级
+227    capable              3        D级
+228    answer               3        D级
+229    issue                3        D级
+230    fair                 3        D级
+231    question             3        D级
+232    almost               3        D级
+233    awful                3        D级
+234    account              3        D级
+235    hate                 3        D级
+236    trust                3        D级
+237    under                3        D级
+238    full                 3        D级
+239    during               3        D级
+240    certain              3        D级
+241    discuss              3        D级
+242    truth                3        D级
+243    accept               3        D级
+244    future               3        D级
+245    example              3        D级
+246    able                 3        D级
+247    list                 3        D级
+248    imagine              3        D级
+249    cut                  3        D级
+250    admit                3        D级
+251    prefer               2        D级
+252    surprise             2        D级
+253    unless               2        D级
+254    heavy                2        D级
+255    against              2        D级
+256    add                  2        D级
+257    deep                 2        D级
+258    light                2        D级
+259    system               2        D级
+260    complete             2        D级
+261    age                  2        D级
+262    basic                2        D级
+263    finish               2        D级
+264    hour                 2        D级
+265    distance             2        D级
+266    soon                 2        D级
+267    possible             2        D级
+268    calm                 2        D级
+269    mistake              2        D级
+270    knowledge            2        D级
+271    therefore            2        D级
+272    follow               2        D级
+273    waste                2        D级
+274    strong               2        D级
+275    education            2        D级
+276    quite                2        D级
+277    number               2        D级
+278    doubt                2        D级
+279    character            2        D级
+280    besides              2        D级
+281    black                2        D级
+282    block                2        D级
+283    charge               2        D级
+284    breathe              2        D级
+285    write                2        D级
+286    moment               2        D级
+287    destroy              2        D级
+288    culture              2        D级
+289    notice               2        D级
+290    opinion              2        D级
+291    health               2        D级
+292    top                  2        D级
+293    fear                 2        D级
+294    practice             2        D级
+295    often                2        D级
+296    base                 2        D级
+297    force                2        D级
+298    information          2        D级
+299    prove                2        D级
+300    stand                2        D级
+301    save                 2        D级
+302    miss                 2        D级
+303    responsible          2        D级
+304    mention              2        D级
+305    personal             2        D级
+306    pride                2        D级
+307    honest               2        D级
+308    grow                 2        D级
+309    enjoy                2        D级
+310    search               2        D级
+311    early                1        D级
+312    combine              1        D级
+313    carry                1        D级
+314    local                1        D级
+315    actual               1        D级
+316    curious              1        D级
+317    quiet                1        D级
+318    general              1        D级
+319    apply                1        D级
+320    wonder               1        D级
+321    produce              1        D级
+322    grateful             1        D级
+323    current              1        D级
+324    exist                1        D级
+325    behave               1        D级
+326    prevent              1        D级
+327    child                1        D级
+328    active               1        D级
+329    prepare              1        D级
+330    power                1        D级
+331    free                 1        D级
+332    action               1        D级
+333    form                 1        D级
+334    secret               1        D级
+335    opportunity          1        D级
+336    human                1        D级
+337    support              1        D级
+338    quick                1        D级
+339    effect               1        D级
+340    per                  1        D级
+341    busy                 1        D级
+342    focus                1        D级
+343    young                1        D级
+344    hungry               1        D级
+345    tend                 1        D级
+346    fact                 1        D级
+347    friendly             1        D级
+348    accident             1        D级
+349    behind               1        D级
+350    skill                1        D级
+351    fresh                1        D级
+352    terrible             1        D级
+353    dream                1        D级
+354    fall                 1        D级
+355    wise                 1        D级
+356    expect               1        D级
+357    less                 1        D级
+358    divide               1        D级
+359    talent               1        D级
+360    condition            1        D级
+361    attend               1        D级
+362    award                1        D级
+363    article              1        D级
+364    community            1        D级
+365    advice               1        D级
+366    spread               1        D级
+367    suggest              1        D级
+368    become               1        D级
+369    aware                1        D级
+370    command              1        D级
+371    order                1        D级
+372    battle               1        D级
+373    necessary            1        D级
+374    citizen              1        D级
+375    exercise             1        D级
+376    data                 1        D级
+377    toward               1        D级
+378    success              1        D级
+379    bless                1        D级
+380    begin                1        D级
+381    benefit              1        D级
+382    hurry                1        D级
+383    burn                 1        D级
+384    standard             1        D级
+385    join                 1        D级
+386    agree                1        D级
+387    simple               1        D级
+388    thankful             1        D级
+389    approach             1        D级
+390    survive              1        D级
+391    involve              1        D级
+392    result               1        D级
+393    violent              1        D级
+394    helpful              1        D级
+395    risk                 1        D级
+396    lack                 1        D级
+397    recognize            1        D级
+398    ignore               1        D级
+399    large                1        D级
+400    book                 1        D级
+401    huge                 1        D级
+402    apart                1        D级
+403    access               1        D级
+404    protect              1        D级
+405    special              1        D级
+406    effort               1        D级
+407    fantastic            1        D级
+408    country              1        D级
+409    address              1        D级
+410    extra                1        D级
+411    comfort              1        D级
+412    manage               1        D级
+413    public               1        D级
+414    respect              1        D级
+415    argue                1        D级
+416    capital              1        D级
+417    handle               1        D级
+418    several              1        D级
+419    draw                 1        D级
+420    visit                1        D级
+421    cost                 1        D级
+422    explain              1        D级
+423    war                  1        D级
+424    likely               1        D级
+425    innocent             1        D级
+426    guard                1        D级
+427    alarm                1        D级
+428    afternoon            1        D级
+429    apologize            1        D级
