@@ -1,0 +1,24 @@
+{
+  "contentVersion": "2026.06.19-mvp1",
+  "createdAt": "2026-06-19T03:15:57.944701+00:00",
+  "miniprogramMinVersion": "0.1.0",
+  "baseUrl": "",
+  "wordpacks": [
+    {
+      "packId": "gaokao_mvp_words_001",
+      "path": "wordpacks/gaokao_mvp_words_001.json",
+      "wordCount": 10
+    }
+  ],
+  "cardpacks": [
+    {
+      "packId": "gaokao_mvp_cards_001",
+      "path": "cardpacks/gaokao_mvp_cards_001.json",
+      "cardCount": 70
+    }
+  ],
+  "audio": {
+    "mode": "tts_pending",
+    "note": "audioUrl is empty in MVP1. Generate MP3 files in the next TTS batch and update card audioUrl fields."
+  }
+}

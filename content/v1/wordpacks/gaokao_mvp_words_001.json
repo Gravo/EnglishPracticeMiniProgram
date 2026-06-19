@@ -1,0 +1,228 @@
+{
+  "packId": "gaokao_mvp_words_001",
+  "version": "2026.06.19-mvp1",
+  "createdAt": "2026-06-19T03:15:57.944701+00:00",
+  "description": "First 10 Gaokao MVP words, each with seven distinct exposure cards.",
+  "words": [
+    {
+      "wordId": "gk_approach",
+      "word": "approach",
+      "rank": 1,
+      "phonetic": "əˈprəʊtʃ",
+      "definitionCn": "方法；接近；处理",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_approach_01",
+        "mvp_approach_02",
+        "mvp_approach_03",
+        "mvp_approach_04",
+        "mvp_approach_05",
+        "mvp_approach_06",
+        "mvp_approach_07"
+      ]
+    },
+    {
+      "wordId": "gk_benefit",
+      "word": "benefit",
+      "rank": 2,
+      "phonetic": "ˈbenɪfɪt",
+      "definitionCn": "好处；受益",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_benefit_01",
+        "mvp_benefit_02",
+        "mvp_benefit_03",
+        "mvp_benefit_04",
+        "mvp_benefit_05",
+        "mvp_benefit_06",
+        "mvp_benefit_07"
+      ]
+    },
+    {
+      "wordId": "gk_affect",
+      "word": "affect",
+      "rank": 3,
+      "phonetic": "əˈfekt",
+      "definitionCn": "影响",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_affect_01",
+        "mvp_affect_02",
+        "mvp_affect_03",
+        "mvp_affect_04",
+        "mvp_affect_05",
+        "mvp_affect_06",
+        "mvp_affect_07"
+      ]
+    },
+    {
+      "wordId": "gk_admit",
+      "word": "admit",
+      "rank": 4,
+      "phonetic": "ədˈmɪt",
+      "definitionCn": "承认；准许进入",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_admit_01",
+        "mvp_admit_02",
+        "mvp_admit_03",
+        "mvp_admit_04",
+        "mvp_admit_05",
+        "mvp_admit_06",
+        "mvp_admit_07"
+      ]
+    },
+    {
+      "wordId": "gk_consider",
+      "word": "consider",
+      "rank": 5,
+      "phonetic": "kənˈsɪdə",
+      "definitionCn": "考虑；认为",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_consider_01",
+        "mvp_consider_02",
+        "mvp_consider_03",
+        "mvp_consider_04",
+        "mvp_consider_05",
+        "mvp_consider_06",
+        "mvp_consider_07"
+      ]
+    },
+    {
+      "wordId": "gk_develop",
+      "word": "develop",
+      "rank": 6,
+      "phonetic": "dɪˈveləp",
+      "definitionCn": "发展；培养；开发",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_develop_01",
+        "mvp_develop_02",
+        "mvp_develop_03",
+        "mvp_develop_04",
+        "mvp_develop_05",
+        "mvp_develop_06",
+        "mvp_develop_07"
+      ]
+    },
+    {
+      "wordId": "gk_improve",
+      "word": "improve",
+      "rank": 7,
+      "phonetic": "ɪmˈpruːv",
+      "definitionCn": "提高；改善",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_improve_01",
+        "mvp_improve_02",
+        "mvp_improve_03",
+        "mvp_improve_04",
+        "mvp_improve_05",
+        "mvp_improve_06",
+        "mvp_improve_07"
+      ]
+    },
+    {
+      "wordId": "gk_support",
+      "word": "support",
+      "rank": 8,
+      "phonetic": "səˈpɔːt",
+      "definitionCn": "支持；支撑",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_support_01",
+        "mvp_support_02",
+        "mvp_support_03",
+        "mvp_support_04",
+        "mvp_support_05",
+        "mvp_support_06",
+        "mvp_support_07"
+      ]
+    },
+    {
+      "wordId": "gk_challenge",
+      "word": "challenge",
+      "rank": 9,
+      "phonetic": "ˈtʃælɪndʒ",
+      "definitionCn": "挑战；质疑",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_challenge_01",
+        "mvp_challenge_02",
+        "mvp_challenge_03",
+        "mvp_challenge_04",
+        "mvp_challenge_05",
+        "mvp_challenge_06",
+        "mvp_challenge_07"
+      ]
+    },
+    {
+      "wordId": "gk_experience",
+      "word": "experience",
+      "rank": 10,
+      "phonetic": "ɪkˈspɪəriəns",
+      "definitionCn": "经历；经验；体验",
+      "priority": "A",
+      "masteryRule": {
+        "requiredDistinctExposures": 7,
+        "requiredActiveRecall": 2,
+        "minimumDays": 3
+      },
+      "cardIds": [
+        "mvp_experience_01",
+        "mvp_experience_02",
+        "mvp_experience_03",
+        "mvp_experience_04",
+        "mvp_experience_05",
+        "mvp_experience_06",
+        "mvp_experience_07"
+      ]
+    }
+  ]
+}

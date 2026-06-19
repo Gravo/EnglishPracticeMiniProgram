@@ -157,6 +157,8 @@ Page({
     });
   },
 
+  noop() {},
+
   // 选择本地音频文件
   onChooseAudio() {
     wx.chooseMessageFile({
@@ -240,6 +242,13 @@ Page({
   onGoToLogin() {
     wx.navigateTo({
       url: '/pages/login/login'
+    });
+  },
+
+  // 进入 MVP 语感流
+  onGoToFeed() {
+    wx.navigateTo({
+      url: '/pages/feed/feed'
     });
   },
 

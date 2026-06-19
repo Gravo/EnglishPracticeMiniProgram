@@ -296,6 +296,15 @@
   color: #07C160;
 }
 
+.feed-action .action-icon {
+  color: #315c9b;
+}
+
+.feed-action .action-text {
+  color: #315c9b;
+  font-weight: 600;
+}
+
 /* 弹窗遮罩 */
 .mask {
   position: fixed;

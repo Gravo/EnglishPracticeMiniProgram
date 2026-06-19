@@ -35,6 +35,10 @@
       <text class="action-icon">📁</text>
       <text class="action-text">本地文件</text>
     </view>
+    <view class="action-btn feed-action" bindtap="onGoToFeed">
+      <text class="action-icon">▶</text>
+      <text class="action-text">语感流</text>
+    </view>
     <view class="action-btn" bindtap="onGoToLogin">
       <text class="action-icon">👤</text>
       <text class="action-text">{{isLoggedIn ? '已登录' : '登录'}}</text>

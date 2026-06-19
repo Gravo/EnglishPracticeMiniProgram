@@ -1,0 +1,103 @@
+<view class="feed-page">
+  <view wx:if="{{loading}}" class="center-state">
+    <text class="state-title">正在加载今日语感流</text>
+    <text class="state-subtitle">准备 10 个高考词的 70 个语境</text>
+  </view>
+
+  <view wx:elif="{{error}}" class="center-state">
+    <text class="state-title">内容加载失败</text>
+    <text class="state-subtitle">{{error}}</text>
+    <button class="primary-btn retry-btn" bindtap="loadContent">重试</button>
+  </view>
+
+  <view wx:else class="feed-content">
+    <view class="top-bar">
+      <view>
+        <text class="eyebrow">MVP 语境卡</text>
+        <text class="page-title">今日语感流</text>
+      </view>
+      <view class="counter">
+        <text>{{currentIndex + 1}}</text>
+        <text>/{{cards.length}}</text>
+      </view>
+    </view>
+
+    <view class="summary-strip">
+      <view class="summary-item">
+        <text class="summary-value">{{stats.seenWords}}</text>
+        <text class="summary-label">已遇见</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-value">{{stats.completedWords}}</text>
+        <text class="summary-label">七境完成</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-value">{{stats.totalWords}}</text>
+        <text class="summary-label">今日词数</text>
+      </view>
+    </view>
+
+    <swiper
+      class="card-swiper"
+      current="{{currentIndex}}"
+      vertical
+      duration="220"
+      bindchange="onSwiperChange">
+      <swiper-item wx:for="{{cards}}" wx:key="cardId">
+        <view class="word-card">
+          <view class="card-head">
+            <view>
+              <text class="word">{{item.word}}</text>
+              <text class="phonetic">{{item.wordMeta.phonetic}}</text>
+            </view>
+            <view class="exposure-pill">
+              <text>{{item.exposureIndex}}/7</text>
+            </view>
+          </view>
+
+          <view class="tag-row">
+            <text class="tag">{{item.cardType}}</text>
+            <text class="tag muted">{{item.scenario}}</text>
+            <text class="tag audio">{{item.isAudioReady ? 'audio' : 'text'}}</text>
+          </view>
+
+          <view class="sentence-box">
+            <text class="sentence">{{item.sentence}}</text>
+          </view>
+
+          <view class="cloze-box" wx:if="{{item.isCloze}}">
+            <text class="cloze-title">主动回忆</text>
+            <text class="cloze-hint">先在心里补出目标词，再揭晓答案。</text>
+            <button class="ghost-btn" bindtap="revealCloze">揭晓答案</button>
+            <text wx:if="{{showClozeAnswer && item.cardId === currentCard.cardId}}" class="cloze-answer">{{item.word}}</text>
+          </view>
+
+          <view class="translation-box" wx:if="{{showTranslation && item.cardId === currentCard.cardId}}">
+            <text>{{item.translation}}</text>
+          </view>
+
+          <view class="word-note">
+            <text>{{item.wordMeta.definitionCn}}</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+
+    <view class="action-panel">
+      <button class="icon-btn" bindtap="prevCard" disabled="{{currentIndex === 0}}">上一张</button>
+      <button class="icon-btn" bindtap="toggleTranslation">{{showTranslation ? '隐藏中文' : '看中文'}}</button>
+      <button class="icon-btn" bindtap="toggleFavorite">收藏</button>
+    </view>
+
+    <view class="decision-row">
+      <button class="decision-btn weak" bindtap="markUnknown">不熟</button>
+      <button class="decision-btn strong" bindtap="markKnown">认识</button>
+      <button class="decision-btn next" bindtap="nextCard">下一张</button>
+    </view>
+
+    <view class="footer-tools">
+      <text>内容来源：{{source === 'local' ? '本地 MVP 包' : '远端内容包'}}</text>
+      <text bindtap="resetLocalProgress">重置本机记录</text>
+    </view>
+  </view>
+</view>
